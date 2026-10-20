@@ -68,7 +68,7 @@
     }
   },
   "description_and_url_validation": "passed",
-  "git_changed_paths": 15,
+  "git_changed_paths": 19,
   "all_git_changes_are_new_in_target_folder": true,
   "neon_change_note": "No database interaction performed by this validator; Git diff protects historical paths, not live Neon state.",
   "source_authentication_note": "Structural checks do NOT authenticate sources or prove historical claims; human/editorial source review required.",
