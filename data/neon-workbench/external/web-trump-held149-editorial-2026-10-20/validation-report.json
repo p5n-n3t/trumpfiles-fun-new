@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-20",
+  "repo": "p5n-n3t/trumpfiles-fun-new",
+  "source_pr": 69,
+  "source_pr_head": "c6aea8af2da3adad15516133d0551727a7d43769",
+  "source_counts": {
+    "hold": 109,
+    "draft_as_supplied": 40
+  },
+  "assigned": 149,
+  "outcomes": 149,
+  "unique": 149,
+  "decision_counts": {
+    "soft_hide_candidate": 25,
+    "still_unresolved": 119,
+    "repaired_proposal": 2,
+    "supported_partial": 2,
+    "split_ready": 1
+  },
+  "worker_slices": [
+    {
+      "worker": 1,
+      "count": 25,
+      "first_id": "entry-1181",
+      "last_id": "entry-2557",
+      "counts": {
+        "soft_hide_candidate": 15,
+        "still_unresolved": 9,
+        "repaired_proposal": 1
+      },
+      "path": "workers/worker-01/outcomes.jsonl"
+    },
+    {
+      "worker": 2,
+      "count": 25,
+      "first_id": "entry-2562",
+      "last_id": "entry-5761",
+      "counts": {
+        "still_unresolved": 18,
+        "soft_hide_candidate": 5,
+        "supported_partial": 1,
+        "repaired_proposal": 1
+      },
+      "path": "workers/worker-02/outcomes.jsonl"
+    },
+    {
+      "worker": 3,
+      "count": 25,
+      "first_id": "entry-5826",
+      "last_id": "entry-6455",
+      "counts": {
+        "still_unresolved": 23,
+        "split_ready": 1,
+        "supported_partial": 1
+      },
+      "path": "workers/worker-03/outcomes.jsonl"
+    },
+    {
+      "worker": 4,
+      "count": 25,
+      "first_id": "entry-6457",
+      "last_id": "entry-6727",
+      "counts": {
+        "still_unresolved": 24,
+        "soft_hide_candidate": 1
+      },
+      "path": "workers/worker-04/outcomes.jsonl"
+    },
+    {
+      "worker": 5,
+      "count": 25,
+      "first_id": "entry-6729",
+      "last_id": "entry-6866",
+      "counts": {
+        "still_unresolved": 23,
+        "soft_hide_candidate": 2
+      },
+      "path": "workers/worker-05/outcomes.jsonl"
+    },
+    {
+      "worker": 6,
+      "count": 24,
+      "first_id": "entry-6915",
+      "last_id": "entry-854",
+      "counts": {
+        "still_unresolved": 22,
+        "soft_hide_candidate": 2
+      },
+      "path": "workers/worker-06/outcomes.jsonl"
+    }
+  ],
+  "error_count": 0,
+  "errors": [],
+  "word_limits": {
+    "title_chars_max": 180,
+    "short_chars_max": 180,
+    "medium_words_min": 45,
+    "medium_words_max": 90,
+    "long_words_min": 140,
+    "long_words_max": 300
+  },
+  "checked": [
+    "exact source ID/assignment intersection",
+    "status scope",
+    "unique outcome per parent",
+    "six sorted disjoint slices",
+    "mandatory fields and five decisions",
+    "exact blockers and hide reasons",
+    "verified proposal URLs",
+    "title and short character limits",
+    "medium/long word counts",
+    "distinct four layers",
+    "internal split parent/child links"
+  ],
+  "independent_subagent_workers_started": 0,
+  "limitation": "The GitHub-only connector has no subagent-launch action; six deterministic partitions were processed by this single editorial agent.",
+  "fact_check_scope": "Four candidates received focused web corroboration. Others were conservatively blocked or soft-hide-proposed; this is not a universal independent fact-check."
+}

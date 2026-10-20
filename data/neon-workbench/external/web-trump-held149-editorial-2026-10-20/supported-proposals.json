@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-20",
+  "source_pr": 69,
+  "proposals": [
+    {
+      "record_id": "entry-380",
+      "outcome": "supported_partial",
+      "date_start": "2025-10-10",
+      "title": "Melania Trump Says Eight War-Displaced Children Were Reunited With Families",
+      "description_short": "On October 10, 2025, Melania Trump announced that eight children displaced by the Russia–Ukraine war had reunited with relatives.",
+      "description_medium": "First lady Melania Trump said at the White House on October 10, 2025, that eight children displaced by Russia’s war in Ukraine had been reunited with family members. The Associated Press reported that she described an ongoing channel of communication with Vladimir Putin after a letter delivered during an Alaska meeting. The reunion count and diplomatic role are attributed to her announcement; independent case-by-case confirmation is not asserted.",
+      "description_long": "At a White House appearance on October 10, 2025, first lady Melania Trump announced that eight children displaced during Russia’s war against Ukraine had been reunited with their families. The Associated Press reported her statement and described contacts with Russian President Vladimir Putin concerning separated children. According to that account, Melania Trump had written to Putin in August, and Donald Trump delivered the letter during their meeting in Alaska. She said Putin responded and that an open channel of communication followed. Her announcement described the reunifications as the result of ongoing discussions, but the report is evidence of what she publicly stated, not independent verification of the circumstances of every child’s return. The children’s individual identities, precise dates of return, and the specific involvement of each official were not established by the reviewed material. This entry therefore records a documented public announcement rather than making an unqualified assertion that every reported reunion or diplomatic claim has been independently audited. Broader assertions about personal credit or guarantees of future reunions are excluded.",
+      "source_urls": [
+        "https://apnews.com/article/fe324a08a9a957f05995dac0d95a66c3",
+        "https://www.pbs.org/newshour/world/watch-8-children-displaced-by-war-are-reunited-with-their-families-through-talks-with-putin-melania-trump-says"
+      ],
+      "source_provenance": [
+        {
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/fe324a08a9a957f05995dac0d95a66c3",
+          "published": "2025-10-10",
+          "access": "Focused web search 2026-10-20; contemporaneous AP account"
+        },
+        {
+          "publisher": "PBS NewsHour / Associated Press",
+          "url": "https://www.pbs.org/newshour/world/watch-8-children-displaced-by-war-are-reunited-with-their-families-through-talks-with-putin-melania-trump-says",
+          "published": "2025-10-10",
+          "access": "AP article text verified 2026-10-20"
+        }
+      ],
+      "factual_scope": "Documented announcement attributed to Melania Trump; individual case circumstances not independently confirmed."
+    },
+    {
+      "record_id": "entry-2458",
+      "outcome": "repaired_proposal",
+      "date_start": "1993-05-04",
+      "title": "Trump Sues Federal Officials Over Tribal Casino Licensing",
+      "description_short": "In a lawsuit reported May 4, 1993, Trump challenged federal tribal-casino licensing rules and argued they favored tribal operators.",
+      "description_medium": "An Associated Press report published by the Los Angeles Times on May 4, 1993, described a civil lawsuit by Donald Trump, his organization, and his three Atlantic City casinos against federal officials over tribal gaming. The complaint challenged treatment under the Indian Gaming Regulatory Act. Trump’s attorney said the suit sought state authority to accept or reject tribal gambling operations rather than a blanket prohibition. These arguments are claims made by the plaintiffs, not judicial findings.",
+      "description_long": "An Associated Press report published by the Los Angeles Times on May 4, 1993, described Donald Trump’s federal lawsuit challenging the treatment of tribal casinos under the Indian Gaming Regulatory Act of 1988. The named defendants included Interior Secretary Bruce Babbitt and the chairman of the National Indian Gaming Commission. The plaintiffs were reported to include Trump, his organization, and three Atlantic City casinos. The complaint argued that tribal operators received preferential treatment in casino licensing and that the federal statute intruded on states’ powers to regulate and tax gambling within their borders. Attorney John Barry told the reporter that the plaintiffs were not seeking a complete ban on tribal gambling; he described a request for states to have greater authority to approve or reject operations. Those legal contentions are the plaintiffs’ assertions, not findings that the statute was discriminatory or unconstitutional. The reviewed report does not establish the exact complaint filing day or the lawsuit’s ultimate disposition. Accordingly, the entry uses the May 4 publication date and does not claim that a court adopted Trump’s legal position.",
+      "source_urls": [
+        "https://www.latimes.com/archives/la-xpm-1993-05-04-mn-31190-story.html",
+        "https://www.nytimes.com/1993/05/04/nyregion/trump-in-a-federal-lawsuit-seeks-to-block-indian-casinos.html"
+      ],
+      "source_provenance": [
+        {
+          "publisher": "Associated Press via Los Angeles Times",
+          "url": "https://www.latimes.com/archives/la-xpm-1993-05-04-mn-31190-story.html",
+          "published": "1993-05-04",
+          "access": "Contemporaneous report accessed in focused web search 2026-10-20"
+        },
+        {
+          "publisher": "New York Times",
+          "url": "https://www.nytimes.com/1993/05/04/nyregion/trump-in-a-federal-lawsuit-seeks-to-block-indian-casinos.html",
+          "published": "1993-05-04",
+          "access": "Source originally supplied; article body not accessed; not relied on for detail"
+        }
+      ],
+      "factual_scope": "Reported lawsuit and arguments, not a judicial finding; original alleged April 30 filing date not verified."
+    },
+    {
+      "record_id": "entry-5237",
+      "outcome": "repaired_proposal",
+      "date_start": "2025-02-03",
+      "title": "Trump Names Michael Ellis Deputy CIA Director; Ellis Sworn In February 10",
+      "description_short": "Trump appointed Michael Ellis CIA deputy director in February 2025; the agency confirms Ellis was sworn in on February 10.",
+      "description_medium": "The Washington Post reported on February 3, 2025, that President Donald Trump selected Michael Ellis as deputy director of the Central Intelligence Agency. A CIA release confirms Ellis was sworn in on February 10. The agency lists earlier national-security roles at the NSA, National Security Council, House Intelligence Committee, and Navy Reserve. This entry concerns the documented appointment and assumption of office, not claims of political loyalty or unrelated intelligence-personnel decisions.",
+      "description_long": "On February 3, 2025, the Washington Post reported that President Donald Trump had named lawyer Michael Ellis deputy director of the Central Intelligence Agency. Ellis was to serve under CIA Director John Ratcliffe, and the newspaper noted that the deputy position did not require Senate confirmation. A separate CIA announcement establishes that Ellis was sworn in on February 10. The agency identified his prior service as general counsel of the National Security Agency, senior director for intelligence programs at the National Security Council, general counsel of the House Permanent Select Committee on Intelligence, and a Navy Reserve intelligence officer. CIA Director Ratcliffe welcomed Ellis in the agency announcement. These sources independently support the reported appointment and the later swearing-in, which are kept as two dates rather than presented as a single February 3 oath. The sources do not, by themselves, demonstrate the motives for Trump’s selection or the effects of Ellis’s tenure. Other claimed intelligence-agency dismissals, security-clearance decisions, and reorganizations were separate matters and are not imported into this entry.",
+      "source_urls": [
+        "https://www.washingtonpost.com/national-security/2025/02/03/cia-michael-ellis-deputy-director-ratcliffe-trump/",
+        "https://www.cia.gov/stories/story/michael-ellis-sworn-in-as-cia-deputy-director/"
+      ],
+      "source_provenance": [
+        {
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2025/02/03/cia-michael-ellis-deputy-director-ratcliffe-trump/",
+          "published": "2025-02-03",
+          "access": "Report excerpt checked 2026-10-20"
+        },
+        {
+          "publisher": "Central Intelligence Agency",
+          "url": "https://www.cia.gov/stories/story/michael-ellis-sworn-in-as-cia-deputy-director/",
+          "published": "2025-02-10",
+          "access": "Official agency announcement checked 2026-10-20"
+        }
+      ],
+      "factual_scope": "Selection February 3; oath February 10; no inferred motives."
+    },
+    {
+      "record_id": "entry-6356",
+      "outcome": "supported_partial",
+      "date_start": "2023-10-11",
+      "title": "Ex-Deutsche Bank Official Describes Trump's Financial Statements in Loan Decisions",
+      "description_short": "At Trump's New York civil-fraud trial, a former banker said his financial statements were key to approvals of Doral and Chicago loans.",
+      "description_medium": "On October 11, 2023, former Deutsche Bank risk officer Nicholas Haigh testified at Donald Trump’s New York civil-fraud trial. Associated Press reporting said Trump’s financial statements were key to approving a $125 million Doral loan in 2011 and a $107 million Chicago loan in 2012. The bank also made its own adjustments to some property valuations. The report does not substantiate the separate allegation that Trump double-billed expenses through internal loans.",
+      "description_long": "A retired Deutsche Bank risk management officer, Nicholas Haigh, testified on October 11, 2023, at Donald Trump’s New York civil-fraud trial about the role of Trump’s financial statements in lending decisions. Associated Press reporting, published by PBS NewsHour and other outlets, said the statements were important to approval of a $125 million loan for the Doral golf resort in 2011 and a $107 million loan for the Chicago hotel and tower in 2012. Haigh also described internal review: the bank did not undertake full independent appraisals of every property, but it reduced some valuations supplied by Trump for lending purposes. The AP account described earlier judicial findings concerning the financial statements while identifying Haigh’s statements as trial testimony, rather than treating his evidence as a separate court ruling. The frozen entry’s stronger assertion that Trump double-billed project expenses through internal loans was not established by this report and is excluded. The record therefore covers what the banker testified about loan applications and bank review, without claiming the source proved the unrelated double-billing mechanism.",
+      "source_urls": [
+        "https://www.pbs.org/newshour/politics/donald-trumps-fraudulent-financial-statements-were-key-to-getting-loans-former-bank-official-says",
+        "https://ny1.com/nyc/all-boroughs/ap-top-news/2023/10/11/donald-trumps-financial-statements-were-key-to-getting-loans-ex-bank-official-tells-fraud-trial",
+        "https://apnews.com/article/donald-trump-letitia-james-fraud-new-york-364d1052f98816121000c26dc66f3878"
+      ],
+      "source_provenance": [
+        {
+          "publisher": "Associated Press via PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/donald-trumps-fraudulent-financial-statements-were-key-to-getting-loans-former-bank-official-says",
+          "published": "2023-10-11",
+          "access": "AP article checked 2026-10-20"
+        },
+        {
+          "publisher": "Associated Press via Spectrum News NY1",
+          "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2023/10/11/donald-trumps-financial-statements-were-key-to-getting-loans-ex-bank-official-tells-fraud-trial",
+          "published": "2023-10-11",
+          "access": "AP article checked 2026-10-20"
+        },
+        {
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/donald-trump-letitia-james-fraud-new-york-364d1052f98816121000c26dc66f3878",
+          "published": "2023-10-11",
+          "access": "Supplied original link; URL retained but direct body not accessed"
+        }
+      ],
+      "factual_scope": "Trial testimony, not unsupported double-billing allegation."
+    }
+  ]
+}

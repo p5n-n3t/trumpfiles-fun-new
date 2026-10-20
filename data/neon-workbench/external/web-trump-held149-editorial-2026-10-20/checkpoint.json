@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-20",
+  "status": "proposal_commit_completed_pending_editorial_review",
+  "source_pr": 69,
+  "assigned": 149,
+  "processed": 149,
+  "worker_slices": [
+    {
+      "worker": 1,
+      "count": 25,
+      "first_id": "entry-1181",
+      "last_id": "entry-2557",
+      "counts": {
+        "soft_hide_candidate": 15,
+        "still_unresolved": 9,
+        "repaired_proposal": 1
+      },
+      "path": "workers/worker-01/outcomes.jsonl"
+    },
+    {
+      "worker": 2,
+      "count": 25,
+      "first_id": "entry-2562",
+      "last_id": "entry-5761",
+      "counts": {
+        "still_unresolved": 18,
+        "soft_hide_candidate": 5,
+        "supported_partial": 1,
+        "repaired_proposal": 1
+      },
+      "path": "workers/worker-02/outcomes.jsonl"
+    },
+    {
+      "worker": 3,
+      "count": 25,
+      "first_id": "entry-5826",
+      "last_id": "entry-6455",
+      "counts": {
+        "still_unresolved": 23,
+        "split_ready": 1,
+        "supported_partial": 1
+      },
+      "path": "workers/worker-03/outcomes.jsonl"
+    },
+    {
+      "worker": 4,
+      "count": 25,
+      "first_id": "entry-6457",
+      "last_id": "entry-6727",
+      "counts": {
+        "still_unresolved": 24,
+        "soft_hide_candidate": 1
+      },
+      "path": "workers/worker-04/outcomes.jsonl"
+    },
+    {
+      "worker": 5,
+      "count": 25,
+      "first_id": "entry-6729",
+      "last_id": "entry-6866",
+      "counts": {
+        "still_unresolved": 23,
+        "soft_hide_candidate": 2
+      },
+      "path": "workers/worker-05/outcomes.jsonl"
+    },
+    {
+      "worker": 6,
+      "count": 24,
+      "first_id": "entry-6915",
+      "last_id": "entry-854",
+      "counts": {
+        "still_unresolved": 22,
+        "soft_hide_candidate": 2
+      },
+      "path": "workers/worker-06/outcomes.jsonl"
+    }
+  ],
+  "counts": {
+    "soft_hide_candidate": 25,
+    "still_unresolved": 119,
+    "repaired_proposal": 2,
+    "supported_partial": 2,
+    "split_ready": 1
+  },
+  "validation_errors": 0,
+  "independent_subagent_workers_started": 0,
+  "no_canonical_edits": true,
+  "remaining_blocked": 119,
+  "publication_gate": "all proposal_only, publication_eligible=false"
+}
