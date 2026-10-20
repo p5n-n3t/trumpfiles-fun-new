@@ -1,6 +1,6 @@
 {
   "worker": 4,
-  "completed_count": 16,
+  "completed_count": 17,
   "total_count": 17,
   "completed_ids": [
     "entry-5731",
@@ -18,9 +18,10 @@
     "entry-6810",
     "entry-6844",
     "entry-6928",
-    "entry-6951"
+    "entry-6951",
+    "entry-853"
   ],
-  "state": "in_progress",
-  "last_id": "entry-6951",
+  "state": "completed",
+  "last_id": "entry-853",
   "updated_date": "2026-10-20"
 }
