@@ -1,0 +1,33 @@
+{
+  "worker": 3,
+  "completed_count": 23,
+  "total_count": 23,
+  "completed_ids": [
+    "entry-1716",
+    "entry-2373",
+    "entry-2494",
+    "entry-2571",
+    "entry-3371",
+    "entry-5329",
+    "entry-5746",
+    "entry-5826",
+    "entry-6200",
+    "entry-6398",
+    "entry-6430",
+    "entry-6455",
+    "entry-6517",
+    "entry-6598",
+    "entry-6612",
+    "entry-6672",
+    "entry-6776",
+    "entry-6786",
+    "entry-6804",
+    "entry-6926",
+    "entry-6937",
+    "entry-6950",
+    "entry-6964"
+  ],
+  "state": "completed",
+  "last_id": "entry-6964",
+  "updated_date": "2026-10-20"
+}

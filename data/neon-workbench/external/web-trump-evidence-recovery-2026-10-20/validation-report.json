@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-20",
+  "source_pr": 71,
+  "source_head_sha": "3af4d448606ed190acbdc2fb83456ff164b0f005",
+  "expected_total": 119,
+  "observed_total": 119,
+  "unique_ids": 119,
+  "duplicate_ids": [],
+  "missing_ids": [],
+  "ids_outside_assignment": [],
+  "excluded_original_status_counts": {
+    "soft_hide_candidate": 25,
+    "repaired_proposal": 2,
+    "supported_partial": 2,
+    "split_ready": 1
+  },
+  "outcomes": {
+    "supported_partial": 5,
+    "still_unresolved": 113,
+    "repaired_proposal": 1
+  },
+  "by_worker": {
+    "1": {
+      "expected": 19,
+      "observed": 19,
+      "outcomes": {
+        "supported_partial": 2,
+        "still_unresolved": 16,
+        "repaired_proposal": 1
+      }
+    },
+    "2": {
+      "expected": 20,
+      "observed": 20,
+      "outcomes": {
+        "still_unresolved": 18,
+        "supported_partial": 2
+      }
+    },
+    "3": {
+      "expected": 23,
+      "observed": 23,
+      "outcomes": {
+        "still_unresolved": 22,
+        "supported_partial": 1
+      }
+    },
+    "4": {
+      "expected": 17,
+      "observed": 17,
+      "outcomes": {
+        "still_unresolved": 17
+      }
+    },
+    "5": {
+      "expected": 21,
+      "observed": 21,
+      "outcomes": {
+        "still_unresolved": 21
+      }
+    },
+    "6": {
+      "expected": 19,
+      "observed": 19,
+      "outcomes": {
+        "still_unresolved": 19
+      }
+    }
+  },
+  "description_and_url_validation": "passed",
+  "git_changed_paths": 19,
+  "all_git_changes_are_new_in_target_folder": true,
+  "neon_change_note": "No database interaction performed by this validator; Git diff protects historical paths, not live Neon state.",
+  "source_authentication_note": "Structural checks do NOT authenticate sources or prove historical claims; human/editorial source review required.",
+  "warnings": [
+    "worker-01/entry-6444: no exact URL visited; review search_queries or missing source URLs",
+    "worker-01/entry-6595: no exact URL visited; review search_queries or missing source URLs",
+    "worker-01/entry-6637: no exact URL visited; review search_queries or missing source URLs",
+    "worker-03/entry-2571: no exact URL visited; review search_queries or missing source URLs",
+    "worker-03/entry-6455: no exact URL visited; review search_queries or missing source URLs",
+    "worker-03/entry-6950: no exact URL visited; review search_queries or missing source URLs",
+    "worker-04/entry-5731: no exact URL visited; review search_queries or missing source URLs",
+    "worker-05/entry-5732: no exact URL visited; review search_queries or missing source URLs",
+    "worker-05/entry-6582: no exact URL visited; review search_queries or missing source URLs",
+    "worker-05/entry-6779: no exact URL visited; review search_queries or missing source URLs",
+    "worker-05/entry-6791: no exact URL visited; review search_queries or missing source URLs"
+  ],
+  "errors": [],
+  "passed": true
+}
