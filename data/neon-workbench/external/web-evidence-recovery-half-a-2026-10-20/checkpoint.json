@@ -1,0 +1,174 @@
+{
+  "date_utc": "2026-10-20",
+  "status": "terminal_60_of_60_pending_editorial_review",
+  "source_pr": 71,
+  "source_branch": "codex/trump-held149-editorial-20261020",
+  "head_based_on": "3af4d448606ed190acbdc2fb83456ff164b0f005",
+  "assignment_ids": [
+    "entry-1670",
+    "entry-1716",
+    "entry-1768",
+    "entry-1770",
+    "entry-2349",
+    "entry-2373",
+    "entry-2494",
+    "entry-2518",
+    "entry-2557",
+    "entry-2562",
+    "entry-2571",
+    "entry-2615",
+    "entry-3212",
+    "entry-3371",
+    "entry-4285",
+    "entry-5329",
+    "entry-5731",
+    "entry-5732",
+    "entry-5735",
+    "entry-5737",
+    "entry-5743",
+    "entry-5746",
+    "entry-5749",
+    "entry-5755",
+    "entry-5756",
+    "entry-5760",
+    "entry-5761",
+    "entry-5826",
+    "entry-5844",
+    "entry-5850",
+    "entry-5863",
+    "entry-5899",
+    "entry-6200",
+    "entry-6239",
+    "entry-6280",
+    "entry-6315",
+    "entry-6316",
+    "entry-6398",
+    "entry-6413",
+    "entry-6415",
+    "entry-6417",
+    "entry-6421",
+    "entry-6423",
+    "entry-6430",
+    "entry-6432",
+    "entry-6439",
+    "entry-6440",
+    "entry-6444",
+    "entry-6451",
+    "entry-6455",
+    "entry-6457",
+    "entry-6484",
+    "entry-6498",
+    "entry-6501",
+    "entry-6504",
+    "entry-6517",
+    "entry-6564",
+    "entry-6582",
+    "entry-6584",
+    "entry-6595"
+  ],
+  "assigned_slices": [
+    {
+      "worker": 1,
+      "ids": [
+        "entry-1670",
+        "entry-1716",
+        "entry-1768",
+        "entry-1770",
+        "entry-2349",
+        "entry-2373",
+        "entry-2494",
+        "entry-2518",
+        "entry-2557",
+        "entry-2562"
+      ]
+    },
+    {
+      "worker": 2,
+      "ids": [
+        "entry-2571",
+        "entry-2615",
+        "entry-3212",
+        "entry-3371",
+        "entry-4285",
+        "entry-5329",
+        "entry-5731",
+        "entry-5732",
+        "entry-5735",
+        "entry-5737"
+      ]
+    },
+    {
+      "worker": 3,
+      "ids": [
+        "entry-5743",
+        "entry-5746",
+        "entry-5749",
+        "entry-5755",
+        "entry-5756",
+        "entry-5760",
+        "entry-5761",
+        "entry-5826",
+        "entry-5844",
+        "entry-5850"
+      ]
+    },
+    {
+      "worker": 4,
+      "ids": [
+        "entry-5863",
+        "entry-5899",
+        "entry-6200",
+        "entry-6239",
+        "entry-6280",
+        "entry-6315",
+        "entry-6316",
+        "entry-6398",
+        "entry-6413",
+        "entry-6415"
+      ]
+    },
+    {
+      "worker": 5,
+      "ids": [
+        "entry-6417",
+        "entry-6421",
+        "entry-6423",
+        "entry-6430",
+        "entry-6432",
+        "entry-6439",
+        "entry-6440",
+        "entry-6444",
+        "entry-6451",
+        "entry-6455"
+      ]
+    },
+    {
+      "worker": 6,
+      "ids": [
+        "entry-6457",
+        "entry-6484",
+        "entry-6498",
+        "entry-6501",
+        "entry-6504",
+        "entry-6517",
+        "entry-6564",
+        "entry-6582",
+        "entry-6584",
+        "entry-6595"
+      ]
+    }
+  ],
+  "terminal_rows": 60,
+  "outcome_counts": {
+    "still_unresolved": 52,
+    "supported_partial": 7,
+    "repaired_proposal": 1
+  },
+  "publication_eligible": false,
+  "unresolved_required_editorial_review": true,
+  "next_actions": [
+    "Independent source-level editorial review",
+    "Do not merge, import, publish, or edit canonical records until reviewed"
+  ],
+  "source_qa_note": "Two broad repaired labels downgraded to supported_partial after independent editorial review; more primary same-event sources added to eight source ledgers."
+}
