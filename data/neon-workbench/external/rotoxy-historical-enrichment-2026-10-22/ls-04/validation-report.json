@@ -1,0 +1,63 @@
+{
+  "schema": "historical-enrichment-validation-v1",
+  "branch": "rotoxy/tf-historical-ls-04-20261022",
+  "base_commit": "df7d51514eb61ef24ee5c79cb0e26ad0dbd20a76",
+  "expected_record_ids": [
+    "entry-6597",
+    "entry-6598",
+    "entry-6599",
+    "entry-6600",
+    "entry-6602",
+    "entry-6607",
+    "entry-6609",
+    "entry-6612",
+    "entry-6614",
+    "entry-6615",
+    "entry-6662",
+    "entry-6672",
+    "entry-6729",
+    "entry-6736",
+    "entry-6774",
+    "entry-6776",
+    "entry-6778",
+    "entry-6779"
+  ],
+  "validation_status": "blocked_input",
+  "structural_checks": {
+    "assigned_ids_exact": true,
+    "terminal_row_count": 18,
+    "terminal_ids_unique": true,
+    "every_terminal_outcome_allowed": true,
+    "outside_ids": [],
+    "proposed_repair_rows": 0
+  },
+  "source_and_content_checks": {
+    "frozen_records_found": 0,
+    "frozen_records_expected": 18,
+    "missing_records": [
+      "entry-6597",
+      "entry-6598",
+      "entry-6599",
+      "entry-6600",
+      "entry-6602",
+      "entry-6607",
+      "entry-6609",
+      "entry-6612",
+      "entry-6614",
+      "entry-6615",
+      "entry-6662",
+      "entry-6672",
+      "entry-6729",
+      "entry-6736",
+      "entry-6774",
+      "entry-6776",
+      "entry-6778",
+      "entry-6779"
+    ],
+    "urls_checked": 0,
+    "copy_lengths_checked": 0,
+    "scores_checked": 0,
+    "status": "not_evaluable_without_frozen_record_text"
+  },
+  "overall": "STRUCTURE_VALID_INPUT_BLOCKED"
+}

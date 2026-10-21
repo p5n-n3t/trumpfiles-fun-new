@@ -1,0 +1,38 @@
+{
+  "schema": "historical-enrichment-checkpoint-v1",
+  "assignment": "TF-HIST-LS-04",
+  "branch": "rotoxy/tf-historical-ls-04-20261022",
+  "base_commit": "df7d51514eb61ef24ee5c79cb0e26ad0dbd20a76",
+  "output_directory": "data/neon-workbench/external/rotoxy-historical-enrichment-2026-10-22/ls-04/",
+  "status": "blocked_input_checkpoint",
+  "assigned_ids": [
+    "entry-6597",
+    "entry-6598",
+    "entry-6599",
+    "entry-6600",
+    "entry-6602",
+    "entry-6607",
+    "entry-6609",
+    "entry-6612",
+    "entry-6614",
+    "entry-6615",
+    "entry-6662",
+    "entry-6672",
+    "entry-6729",
+    "entry-6736",
+    "entry-6774",
+    "entry-6776",
+    "entry-6778",
+    "entry-6779"
+  ],
+  "terminal_outcomes": {
+    "still_unresolved": 18,
+    "repaired_proposal": 0,
+    "supported_partial": 0,
+    "split_required": 0,
+    "soft_hide_candidate": 0
+  },
+  "source_research_performed": false,
+  "blocker": "Required frozen source data/neon-export/tables/trump_entries.jsonl is absent from this worktree, all fetched local Git history, and freshly fetched origin/main. The assigned identifiers alone contain no claims, dates, or source references; no identifier-led source research or repair can be done without inventing content.",
+  "next_action": "Supply or restore the frozen trump_entries.jsonl at the required path (or provide its exact immutable source commit); then research and replace this checkpoint in a new authorized run."
+}
