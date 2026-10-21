@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "errors": [],
+  "expected_candidate_count": 22,
+  "terminal_record_count": 22,
+  "research_record_count": 22,
+  "unique_terminal_ids": 22,
+  "missing_ids": [],
+  "outside_assignment_ids": [],
+  "duplicate_terminal_ids": [],
+  "counts_by_disposition": {
+    "accept_for_editorial": 2,
+    "hold": 20
+  },
+  "worker_partition_sizes": {
+    "worker-01": 4,
+    "worker-02": 4,
+    "worker-03": 4,
+    "worker-04": 4,
+    "worker-05": 3,
+    "worker-06": 3
+  },
+  "all_changed_files_under_new_qa_folder": true,
+  "modified_outside_qa_folder": [],
+  "changed_file_count": 7,
+  "original_packet_sha256": "eb0d73d20eae6e30dee2d4dbd4268d59e65d77407d65bc84fd70ddc77d2c28d6",
+  "base_ref": "origin/main",
+  "base_sha": "df7d51514eb61ef24ee5c79cb0e26ad0dbd20a76",
+  "url_check_scope": "source URL preservation/syntax and worker-supplied access/fact mapping; structural checks cannot certify publisher contents",
+  "database_or_canonical_files_changed": false
+}
