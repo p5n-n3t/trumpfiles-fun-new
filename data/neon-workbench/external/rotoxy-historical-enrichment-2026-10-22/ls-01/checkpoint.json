@@ -1,0 +1,61 @@
+{
+  "lane": "Trump Files historical evidence-recovery",
+  "assignment": "TF-HIST-LS-01",
+  "branch": "rotoxy/tf-historical-ls-01-20261022",
+  "base_commit": "df7d51514eb61ef24ee5c79cb0e26ad0dbd20a76",
+  "assigned_ids": [
+    "entry-853",
+    "entry-854",
+    "entry-1670",
+    "entry-1716",
+    "entry-1768",
+    "entry-1770",
+    "entry-2373",
+    "entry-2494",
+    "entry-2518",
+    "entry-2562",
+    "entry-2615",
+    "entry-3212",
+    "entry-4285",
+    "entry-5732",
+    "entry-5735",
+    "entry-5737",
+    "entry-5743",
+    "entry-5746"
+  ],
+  "terminal_ids": [
+    "entry-853",
+    "entry-854",
+    "entry-1670",
+    "entry-1716",
+    "entry-1768",
+    "entry-1770",
+    "entry-2373",
+    "entry-2494",
+    "entry-2518",
+    "entry-2562",
+    "entry-2615",
+    "entry-3212",
+    "entry-4285",
+    "entry-5732",
+    "entry-5735",
+    "entry-5737",
+    "entry-5743",
+    "entry-5746"
+  ],
+  "counts": {
+    "repaired_proposal": 0,
+    "supported_partial": 3,
+    "split_required": 0,
+    "soft_hide_candidate": 5,
+    "still_unresolved": 10
+  },
+  "proposals": [
+    "entry-1670",
+    "entry-2615",
+    "entry-3212"
+  ],
+  "canonical_frozen_export": "missing from both local branch and origin/main checkout",
+  "last_updated": "2026-10-21",
+  "next_action": "Commit and push branch; canonical source limitation remains in validation report."
+}

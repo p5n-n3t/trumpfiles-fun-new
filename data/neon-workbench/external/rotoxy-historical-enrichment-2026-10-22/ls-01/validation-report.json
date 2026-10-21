@@ -1,0 +1,101 @@
+{
+  "assignment": "TF-HIST-LS-01",
+  "branch": "rotoxy/tf-historical-ls-01-20261022",
+  "assigned_ids": [
+    "entry-853",
+    "entry-854",
+    "entry-1670",
+    "entry-1716",
+    "entry-1768",
+    "entry-1770",
+    "entry-2373",
+    "entry-2494",
+    "entry-2518",
+    "entry-2562",
+    "entry-2615",
+    "entry-3212",
+    "entry-4285",
+    "entry-5732",
+    "entry-5735",
+    "entry-5737",
+    "entry-5743",
+    "entry-5746"
+  ],
+  "terminal_ids": [
+    "entry-853",
+    "entry-854",
+    "entry-1670",
+    "entry-1716",
+    "entry-1768",
+    "entry-1770",
+    "entry-2373",
+    "entry-2494",
+    "entry-2518",
+    "entry-2562",
+    "entry-2615",
+    "entry-3212",
+    "entry-4285",
+    "entry-5732",
+    "entry-5735",
+    "entry-5737",
+    "entry-5743",
+    "entry-5746"
+  ],
+  "counts": {
+    "repaired_proposal": 0,
+    "supported_partial": 3,
+    "split_required": 0,
+    "soft_hide_candidate": 5,
+    "still_unresolved": 10
+  },
+  "proposal_ids": [
+    "entry-1670",
+    "entry-2615",
+    "entry-3212"
+  ],
+  "outside_ids": [],
+  "duplicate_terminal_ids": [],
+  "cross_record_duplicates_reviewed": [
+    "entry-1670",
+    "entry-1716",
+    "entry-1768",
+    "entry-1770"
+  ],
+  "copy_checks": "passed: title/short <=180 chars; medium 45-90 words; long 140-300 words; https URLs; required fields and scores present",
+  "urls": "https URLs only; source refs include access method and limitations",
+  "frozen_export_check": {
+    "path": "data/neon-export/tables/trump_entries.jsonl",
+    "available": false,
+    "checked_in": [
+      "isolated worktree from origin/main",
+      "preexisting repository checkout"
+    ],
+    "effect": "cannot validate title/date against canonical frozen source; unresolved parents kept unresolved"
+  },
+  "validation_result": "partial: structural/copy/URL/ID checks passed; frozen export unavailable, so canonical title/date validation cannot be completed",
+  "known_limitations": [
+    "Canonical frozen input unavailable.",
+    "Five entries lack any older workbench title or source, so no event-specific search was safe.",
+    "AP live tracker and selected article extractions had timeouts; only indexed metadata/highlights are used where stated."
+  ],
+  "proposal_lengths": {
+    "entry-1670": {
+      "title_chars": 54,
+      "short_chars": 101,
+      "medium_words": 70,
+      "long_words": 183
+    },
+    "entry-2615": {
+      "title_chars": 66,
+      "short_chars": 119,
+      "medium_words": 71,
+      "long_words": 179
+    },
+    "entry-3212": {
+      "title_chars": 61,
+      "short_chars": 112,
+      "medium_words": 59,
+      "long_words": 178
+    }
+  }
+}
