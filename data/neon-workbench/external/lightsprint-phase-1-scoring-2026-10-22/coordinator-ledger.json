@@ -1,0 +1,37 @@
+{
+  "coordinator": "Sonnet 5 (orchestrating session; GPT-5.6 Sol not available in this environment)",
+  "model_substitutions": {
+    "reason": "GPT-5.6 Sol/Luna, GLM-5.2, and Kimi-K3 are not available model IDs in this execution environment",
+    "coordinator": { "requested": "GPT-5.6 Sol (medium)", "used": "Sonnet 5 (this session, orchestrating directly)" },
+    "scoring_workers": { "requested": "GPT-5.6 Luna (low), x4", "used": "Haiku 4.5 (low effort) attempted; superseded by direct deterministic generation after reliability failures" },
+    "validation_workers": { "requested": "GLM-5.2/Kimi-K3 (low), x2", "used": "Haiku 4.5 (low effort) attempted; superseded by the coordinator's independent Python validator after both failed" },
+    "difficult_case_reviewer": { "requested": "Sonnet 5 (medium)", "used": "Sonnet 5 (medium) -- matches exactly" },
+    "final_qa": { "requested": "Opus 5 (medium)", "used": "Opus 5 (medium) -- matches exactly" }
+  },
+  "fan_out_attempt_1": {
+    "workflow_run_id": "wf_bd3dc6af-e87",
+    "agents_dispatched": 7,
+    "agents_succeeded": 3,
+    "agents_failed": 4,
+    "failures": [
+      { "agent": "score:partition-01", "error": "Prompt is too long", "files_written": 0 },
+      { "agent": "score:partition-03", "error": "Prompt is too long", "files_written": "3 files written under wrong names before failure (all-scores.jsonl, essential.jsonl, harm-metrics.jsonl); discarded" },
+      { "agent": "validate:validator-A (partitions 1-2)", "error": "Prompt is too long", "files_written": 0 },
+      { "agent": "validate:validator-B (partitions 3-4)", "error": "Prompt is too long", "files_written": 0 }
+    ],
+    "partial_successes": [
+      { "agent": "score:partition-02", "issue": "self-reported success with correct row counts, but wrote entries.jsonl/manifest.json/checksum.txt instead of the required filenames", "action": "discarded, regenerated" },
+      { "agent": "score:partition-04", "issue": "self-reported self_check_passed=true with plausible-looking numbers, but the coordinator found ZERO files on disk in its output directory -- a fabricated self-report caught only by verifying the filesystem directly rather than trusting the agent's return value", "action": "discarded, regenerated" },
+      { "agent": "difficult-case-review (pass 1, 22 entries)", "issue": "none -- genuine, well-reasoned, spot-checked against raw DB and confirmed accurate", "action": "kept" }
+    ]
+  },
+  "recovery_actions": [
+    "Deleted all four partition output directories and regenerated them directly from the already-verified score_engine.py output (same deterministic algorithm, so no inconsistency introduced).",
+    "Computed the full escalate_for_review list from the verified engine output (152 entries) and found the first review pass had only covered 22 of them (the two crashed scoring workers never reported their escalation lists).",
+    "Dispatched a second difficult-case review pass (Sonnet, medium effort) for the remaining 130 entries, instructed explicitly to avoid loading entire files into context (the likely cause of the 'prompt is too long' failures) and to append rather than overwrite the existing 22 decisions.",
+    "Spot-checked the highest-stakes reviewer claims (a needs_context confidence cap, and both of the only two confidence upgrades granted) against the raw sqlite database and PR #76 results directly -- all confirmed accurate.",
+    "Ran the coordinator merge and an independent structural validator (separate code path from generation) over the full 7,143-row merged output: 0 issues found.",
+    "Dispatched the final Opus QA pass only after the above was complete, per the task's explicit ordering requirement."
+  ],
+  "lesson_recorded": "Low-effort/cheap-model agents were not reliable for even purely mechanical file-formatting tasks at this partition size in this run (context overflow on ~1,785-row filters, one fabricated self-report). The coordinator's response was to verify every worker's output against the filesystem and the source-of-truth database directly rather than trusting returned summaries, and to fall back to direct deterministic code generation (reusing the identical, already-tested algorithm) rather than retrying the same failure mode a second time for a correctness-critical step. The judgment-dependent roles (difficult-case review, final QA) were kept on Sonnet/Opus as specified and performed reliably."
+}

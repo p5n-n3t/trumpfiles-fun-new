@@ -1,0 +1,44 @@
+{
+  "phase": "phase-1-catalogue-scoring",
+  "scoring_version": "impact-v2.0-2026-10-22",
+  "status": "complete",
+  "entries_total": 7143,
+  "entries_scored": 7143,
+  "partitions": [
+    { "id": "partition-01", "entry_number_range": [1, 1814], "rows": 1785, "status": "complete" },
+    { "id": "partition-02", "entry_number_range": [1815, 3599], "rows": 1785, "status": "complete" },
+    { "id": "partition-03", "entry_number_range": [3600, 5407], "rows": 1785, "status": "complete" },
+    { "id": "partition-04", "entry_number_range": [5408, 7202], "rows": 1788, "status": "complete" }
+  ],
+  "difficult_case_review": {
+    "escalated_count": 152,
+    "reviewed_count": 152,
+    "upgraded_to_high": 0,
+    "upgraded_to_medium": 2,
+    "held_or_lowered": 150
+  },
+  "confidence_counts": { "high": 0, "medium": 5635, "low": 1487, "deferred": 21 },
+  "disposition_counts": {
+    "none": 6646,
+    "repaired_proposal": 101,
+    "supported_partial": 322,
+    "soft_hide_candidate": 16,
+    "needs_context": 57,
+    "split_required": 1
+  },
+  "coordinator_merge": "complete",
+  "independent_structural_validation": "complete, all_clean=true",
+  "final_qa_pass": "complete, ALL CHECKS PASSED (4 non-blocking observations, 2 applied as fixes, 2 documented) -- see validation-report.md",
+  "required_files_present": [
+    "impact-v2-proposed-scores.jsonl",
+    "score-provenance.jsonl",
+    "deferred-or-low-confidence-scores.jsonl",
+    "scoring-coverage-report.md",
+    "validation-report.md",
+    "checkpoint.json",
+    "PROGRESS.md",
+    "coordinator-ledger.json"
+  ],
+  "hard_boundaries_respected": true,
+  "updated_at": "2026-10-22"
+}
