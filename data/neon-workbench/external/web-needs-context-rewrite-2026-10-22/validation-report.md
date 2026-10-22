@@ -1,23 +1,28 @@
-# Validation report — partial checkpoint
+# Validation report — partial, not release-ready
 
-Date: 2026-10-22T14:41:28.576Z
+Updated: 2026-10-22T14:48:29.117Z
 
-| Check | Result |
+| Validation | Result |
 |---|---|
-| Authoritative manifest numbered entries | **PASS: 497** |
-| Manifest unique numbered IDs and `entry-N` mapping | **PASS: 497** |
-| Six non-overlapping packet ownership groups | **PASS: 95 + 80 + 80 + 80 + 80 + 82 = 497** |
-| Numbered entries with a terminal result | **5/497 — INCOMPLETE** |
-| Missing terminal results | **492 — BLOCKING** |
-| Duplicate terminal IDs in current submitted results | **PASS: 0** |
-| Outside-assignment terminal IDs in current submitted results | **PASS: 0** |
-| Current terminal JSONL parse and required schema | **PASS** |
-| Title present and short <=180 characters | **PASS on 5 proposals** |
-| Medium 45–90 words; long 140–300 words | **PASS on 5 proposals** |
-| Description layers materially distinct | **Human-reviewed on 5 proposals; requires further batch QA** |
-| Credible HTTPS formatting | **PASS on 10 URL references** |
-| Canonical, frozen and Neon changes | **No writes were made outside this new append-only output directory** |
-| Complete 497-entry QA | **NOT YET PASSING — 492 outcomes absent** |
-| Draft PR | **NOT OPENED** |
+| Authoritative assignment | PASS — 497 numbered unique records |
+| Excluded unnumbered non-catalogue record | PASS — not assigned |
+| All 49 compact input packets vs manifest | PASS — exact entry numbers and record IDs, including order |
+| Six disjoint partitions | PASS — 95 + 80 + 80 + 80 + 80 + 82 = 497 |
+| Terminal outcomes present | **9/497 — incomplete** |
+| Terminal outcomes missing | **488 — BLOCKING** |
+| Duplicate results in submitted files | PASS — 0 |
+| Outside-assignment IDs in submitted files | PASS — 0 |
+| Submitted JSONL parses and required fields | PASS — 9 records |
+| Submitted title, short <=180 char | PASS — 9 records |
+| Submitted medium 45–90 words | PASS — 9 records |
+| Submitted long 140–300 words | PASS — 9 records |
+| Short, medium and long materially distinct | Editorial review performed on current 9 proposals; full QA pending |
+| Submitted source URL HTTPS format | PASS — 22 URL references |
+| Research log coverage for committed results | PASS — 9/9 |
+| Frozen, canonical, Neon changes | PASS — no writes outside the newly created output directory |
+| Full 497-entry merged validation | **NOT PASSED — 488 missing** |
+| Draft PR against main | **NOT OPENED** |
 
-This is explicitly a **partial** report, not a claim that all 497 records have been rewritten or verified. The complete terminal file must be built and revalidated only after all six partition outputs are available.
+Validation errors in committed subset: [].
+
+The full acceptance gate MUST NOT be marked passing or opened as a completed PR until all 488 missing records are individually researched and assigned a defensible terminal disposition.
