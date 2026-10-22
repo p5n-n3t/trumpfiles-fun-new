@@ -1,28 +1,26 @@
 # Needs-context editorial rewrites — 2026-10-22
 
-## Status: INCOMPLETE (not ready for draft PR)
+**Status: INCOMPLETE — no draft PR yet.**
 
-Base branch: `codex/web-needs-context-assignment-20261022`  
-Working branch: `codex/web-needs-context-rewrite-20261022`  
-Authoritative manifest: `data/neon-workbench/external/description-completion/2026-09-30/needs-context-assignment-2026-10-22.json`
+- Base: `codex/web-needs-context-assignment-20261022`
+- Working: `codex/web-needs-context-rewrite-20261022`
+- Numbered catalogue entries assigned: **497**; unnumbered non-catalog row deliberately excluded
+- **All 49 compact source packets matched authoritative manifest entry IDs and order**
+- Worker ownership counts: **95 / 80 / 80 / 80 / 80 / 82**, zero overlaps
+- Editorial outcomes committed: **9** `repaired_proposal` records in `worker-01/terminal-results*.jsonl`
+- Remaining unprocessed: **488** (worker 01: 86, workers 02–06: 402)
+- Source URL references in completed entries: **22**
+- Current submitted-row schema, lengths, HTTPS format, duplicate/outside-ID tests: **PASS**
+- Working-branch changes remain confined to `data/neon-workbench/external/web-needs-context-rewrite-2026-10-22/`; no canonical, frozen, Neon, scores, or historical lanes touched
 
-- Numbered frozen catalogue entries assigned: **497** (historical unnumbered row excluded)
-- Six immutable partition ownership ranges: 95 / 80 / 80 / 80 / 80 / 82 entries, documented in `assignment-partitions.json`
-- Editorial terminal proposals committed: **5**; all `repaired_proposal`
-- Still unprocessed: **492**; this is unfinished work, **not** an editorial `needs_context` disposition
-- Source URL references in completed proposals: **10**
-- Verified current-row length and URL checks: **PASS**
-- Unique terminal assigned IDs: **5**; duplicates: **0**; outside assignment: **0**
-- Six remote Luna workers: **not launched**. The connected orchestration tools returned internal errors; worker ranges are ownership plans, not active agents.
+## Editor's work saved
 
-## Completed work
+Reviewed `entry-5`, `entry-7`, `entry-22`, `entry-35`, `entry-37`, `entry-53`, `entry-57`, `entry-112` and `entry-113`. Each records the original overclaim narrowed, verified HTTPS sources, uncertainty and four lengths-checked copy fields. See `research-log.jsonl`.
 
-`worker-01/terminal-results.jsonl` contains documented, narrowed proposals for entry numbers 5, 7, 22, 35, 37. The accompanying `research-log.jsonl` records checked links and uncertainty. All results are only review proposals.
+## Exact blockers to completion
 
-## Precise remaining blockers
+1. **488** entries still need their own research and terminal disposition. Unprocessed does *not* mean editorial `needs_context`.
+2. Connected ROTOXY orchestration calls (`workspace_projects`, `lightsprint_api`, `oracle_catalog`) failed internally, so the six low-cost GPT worker sessions were **not** launched. Partition manifests are prepared, not running workers.
+3. All six full partition result outputs, the 497-row merged terminal file, a full validation PASS and the draft PR are still pending. None will be falsely represented as finished.
 
-1. 492 assigned entries have no terminal result yet. Workers 02–06 have not started; worker 01 has 90 further entries.
-2. GPT-6 Luna worker dispatch through the connected orchestration service failed internally. No six-agent execution can be claimed.
-3. The merged file, full validation PASS, and draft PR must wait for exactly 497 reviewed terminal outcomes. Do not fill missing rows with artificial `needs_context` placeholders.
-
-No frozen exports, canonical records, Neon scripts/data, scores, original sources, or historical output lanes were modified. Do not merge or import from this branch.
+No PR opened or merged. All proposed copy remains offline and unapproved for database import.
