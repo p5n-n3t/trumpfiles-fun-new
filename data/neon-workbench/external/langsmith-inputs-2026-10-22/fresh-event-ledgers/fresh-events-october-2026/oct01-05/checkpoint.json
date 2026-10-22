@@ -1,0 +1,24 @@
+{
+  "lane": "oct01-05",
+  "date_from": "2026-10-01",
+  "date_through": "2026-10-05",
+  "status": "complete_for_retrieved_credible_leads",
+  "completed_at": "2026-10-21T02:45:19+03:00",
+  "candidate_count": 2,
+  "unresolved_count": 0,
+  "research_log_count": 3,
+  "frozen_export_rows_screened": 7143,
+  "prior_fresh_outputs_compared": [
+    "data/neon-workbench/external/perplexity-fresh-events/2026-09-30/candidates.jsonl (84 candidates through 2026-09-30)",
+    "data/neon-workbench/external/fresh-events-next/2026-10-03/prior-fresh-84-context.jsonl",
+    "other available external fresh-candidate JSONL outputs"
+  ],
+  "accepted_event_dates": ["2026-10-01", "2026-10-01"],
+  "excluded_duplicate": "Oct 3 repetition of Sept 9 conditional $5,000 pledge; prior fresh candidate expanded-20260909-rnc-dividend-pledge covers the same underlying promise.",
+  "constraints_observed": [
+    "No canonical data, frozen export, Neon, prior lane, or other worker output changed.",
+    "All writes are confined to this oct01-05 lane.",
+    "Legal complaint allegations remain attributed and are not stated as findings."
+  ],
+  "next_action": "Review candidate cards and validation-report.json; no additional evidence blocker remains in the logged leads."
+}

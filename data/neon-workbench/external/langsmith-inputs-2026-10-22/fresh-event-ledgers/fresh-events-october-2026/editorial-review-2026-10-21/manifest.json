@@ -1,0 +1,13 @@
+{
+  "mode": "offline_editorial_review_only",
+  "candidate_count": 22,
+  "proposed_number_range_if_all_prior_candidates_are_approved": [
+    7287,
+    7308
+  ],
+  "editorial_approval": false,
+  "insert_authorized": false,
+  "database_access_or_writes": false,
+  "input_sha256": "7144c8ef0a828a4f2de75d98a79cc10bbb19d39af6c545290c8ea16faa474845",
+  "output_sha256": "eb0d73d20eae6e30dee2d4dbd4268d59e65d77407d65bc84fd70ddc77d2c28d6"
+}

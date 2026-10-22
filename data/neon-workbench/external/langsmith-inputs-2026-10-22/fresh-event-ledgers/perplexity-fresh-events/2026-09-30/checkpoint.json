@@ -1,0 +1,53 @@
+{
+  "status": "complete_for_retrieved_leads",
+  "date_range": [
+    "2026-08-20",
+    "2026-09-30"
+  ],
+  "scope": "Trump family/business/associates plus Trump and ally statements, midterm messaging, Iran war, misleading claims, and administration institutional actions",
+  "frozen_entry_count": 7143,
+  "frozen_sha256": "9f1d4f07d066ab08e515fc8367c3beb4d21f822d03218dbee597ff032252c1d7",
+  "candidate_count": 84,
+  "unresolved_count": 20,
+  "writes_restricted_to": "data/neon-workbench/external/perplexity-fresh-events/2026-09-30",
+  "existing_fresh_event_outputs_found": [],
+  "inference_policy": "Timing alone is not evidence of corruption, intent, causation or illegality.",
+  "completed_at_utc": "2026-09-30T04:11:23.355590+00:00",
+  "coverage_as_of_utc": "2026-09-30T04:11:23.355590+00:00",
+  "research_log_count": 281,
+  "search_calls": 90,
+  "ranked_result_slots_requested": 817,
+  "fetch_batches": 41,
+  "url_fetch_requests": 167,
+  "firecrawl_scrapes": 23,
+  "excluded_lead_groups": 16,
+  "primary_source_candidate_count": 33,
+  "database_entries_screened": 7143,
+  "other_fresh_event_outputs_found": 0,
+  "validation_status": "passed",
+  "source_repair_unresolved_records_inventory_checked": 507,
+  "validation_checks": [
+    "JSONL parsing and counts",
+    "unique candidate and lead IDs",
+    "unique date/title fingerprints",
+    "inclusive event dates and text floors",
+    "canonical categories and phase",
+    "entity fields and claim-to-source links",
+    "related frozen entry IDs resolve",
+    "external lane and nested date inventory",
+    "7143 frozen rows and unchanged SHA256"
+  ],
+  "limitations": [
+    "Web discovery is bounded; completion means retrieved credible leads have candidate, unresolved or exclusion dispositions.",
+    "September 30 is ongoing; later reporting is not covered.",
+    "Partial original-page extractions and primary-document availability vary; every candidate still requires editorial review.",
+    "Timing alone does not establish corruption, causation, intent or illegality."
+  ],
+  "target_candidate_range": [
+    60,
+    100
+  ],
+  "expanded_candidates_added": 68,
+  "expanded_unresolved_added": 10,
+  "external_lane_inventory": "Source repairs, frozen-entry rewrites, correction proposals and nested splits screened; only own directory is a fresh-event lane."
+}

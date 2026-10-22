@@ -1,0 +1,11 @@
+{
+  "lane": "oct06-10",
+  "date_from": "2026-10-06",
+  "date_through": "2026-10-10",
+  "frozen_reference": "data/neon-export/tables/trump_entries.jsonl (7143 records)",
+  "prior_fresh_reference": "data/neon-workbench/external/fresh-events-next/2026-10-03/prior-fresh-84-context.jsonl (84 candidates through Sep 30)",
+  "status": "PROPOSED_NOT_APPROVED",
+  "candidate_count": 5,
+  "unresolved_lead_count": 1,
+  "next_action": "Editorial review of cards, date attribution and source limitations; no canonical insert is authorized."
+}

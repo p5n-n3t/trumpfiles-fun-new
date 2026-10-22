@@ -1,0 +1,9 @@
+{
+  "project": "Trump Files fresh-event candidates",
+  "window": {"start": "2026-10-16", "end": "2026-10-21"},
+  "output_token": "oct16-21",
+  "status": "research staged; validation corrections required before acceptance",
+  "counts": {"candidates": 11, "unresolved_leads": 5},
+  "scope": "Only files in this lane were created or edited. Canonical data, frozen export, Neon, prior lanes, and other workers' output were not modified.",
+  "next_action": "Correct card length/source-reference validation issues, run complete schema and duplicate checks, then update validation-report.md and PROGRESS.md."
+}

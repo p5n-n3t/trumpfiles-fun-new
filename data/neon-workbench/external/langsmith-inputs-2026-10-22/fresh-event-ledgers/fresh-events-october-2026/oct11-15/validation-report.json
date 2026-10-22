@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "candidate_count": 4,
+  "unresolved_count": 3,
+  "research_log_count": 5,
+  "unique_candidate_ids": 4,
+  "date_window_inclusive": [
+    "2026-10-11",
+    "2026-10-15"
+  ],
+  "word_counts": [
+    {
+      "candidate_id": "fresh-20261011-ukraine-energy-ceasefire-announcement",
+      "short_chars": 127,
+      "medium_words": 79,
+      "long_words": 154
+    },
+    {
+      "candidate_id": "fresh-20261011-taxpayer-funded-trump-ads-order",
+      "short_chars": 144,
+      "medium_words": 79,
+      "long_words": 174
+    },
+    {
+      "candidate_id": "fresh-20261012-east-potomac-tree-cutting-order",
+      "short_chars": 135,
+      "medium_words": 83,
+      "long_words": 188
+    },
+    {
+      "candidate_id": "fresh-20261014-supreme-court-fcc-ad-rate-stay",
+      "short_chars": 130,
+      "medium_words": 84,
+      "long_words": 194
+    }
+  ],
+  "frozen_export_rows": 7143,
+  "checks_passed": true,
+  "errors": [],
+  "scope_note": "Lexical/date/title duplicate audit over frozen export and existing candidate-like outputs; not a semantic exhaustive search."
+}

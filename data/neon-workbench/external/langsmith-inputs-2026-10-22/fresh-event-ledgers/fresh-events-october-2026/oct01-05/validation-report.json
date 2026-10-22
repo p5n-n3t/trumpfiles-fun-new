@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "candidate_count": 2,
+  "unresolved_count": 0,
+  "research_log_count": 3,
+  "checks_passed": [
+    "All JSONL rows parse; candidate IDs are unique.",
+    "Every candidate event date is within 2026-10-01 through 2026-10-05.",
+    "Each candidate has at least one HTTPS source URL, uncertainty notes, and an event-level duplicate-review note.",
+    "Exactly the six requested files exist in the lane directory.",
+    "Only assigned lane files were written; canonical data, frozen export, Neon, prior lanes, and other worker outputs were not written by this task."
+  ],
+  "card_lengths": [
+    {
+      "candidate_id": "oct2026-10-01-powerus-merger-close",
+      "short_characters": 108,
+      "medium_words": 74,
+      "long_words": 210,
+      "source_count": 5,
+      "status": "pass"
+    },
+    {
+      "candidate_id": "oct2026-10-01-renee-good-family-lawsuits",
+      "short_characters": 130,
+      "medium_words": 83,
+      "long_words": 235,
+      "source_count": 5,
+      "status": "pass"
+    }
+  ],
+  "word_count_method": "Regex word tokens including apostrophes and hyphens; short field measured in Unicode characters.",
+  "validated_at": "2026-10-21T02:45:19+03:00"
+}

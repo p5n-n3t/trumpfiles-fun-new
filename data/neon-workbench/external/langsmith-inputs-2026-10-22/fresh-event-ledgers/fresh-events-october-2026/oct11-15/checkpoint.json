@@ -1,0 +1,29 @@
+{
+  "objective": "Build Trump Files fresh-event candidates for 2026-10-11 through 2026-10-15.",
+  "status": "completed_for_retrieved_leads",
+  "date_start": "2026-10-11",
+  "date_end": "2026-10-15",
+  "done": [
+    "Researched assigned date window only",
+    "Screened frozen export of 7,143 rows and existing fresh-candidate outputs",
+    "Prepared 4 complete candidate cards and 3 unresolved leads",
+    "Validated JSONL and requested word-length bounds"
+  ],
+  "files": [
+    "candidates.jsonl",
+    "unresolved.jsonl",
+    "research-log.jsonl",
+    "checkpoint.json",
+    "PROGRESS.md",
+    "validation-report.json"
+  ],
+  "constraints": {
+    "canonical_data_changed": false,
+    "frozen_export_changed": false,
+    "neon_changed": false,
+    "prior_lanes_changed": false,
+    "other_worker_outputs_changed": false
+  },
+  "next": "Editorial review of four provisional cards; fetch primary district-court records for the Oct 11 and Oct 12 temporary orders if needed before promotion.",
+  "verification": "Validation passed: 4 unique candidate IDs, 3 unresolved leads, 5 research log rows; all 4 event dates in window; short/medium/long copy bounds pass; source URLs and review fields present; frozen export 7,143 rows."
+}

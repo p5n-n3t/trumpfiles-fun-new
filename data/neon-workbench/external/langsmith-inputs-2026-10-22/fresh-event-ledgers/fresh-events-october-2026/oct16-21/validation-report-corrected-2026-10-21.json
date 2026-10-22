@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "candidate_count": 11,
+  "errors": [],
+  "original_file_preserved": "candidates.jsonl",
+  "corrected_file": "candidates-corrected-2026-10-21.jsonl",
+  "database_access_or_writes": false,
+  "insert_authorized": false
+}

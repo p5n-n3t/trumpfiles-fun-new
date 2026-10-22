@@ -1,0 +1,12 @@
+{
+  "mode": "offline_normalized_october_review_only",
+  "candidate_count": 11,
+  "lanes": [
+    "oct01-05",
+    "oct06-10",
+    "oct11-15"
+  ],
+  "insert_authorized": false,
+  "database_access_or_writes": false,
+  "output_sha256": "3f7db51228391914cd2fd1d911fcbcb26812fbce0b063904f6539e81c464738d"
+}

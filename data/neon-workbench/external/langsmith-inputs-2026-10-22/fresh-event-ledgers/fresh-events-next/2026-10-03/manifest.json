@@ -1,0 +1,24 @@
+{
+  "branch": "codex/fresh-events-oct-01-03-2026",
+  "parent_commit": "95eb7977f6d66eb110b38dfba25023743453fd2a",
+  "date_from": "2026-10-01",
+  "date_through": "2026-10-03",
+  "frozen_reference": 7143,
+  "prior_fresh_reference": 84,
+  "workers": [
+    {
+      "worker": 2,
+      "category": "administration/public actions"
+    },
+    {
+      "worker": 3,
+      "category": "family/associates/private interests"
+    }
+  ],
+  "hashes": {
+    "frozen_title_date_index": "f07fdd5c9edc563373dd8f790a0d1a945503768c8a9da2581ec0684de5f31ff3",
+    "prior_fresh_84": "29102aea07191ca1ce3f68f2ed276b41edb8a8ec52a3ebf6a7854a3484ee8102",
+    "prompt": "c947d3f27e6eecc8aba124fa9c6a227854fe0c8617b6f05d7c94c1a98a026509"
+  },
+  "status": "PROPOSED_NOT_APPROVED"
+}
