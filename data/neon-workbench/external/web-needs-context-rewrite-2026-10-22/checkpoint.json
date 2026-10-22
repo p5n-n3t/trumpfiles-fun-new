@@ -1,65 +1,106 @@
 {
-  "timestamp": "2026-10-22T14:56:36.789Z",
-  "branch_name": "codex/web-needs-context-rewrite-20261022",
-  "source_branch": "codex/web-needs-context-assignment-20261022",
-  "assigned_count": 497,
-  "terminal_outcome_count": 107,
-  "remaining_count": 390,
-  "by_terminal_status": {
-    "repaired_proposal": 40,
-    "supported_partial": 0,
-    "needs_context": 51,
-    "soft_hide_candidate": 16,
-    "split_required": 0
-  },
-  "worker_coverage": [
+  "status": "complete",
+  "completed_at_utc": "2026-10-22T18:47:04Z",
+  "assignment_manifest": "data/neon-workbench/external/description-completion/2026-09-30/needs-context-assignment-2026-10-22.json",
+  "assigned_records": 497,
+  "terminal_outcomes": 497,
+  "last_completed_entry_number": 7074,
+  "last_completed_record_id": "entry-7074",
+  "research_log_rows": 569,
+  "partition_counts": [
     {
-      "worker": "worker-01",
-      "assigned": 95,
-      "terminal": 25,
-      "unprocessed": 70
+      "partition": "partition-01",
+      "packet_range": "01-08",
+      "records": 95,
+      "research_sources": 95,
+      "dispositions": {
+        "repaired_proposal": 30,
+        "supported_partial": 34,
+        "soft_hide_candidate": 2,
+        "needs_context": 29
+      }
     },
     {
-      "worker": "worker-02",
-      "assigned": 80,
-      "terminal": 11,
-      "unprocessed": 69
+      "partition": "partition-09",
+      "packet_range": "09-16",
+      "records": 80,
+      "research_sources": 69,
+      "dispositions": {
+        "supported_partial": 69,
+        "needs_context": 9,
+        "soft_hide_candidate": 2
+      }
     },
     {
-      "worker": "worker-03",
-      "assigned": 80,
-      "terminal": 16,
-      "unprocessed": 64
+      "partition": "partition-17",
+      "packet_range": "17-24",
+      "records": 80,
+      "research_sources": 116,
+      "dispositions": {
+        "supported_partial": 53,
+        "repaired_proposal": 25,
+        "needs_context": 2
+      }
     },
     {
-      "worker": "worker-04",
-      "assigned": 80,
-      "terminal": 29,
-      "unprocessed": 51
+      "partition": "partition-25",
+      "packet_range": "25-32",
+      "records": 80,
+      "research_sources": 72,
+      "dispositions": {
+        "supported_partial": 56,
+        "repaired_proposal": 8,
+        "needs_context": 10,
+        "soft_hide_candidate": 5,
+        "split_required": 1
+      }
     },
     {
-      "worker": "worker-05",
-      "assigned": 80,
-      "terminal": 10,
-      "unprocessed": 70
+      "partition": "partition-33",
+      "packet_range": "33-40",
+      "records": 80,
+      "research_sources": 81,
+      "dispositions": {
+        "repaired_proposal": 37,
+        "supported_partial": 33,
+        "soft_hide_candidate": 5,
+        "needs_context": 5
+      }
     },
     {
-      "worker": "worker-06",
-      "assigned": 82,
-      "terminal": 16,
-      "unprocessed": 66
+      "partition": "partition-41",
+      "packet_range": "41-49",
+      "records": 82,
+      "research_sources": 136,
+      "dispositions": {
+        "supported_partial": 77,
+        "repaired_proposal": 1,
+        "soft_hide_candidate": 2,
+        "needs_context": 2
+      }
     }
   ],
-  "duplicate_terminal_ids": [],
-  "outside_assignment_ids": [],
-  "packet_manifest_match_count": 49,
-  "submitted_records_validation": "PASS: all 107 parsed, unique, scoped and length-valid for 40 repaired proposals",
-  "full_assignment_validation": "INCOMPLETE: 390 IDs lack outcome",
-  "research_log_records": 107,
-  "source_url_references": 265,
-  "distinct_source_urls": 244,
-  "existing_2026_10_05_review_reused": 98,
-  "newly_researched_2026_10_22": 9,
-  "orchestration_status": "Blocked: external ROTOXY tools failed internally; no new GPT-6 Luna workers were launched",
-  "draft_pr": "NOT OPENED: require 497 terminal outcomes"
+  "merged_results": "merged/final-terminal-results.jsonl",
+  "research_log": "research-log.jsonl",
+  "validation_report": "validation-report.md",
+  "canonical_data_changed": false,
+  "dispositions": {
+    "repaired_proposal": 101,
+    "supported_partial": 322,
+    "soft_hide_candidate": 16,
+    "needs_context": 57,
+    "split_required": 1
+  },
+  "validation": {
+    "exact_manifest_coverage": true,
+    "assigned_ids": 497,
+    "terminal_outcomes": 497,
+    "missing_ids": 0,
+    "duplicate_ids": 0,
+    "out_of_assignment_ids": 0,
+    "jsonl_valid": true,
+    "description_limits_pass": true,
+    "https_source_urls_valid": true,
+    "research_log_matches_citations": true
+  }
 }
