@@ -1,0 +1,146 @@
+{
+  "as_of_date": "2026-10-22",
+  "repository": "p5n-n3t/trumpfiles-fun-new",
+  "source_packet_branch": "rotoxy/tf-historical-input-packets-20261022",
+  "target_branch": "codex/web-r3-queued-recovery-20261022",
+  "output_directory": "data/neon-workbench/external/chatgpt-web-r3-queued-recovery-2026-10-22/",
+  "assigned_ids": [
+    853,
+    854,
+    1670,
+    1716,
+    1768,
+    1770,
+    2373,
+    2494,
+    2518,
+    2562,
+    2615,
+    3212,
+    4285,
+    5732,
+    5735,
+    5737,
+    5743,
+    5746,
+    5863,
+    5899,
+    6239,
+    6280,
+    6417,
+    6421
+  ],
+  "terminal_ids": [
+    853,
+    854,
+    1670,
+    1716,
+    1768,
+    1770,
+    2373,
+    2494,
+    2518,
+    2562,
+    2615,
+    3212,
+    4285,
+    5732,
+    5735,
+    5737,
+    5743,
+    5746,
+    5863,
+    5899,
+    6239,
+    6280,
+    6417,
+    6421
+  ],
+  "total_assigned": 24,
+  "total_terminal": 24,
+  "missing_ids": [],
+  "duplicate_terminal_ids": [],
+  "outside_ids": [],
+  "duplicate_research_log_ids": [],
+  "missing_research_log_ids": [],
+  "terminal_outcome_counts": {
+    "repaired_proposal": 2,
+    "supported_partial": 13,
+    "split_required": 0,
+    "soft_hide_candidate": 0,
+    "still_unresolved": 9
+  },
+  "total_source_references": 34,
+  "unique_source_urls": 33,
+  "validation_passed": true,
+  "worker_assignments": [
+    {
+      "worker": 1,
+      "ids": [
+        853,
+        854,
+        5743,
+        5746
+      ],
+      "execution": "supervisor source-research fallback; dispatched worker remained queued",
+      "status": "not_executed_in_rotoxy"
+    },
+    {
+      "worker": 2,
+      "ids": [
+        1670,
+        1716,
+        1768,
+        1770
+      ],
+      "execution": "ROTOXY subagent returned terminal research",
+      "status": "complete"
+    },
+    {
+      "worker": 3,
+      "ids": [
+        2373,
+        2518,
+        2615,
+        4285
+      ],
+      "execution": "ROTOXY subagent returned terminal research",
+      "status": "complete"
+    },
+    {
+      "worker": 4,
+      "ids": [
+        2494,
+        2562,
+        3212,
+        5732
+      ],
+      "execution": "ROTOXY subagent returned terminal research",
+      "status": "complete"
+    },
+    {
+      "worker": 5,
+      "ids": [
+        5735,
+        5737,
+        5863,
+        5899
+      ],
+      "execution": "ROTOXY subagent returned terminal research",
+      "status": "complete"
+    },
+    {
+      "worker": 6,
+      "ids": [
+        6239,
+        6280,
+        6417,
+        6421
+      ],
+      "execution": "ROTOXY subagent returned terminal research",
+      "status": "complete"
+    }
+  ],
+  "queued_job_id": "tf-r3-web-20261022-a",
+  "append_only_scope": "Five files in new directory; no canonical, frozen, prior lanes, Neon or live DB edits"
+}
