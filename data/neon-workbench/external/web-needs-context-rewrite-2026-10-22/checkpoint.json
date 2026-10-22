@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-10-22T14:41:28.576Z",
+  "branch_name": "codex/web-needs-context-rewrite-20261022",
+  "source_branch": "codex/web-needs-context-assignment-20261022",
+  "assigned_count": 497,
+  "processed_count": 5,
+  "remaining_count": 492,
+  "by_terminal_status": {
+    "repaired_proposal": 5,
+    "supported_partial": 0,
+    "needs_context": 0,
+    "soft_hide_candidate": 0,
+    "split_required": 0
+  },
+  "worker_coverage": [
+    {
+      "worker": "worker-01",
+      "assigned": 95,
+      "terminal": 5
+    },
+    {
+      "worker": "worker-02",
+      "assigned": 80,
+      "terminal": 0
+    },
+    {
+      "worker": "worker-03",
+      "assigned": 80,
+      "terminal": 0
+    },
+    {
+      "worker": "worker-04",
+      "assigned": 80,
+      "terminal": 0
+    },
+    {
+      "worker": "worker-05",
+      "assigned": 80,
+      "terminal": 0
+    },
+    {
+      "worker": "worker-06",
+      "assigned": 82,
+      "terminal": 0
+    }
+  ],
+  "duplicate_terminal_ids": [],
+  "outside_assignment_ids": [],
+  "current_records_validation": "PASS",
+  "whole_assignment_validation": "INCOMPLETE: 492 unprocessed numbered catalogue entries",
+  "total_source_url_references": 10,
+  "worker_orchestration": "Unavailable: connected ROTOXY workspace tools failed internally; no six GPT Luna workers launched",
+  "excluded_non_catalogue": "expanded-20260921-garces-detention-conference",
+  "draft_pr": "Not opened: full coverage required"
+}
