@@ -1,0 +1,18 @@
+{
+  "project": "Trump Files fresh-event candidates - Phase 2",
+  "status": "complete, pending human editorial review before any canonical insert",
+  "window_researched": {"start": "2026-10-21", "end": "2026-10-23"},
+  "research_cutoff_utc": "2026-10-23T22:30:00Z",
+  "counts": {
+    "prior_candidates_carried_forward": 106,
+    "new_candidates_phase_2": 41,
+    "total_master_candidates": 147,
+    "unresolved_leads_carried_forward": 14,
+    "candidates_scored": 147,
+    "validation_required_errors": 0
+  },
+  "scope": "Only files under data/neon-workbench/external/lightsprint-phase-2-fresh-events-2026-10-23/ were created or edited. Canonical data, the frozen export, Neon, Neo4j, Phase 1's scoring output, and the input-staging branch were not modified.",
+  "insert_authorized": false,
+  "live_database_write": false,
+  "next_action": "Phase 3 (Neo4j entity/graph staging per project-docs/TODO-uniform-db.md Phase 4) may begin once a human editorial pass reviews these 41 new candidates (and optionally the 106 carried-forward candidates) for canonical insert."
+}

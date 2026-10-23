@@ -1,0 +1,127 @@
+{
+  "phase": "phase-2-fresh-event-research",
+  "orchestrator_model": "Sonnet 5 (claude-sonnet-5)",
+  "task_ref": "EOJSWO-27",
+  "input_branch_used": "codex/langsmith-cloud-inputs-20261022",
+  "input_path_correction_applied": {
+    "original_paths_in_prompt": [
+      "data/neon-workbench/external/langsmith-inputs-2026-10-22/frozen/trump_local.sqlite",
+      "data/neon-workbench/external/langsmith-inputs-2026-10-22/fresh-event-ledgers/"
+    ],
+    "actual_location": "same relative path, but only present on origin/codex/langsmith-cloud-inputs-20261022, not on main",
+    "extraction_method": "git fetch + git archive into /tmp/langsmith-inputs-2026-10-22 (read-only; never committed)"
+  },
+  "inventory": {
+    "frozen_catalogue_entries": 7143,
+    "frozen_catalogue_max_date_start": "2026-08-21",
+    "prior_fresh_candidates_before_phase_2": 106,
+    "prior_fresh_candidates_date_range": ["2026-08-20", "2026-10-20"],
+    "prior_fresh_candidates_sources": [
+      {"ledger": "perplexity-fresh-events/2026-09-30", "count": 84},
+      {"ledger": "fresh-events-october-2026/normalized-review-2026-10-21 (consolidates oct01-05, oct06-10, oct11-15, oct16-21)", "count": 22}
+    ],
+    "prior_unresolved_leads_before_phase_2": 29,
+    "identified_uncovered_window": ["2026-10-21", "2026-10-23"]
+  },
+  "research_workers": [
+    {
+      "lane": "administration",
+      "model": "Sonnet 5 (via Agent tool, general-purpose subagent)",
+      "assigned_window": "2026-10-21 to 2026-10-23",
+      "assigned_gap_check_leads": [
+        "Maryland defense shipyard announcement (2026-10-06)",
+        "Alaska rally pardons + Taiwan LNG claim (2026-10-13)",
+        "AI task force meeting (2026-10-15)"
+      ],
+      "raw_candidates_found": 19,
+      "unresolved_leads_logged": 2,
+      "research_cutoff_utc": "2026-10-23T19:35:00Z",
+      "tool_uses": 89,
+      "output_files": [
+        "fresh-event-candidates/new-candidates-phase-2.jsonl (18 of 19 after cross-worker dedup)",
+        "fresh-event-candidates/unresolved-leads.jsonl",
+        "worker-logs/administration-lane-research-log.md"
+      ]
+    },
+    {
+      "lane": "family-business-associates",
+      "model": "Sonnet 5 (via Agent tool, general-purpose subagent)",
+      "assigned_window": "2026-10-21 to 2026-10-23",
+      "assigned_gap_check_leads": [
+        "ABC News Pentagon-contracts story and its removal/republication (2026-10-07 to 2026-10-10)",
+        "Kaz Resources / USA Rare Earth mining deals (2026-10-13)"
+      ],
+      "raw_candidates_found": 6,
+      "unresolved_leads_logged": 1,
+      "research_cutoff_utc": "2026-10-23T13:30:00Z",
+      "tool_uses": 62,
+      "output_files": [
+        "fresh-event-candidates/new-candidates-phase-2.jsonl",
+        "fresh-event-candidates/unresolved-leads.jsonl",
+        "worker-logs/family-business-lane-research-log.md"
+      ]
+    },
+    {
+      "lane": "gap-check",
+      "model": "Sonnet 5 (via Agent tool, general-purpose subagent)",
+      "assigned_work": "re-research all 25 remaining unresolved leads from 2026-09-30 and oct16-21 ledgers; bounded 6-8 query sanity sweep over 2026-08-22 to 2026-09-30",
+      "raw_candidates_found": 17,
+      "leads_reviewed": 25,
+      "leads_promoted_to_candidates": 15,
+      "leads_resolved_as_non_events": 6,
+      "leads_still_unresolved": 2,
+      "new_leads_found_via_sanity_sweep": 2,
+      "research_cutoff_utc": "2026-10-23T22:30:00Z",
+      "tool_uses": 72,
+      "output_files": [
+        "fresh-event-candidates/new-candidates-phase-2.jsonl",
+        "fresh-event-candidates/unresolved-leads.jsonl",
+        "worker-logs/gap-check-lane-research-log.md"
+      ]
+    }
+  ],
+  "consolidation": {
+    "raw_candidates_total": 42,
+    "cross_worker_duplicates_dropped": 1,
+    "duplicate_detail": {
+      "dropped_candidate_id": "oct2026-2026-10-22-world-liberty-uae-emoluments-lawsuit (administration lane)",
+      "kept_candidate_id": "oct2026-2026-10-22-circle-shareholder-emoluments-lawsuit (gap-check lane)",
+      "reason": "same October 22, 2026 shareholder lawsuit, independently found by both lanes; the kept version cites the primary court-filing PDF and additional G42 chip-export detail"
+    },
+    "final_new_candidate_count": 41,
+    "fuzzy_duplicate_check": "token-overlap >=0.5 within-batch / >=0.6 vs prior-106 and vs frozen-recent, event dates within 3 days: 0 additional near-duplicates found in any comparison",
+    "unresolved_leads_carried_forward": 14,
+    "category_defect_corrected": {
+      "candidate_id": "fresh-20261014-supreme-court-fcc-ad-rate-stay (prior, 2026-10-14)",
+      "from": "Democratic Backsliding",
+      "to": "Election Interference"
+    },
+    "final_master_candidate_count": 147
+  },
+  "scoring": {
+    "method": "fresh_event_category_baseline_plus_record_derived (see PHASE-2-METHODOLOGY.md)",
+    "candidates_scored": 147,
+    "composite_range": [3.8, 6.2],
+    "composite_mean": 4.85,
+    "confidence_breakdown": {"high": 0, "medium": 96, "low": 51, "deferred": 0},
+    "output_file": "scoring/impact-v2-fresh-event-scores.jsonl",
+    "kept_separate_from": "Phase 1's data/neon-workbench/external/lightsprint-phase-1-scoring-2026-10-22/impact-v2-proposed-scores.jsonl (the canonical 7,143-entry file; untouched by this phase)"
+  },
+  "validation": {
+    "script": "scoring/validate_fresh_events.py",
+    "new_candidates_required_errors": 0,
+    "new_candidates_advisory_notes": 0,
+    "full_master_required_errors": 0,
+    "full_master_advisory_notes": 84,
+    "advisory_note_detail": "pre-existing missing description_long field on the 84-candidate September 2026 batch, which predates the current three-tier synopsis schema; not fabricated in this phase",
+    "manual_accuracy_spot_check": "9 of 41 new candidates (22%) read in full against their cited sources, including every allegation-marked candidate naming a living person"
+  },
+  "boundaries_respected": [
+    "No canonical catalogue row (trump_entries, trump_individual_scores, etc.) was modified.",
+    "No frozen export was modified; input sqlite files remained in /tmp and were never committed.",
+    "No write to live Neon or live Neo4j was made or attempted.",
+    "No existing proposed score or candidate from any prior research pass was overwritten; the one category correction is logged, not silently applied.",
+    "No fact was invented; every candidate traces every claim to a cited, dated source.",
+    "All output lives under data/neon-workbench/external/lightsprint-phase-2-fresh-events-2026-10-23/."
+  ]
+}
