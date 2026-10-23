@@ -1,0 +1,83 @@
+{
+  "repeated_runs": [
+    {
+      "repeat": 1,
+      "command": [
+        "node",
+        "/home/user/workspace/trumpfiles-fun-new/data/neon-workbench/external/lightsprint-phase-3-neo4j-staging-2026-10-23/validate-graph-staging.mjs",
+        "--reproduce",
+        "/tmp/phase3-inputs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"ok\":true,\"canonical_nodes\":22409,\"canonical_entries\":7143,\"canonical_relationships\":50313,\"proposed_candidates\":147,\"proposed_nodes\":1307,\"proposed_relationships\":1160,\"withheld\":1473,\"aliases\":647,\"canonical_nodes_by_type\":{\"Category\":51,\"Entry\":7143,\"Organization\":74,\"Person\":573,\"Phase\":25,\"Source\":6100,\"Theme\":8443},\"canonical_relationships_by_type\":{\"HAS_THEME\":23708,\"IN_CATEGORY\":7143,\"IN_PHASE\":7143,\"MENTIONS\":4600,\"SOURCED_FROM\":7719},\"deterministic_reproduction\":true}",
+      "stderr": ""
+    },
+    {
+      "repeat": 1,
+      "command": [
+        "node",
+        "/home/user/workspace/trumpfiles-fun-new/data/neon-workbench/external/lightsprint-phase-3-neo4j-staging-2026-10-23/neo4j-dry-run-import.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"mode\":\"DRY_RUN\",\"execution_enabled\":false,\"canonical_nodes\":22409,\"canonical_entries\":7143,\"canonical_relationships\":50313,\"proposed_candidates\":147,\"proposed_nodes\":1307,\"proposed_relationships\":1160,\"withheld\":1473,\"aliases\":647,\"canonical_nodes_by_type\":{\"Category\":51,\"Entry\":7143,\"Organization\":74,\"Person\":573,\"Phase\":25,\"Source\":6100,\"Theme\":8443},\"canonical_relationships_by_type\":{\"HAS_THEME\":23708,\"IN_CATEGORY\":7143,\"IN_PHASE\":7143,\"MENTIONS\":4600,\"SOURCED_FROM\":7719},\"import_nodes\":22409,\"import_relationships\":50313,\"proposed_import_rows\":0,\"ambiguous_import_rows\":0,\"suggested_batch_size\":250,\"suggested_concurrency\":1,\"inputs_sha256\":{\"graph-nodes.jsonl\":\"c57857e0ec6c2d83d74001b5933d43344835b51610a6d9f3573c8efb06865bf4\",\"graph-relationships.jsonl\":\"20107ca8090e9f3d374ccecd8ed3c2e6fc07edfea17d1ad19e20050065f78b82\",\"proposed-candidate-graph.jsonl\":\"75698755bcfe520ba161ec0d798cfca3db293f15ecd160b67128f7ea74b03386\",\"ambiguous-relationships.jsonl\":\"fd4ff6938a8122ce64ce4927a531e260c6a05f27734a2d36793995e660624a90\",\"entity-aliases.jsonl\":\"d1ae9fdf12f9de85401a0eea63d191cafe8791decb6b422da7e56542c27a51a3\"}}",
+      "stderr": ""
+    },
+    {
+      "repeat": 2,
+      "command": [
+        "node",
+        "/home/user/workspace/trumpfiles-fun-new/data/neon-workbench/external/lightsprint-phase-3-neo4j-staging-2026-10-23/validate-graph-staging.mjs",
+        "--reproduce",
+        "/tmp/phase3-inputs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"ok\":true,\"canonical_nodes\":22409,\"canonical_entries\":7143,\"canonical_relationships\":50313,\"proposed_candidates\":147,\"proposed_nodes\":1307,\"proposed_relationships\":1160,\"withheld\":1473,\"aliases\":647,\"canonical_nodes_by_type\":{\"Category\":51,\"Entry\":7143,\"Organization\":74,\"Person\":573,\"Phase\":25,\"Source\":6100,\"Theme\":8443},\"canonical_relationships_by_type\":{\"HAS_THEME\":23708,\"IN_CATEGORY\":7143,\"IN_PHASE\":7143,\"MENTIONS\":4600,\"SOURCED_FROM\":7719},\"deterministic_reproduction\":true}",
+      "stderr": ""
+    },
+    {
+      "repeat": 2,
+      "command": [
+        "node",
+        "/home/user/workspace/trumpfiles-fun-new/data/neon-workbench/external/lightsprint-phase-3-neo4j-staging-2026-10-23/neo4j-dry-run-import.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"mode\":\"DRY_RUN\",\"execution_enabled\":false,\"canonical_nodes\":22409,\"canonical_entries\":7143,\"canonical_relationships\":50313,\"proposed_candidates\":147,\"proposed_nodes\":1307,\"proposed_relationships\":1160,\"withheld\":1473,\"aliases\":647,\"canonical_nodes_by_type\":{\"Category\":51,\"Entry\":7143,\"Organization\":74,\"Person\":573,\"Phase\":25,\"Source\":6100,\"Theme\":8443},\"canonical_relationships_by_type\":{\"HAS_THEME\":23708,\"IN_CATEGORY\":7143,\"IN_PHASE\":7143,\"MENTIONS\":4600,\"SOURCED_FROM\":7719},\"import_nodes\":22409,\"import_relationships\":50313,\"proposed_import_rows\":0,\"ambiguous_import_rows\":0,\"suggested_batch_size\":250,\"suggested_concurrency\":1,\"inputs_sha256\":{\"graph-nodes.jsonl\":\"c57857e0ec6c2d83d74001b5933d43344835b51610a6d9f3573c8efb06865bf4\",\"graph-relationships.jsonl\":\"20107ca8090e9f3d374ccecd8ed3c2e6fc07edfea17d1ad19e20050065f78b82\",\"proposed-candidate-graph.jsonl\":\"75698755bcfe520ba161ec0d798cfca3db293f15ecd160b67128f7ea74b03386\",\"ambiguous-relationships.jsonl\":\"fd4ff6938a8122ce64ce4927a531e260c6a05f27734a2d36793995e660624a90\",\"entity-aliases.jsonl\":\"d1ae9fdf12f9de85401a0eea63d191cafe8791decb6b422da7e56542c27a51a3\"}}",
+      "stderr": ""
+    }
+  ],
+  "byte_identical_stdout_and_stderr": true,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/home/user/workspace/trumpfiles-fun-new/data/neon-workbench/external/lightsprint-phase-3-neo4j-staging-2026-10-23/test_projection_rules.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "command": [
+        "node",
+        "--test",
+        "/home/user/workspace/trumpfiles-fun-new/data/neon-workbench/external/lightsprint-phase-3-neo4j-staging-2026-10-23/graph-staging.test.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "TAP version 13\n# Subtest: all pinned canonical entries and proposed candidates validate independently\nok 1 - all pinned canonical entries and proposed candidates validate independently\n  ---\n  duration_ms: 1040.592251\n  type: 'test'\n  ...\n# Subtest: a Phase 2 candidate cannot appear as a canonical Entry\nok 2 - a Phase 2 candidate cannot appear as a canonical Entry\n  ---\n  duration_ms: 74.73734\n  type: 'test'\n  ...\n# Subtest: candidate label cannot be changed to Entry inside review graph\nok 3 - candidate label cannot be changed to Entry inside review graph\n  ---\n  duration_ms: 168.585763\n  type: 'test'\n  ...\n# Subtest: candidate cannot gain a canonical number or approval\nok 4 - candidate cannot gain a canonical number or approval\n  ---\n  duration_ms: 247.202955\n  type: 'test'\n  ...\n# Subtest: candidate relationship cannot reach a canonical node\nok 5 - candidate relationship cannot reach a canonical node\n  ---\n  duration_ms: 113.799186\n  type: 'test'\n  ...\n# Subtest: duplicate node identities and dangling endpoints fail\nok 6 - duplicate node identities and dangling endpoints fail\n  ---\n  duration_ms: 70.278258\n  type: 'test'\n  ...\n# Subtest: unsupported labels and inferred relationship types fail\nok 7 - unsupported labels and inferred relationship types fail\n  ---\n  duration_ms: 115.738312\n  type: 'test'\n  ...\n# Subtest: relationships require field-level provenance and a basis\nok 8 - relationships require field-level provenance and a basis\n  ---\n  duration_ms: 116.617534\n  type: 'test'\n  ...\n# Subtest: source URL cannot use HTTP, credentials, whitespace, or secret query\nok 9 - source URL cannot use HTTP, credentials, whitespace, or secret query\n  ---\n  duration_ms: 200.571818\n  type: 'test'\n  ...\n# Subtest: duplicate aliases and unknown origin entries fail\nok 10 - duplicate aliases and unknown origin entries fail\n  ---\n  duration_ms: 186.693825\n  type: 'test'\n  ...\n# Subtest: canonical record cannot carry proposed status\nok 11 - canonical record cannot carry proposed status\n  ---\n  duration_ms: 40.276342\n  type: 'test'\n  ...\n# Subtest: dry-run reads files and excludes every proposed record from import\nok 12 - dry-run reads files and excludes every proposed record from import\n  ---\n  duration_ms: 931.927153\n  type: 'test'\n  ...\n# Subtest: unrecognized import flags fail closed\nok 13 - unrecognized import flags fail closed\n  ---\n  duration_ms: 29.361144\n  type: 'test'\n  ...\n1..13\n# tests 13\n# suites 0\n# pass 13\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 4042.68848\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--test",
+        "scripts/enrichment-contract.test.mjs",
+        "scripts/stage-trump-claims.test.mjs",
+        "scripts/backfill-sources-state.test.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "TAP version 13\n# Subtest: SQL NULL has deterministic retry/skip behavior\nok 1 - SQL NULL has deterministic retry/skip behavior\n  ---\n  duration_ms: 1.633261\n  type: 'test'\n  ...\n# Subtest: JSON null has deterministic retry/skip behavior\nok 2 - JSON null has deterministic retry/skip behavior\n  ---\n  duration_ms: 0.178125\n  type: 'test'\n  ...\n# Subtest: legacy [] has deterministic retry/skip behavior\nok 3 - legacy [] has deterministic retry/skip behavior\n  ---\n  duration_ms: 0.064207\n  type: 'test'\n  ...\n# Subtest: fresh skip has deterministic retry/skip behavior\nok 4 - fresh skip has deterministic retry/skip behavior\n  ---\n  duration_ms: 0.183774\n  type: 'test'\n  ...\n# Subtest: expired skip has deterministic retry/skip behavior\nok 5 - expired skip has deterministic retry/skip behavior\n  ---\n  duration_ms: 0.185735\n  type: 'test'\n  ...\n# Subtest: accepted source has deterministic retry/skip behavior\nok 6 - accepted source has deterministic retry/skip behavior\n  ---\n  duration_ms: 0.121022\n  type: 'test'\n  ...\n# Subtest: invalid source url has deterministic retry/skip behavior\nok 7 - invalid source url has deterministic retry/skip behavior\n  ---\n  duration_ms: 0.122211\n  type: 'test'\n  ...\n# Subtest: incomplete protocol-only url has deterministic retry/skip behavior\nok 8 - incomplete protocol-only url has deterministic retry/skip behavior\n  ---\n  duration_ms: 0.06912\n  type: 'test'\n  ...\n# Subtest: rejected source marker has deterministic retry/skip behavior\nok 9 - rejected source marker has deterministic retry/skip behavior\n  ---\n  duration_ms: 0.232299\n  type: 'test'\n  ...\n# Subtest: malformed searched date has deterministic retry/skip behavior\nok 10 - malformed searched date has deterministic retry/skip behavior\n  ---\n  duration_ms: 0.355836\n  type: 'test'\n  ...\n# Subtest: non-array JSON object has deterministic retry/skip behavior\nok 11 - non-array JSON object has deterministic retry/skip behavior\n  ---\n  duration_ms: 0.095297\n  type: 'test'\n  ...\n# Subtest: normalizes a complete event deterministically without inventing optional fields\nok 12 - normalizes a complete event deterministically without inventing optional fields\n  ---\n  duration_ms: 2.3077\n  type: 'test'\n  ...\n# Subtest: quality gate rejects unsupported fields and unsupported evidence\nok 13 - quality gate rejects unsupported fields and unsupported evidence\n  ---\n  duration_ms: 0.599582\n  type: 'test'\n  ...\n# Subtest: quality gate never upgrades an unlabeled source into verified provenance\nok 14 - quality gate never upgrades an unlabeled source into verified provenance\n  ---\n  duration_ms: 0.471524\n  type: 'test'\n  ...\n# Subtest: current-good check revalidates ready labels and verified provenance\nok 15 - current-good check revalidates ready labels and verified provenance\n  ---\n  duration_ms: 1.156571\n  type: 'test'\n  ...\n# Subtest: maps audited legacy phase aliases while retaining the original raw label\nok 16 - maps audited legacy phase aliases while retaining the original raw label\n  ---\n  duration_ms: 1.285957\n  type: 'test'\n  ...\n# Subtest: leaves unknown legacy phases explicitly unmapped and rejects them\nok 17 - leaves unknown legacy phases explicitly unmapped and rejects them\n  ---\n  duration_ms: 1.568064\n  type: 'test'\n  ...\n# Subtest: chunk planner skips current good records and test mode never persists\nok 18 - chunk planner skips current good records and test mode never persists\n  ---\n  duration_ms: 0.545459\n  type: 'test'\n  ...\n# Subtest: gap audit identifies thin synopsis, missing tags, and missing provenance without inventing replacements\nok 19 - gap audit identifies thin synopsis, missing tags, and missing provenance without inventing replacements\n  ---\n  duration_ms: 0.175453\n  type: 'test'\n  ...\n# Subtest: ledger persists resumable item lifecycle without external writes\nok 20 - ledger persists resumable item lifecycle without external writes\n  ---\n  duration_ms: 12.950194\n  type: 'test'\n  ...\n# Subtest: ledger retry checkpoint is not claimed before next retry time\nok 21 - ledger retry checkpoint is not claimed before next retry time\n  ---\n  duration_ms: 6.114287\n  type: 'test'\n  ...\n# Subtest: ledger reclaims expired work and requeues changed inputs\nok 22 - ledger reclaims expired work and requeues changed inputs\n  ---\n  duration_ms: 7.899674\n  type: 'test'\n  ...\n# Subtest: ledger cannot mark an item complete without an explicit quality-gate result\nok 23 - ledger cannot mark an item complete without an explicit quality-gate result\n  ---\n  duration_ms: 2.899402\n  type: 'test'\n  ...\n# Subtest: parses multiline quoted fields, explicit repeats, URLs, and excludes analysis prose\nok 24 - parses multiline quoted fields, explicit repeats, URLs, and excludes analysis prose\n  ---\n  duration_ms: 8.109626\n  type: 'test'\n  ...\n# Subtest: fingerprints and ordering are idempotent\nok 25 - fingerprints and ordering are idempotent\n  ---\n  duration_ms: 3.016493\n  type: 'test'\n  ...\n# Subtest: keeps canonical ID stable while content fingerprint changes, retaining provenance and ratings\nok 26 - keeps canonical ID stable while content fingerprint changes, retaining provenance and ratings\n  ---\n  duration_ms: 5.766474\n  type: 'test'\n  ...\n# Subtest: quarantines missing source, unmapped taxonomy/phase, and missing contract fields\nok 27 - quarantines missing source, unmapped taxonomy/phase, and missing contract fields\n  ---\n  duration_ms: 2.425007\n  type: 'test'\n  ...\n# Subtest: enforces candidate cap and hard maximum\nok 28 - enforces candidate cap and hard maximum\n  ---\n  duration_ms: 2.623292\n  type: 'test'\n  ...\n# Subtest: does not write by default and writes only with explicit output directory\nok 29 - does not write by default and writes only with explicit output directory\n  ---\n  duration_ms: 4.058805\n  type: 'test'\n  ...\n# Subtest: reconciles a missing curated repeat ID only on an exact normalized claim\nok 30 - reconciles a missing curated repeat ID only on an exact normalized claim\n  ---\n  duration_ms: 1.883467\n  type: 'test'\n  ...\n# Subtest: does not emit raw repeated ID fields\nok 31 - does not emit raw repeated ID fields\n  ---\n  duration_ms: 2.744054\n  type: 'test'\n  ...\n1..31\n# tests 31\n# suites 0\n# pass 31\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 94.336818\n",
+      "stderr": ""
+    }
+  ]
+}
