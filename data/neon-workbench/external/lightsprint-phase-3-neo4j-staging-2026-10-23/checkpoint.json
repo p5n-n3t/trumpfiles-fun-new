@@ -1,0 +1,51 @@
+{
+  "phase": "phase-3-offline-graph-staging",
+  "status": "offline_staging_validated_pending_pr_review",
+  "base_commit": "63b1faecca80c05d0bf525649306a537b19ac7ac",
+  "input_commit": "15dda3e706e11aeb39564e52db9f4d98bc796a1d",
+  "counts": {
+    "canonical_nodes": 22409,
+    "canonical_entries": 7143,
+    "canonical_relationships": 50313,
+    "proposed_candidates": 147,
+    "proposed_nodes": 1307,
+    "proposed_relationships": 1160,
+    "proposed_rows": 2467,
+    "withheld": 1473,
+    "entity_alias_records": 647
+  },
+  "validation": {
+    "validator_runs": 2,
+    "dry_run_import_runs": 2,
+    "exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "byte_identical_repeats": true,
+    "node_tests_passed": 13,
+    "python_tests_passed": 4,
+    "existing_tests_passed": 31,
+    "lint_exit_code": 0,
+    "lint_warnings": 186,
+    "coordinator_manual_examples": 20
+  },
+  "offline_only": true,
+  "live_neon_writes": 0,
+  "live_neo4j_writes": 0,
+  "input_databases_committed": false,
+  "candidate_insert_authorized": false,
+  "deployment_authorized": false,
+  "proof_labels": [
+    "Offline Canonical Projection",
+    "Proposed Candidate Isolation",
+    "Offline Validation And Import Plan"
+  ],
+  "read_only_verification_limits": [
+    "Schema Cypher not executed",
+    "Explicit apply flag never supplied; refusal branch inspected only",
+    "No URL availability or claim-truth verification"
+  ],
+  "next_action": "Human editorial review; after separate approval, implement and rehearse a Neon-first migration, then rebuild Neo4j from verified Neon graph tables."
+}

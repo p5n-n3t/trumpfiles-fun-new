@@ -1,0 +1,79 @@
+{
+  "coordinator": {
+    "role": "schema, integration, generation, safety, validation, reconciliation",
+    "model": "parent capable coding/reasoning model"
+  },
+  "maximum_concurrent_children": 3,
+  "worker_waves": "Two data workers and entry relationship worker first; proposed relationship and QA workers start as data workers finish.",
+  "workers": [
+    {
+      "name": "data_entities",
+      "model": "gpt-6-luna",
+      "role": "data worker 1",
+      "owns": [
+        "canonical_entities.py",
+        "worker-notes/data-entities.md"
+      ]
+    },
+    {
+      "name": "data_metadata",
+      "model": "gpt-6-luna",
+      "role": "data worker 2",
+      "owns": [
+        "canonical_metadata.py",
+        "worker-notes/data-metadata.md"
+      ]
+    },
+    {
+      "name": "relationships_entries",
+      "model": "gpt-6-luna",
+      "role": "relationship worker 1",
+      "owns": [
+        "entry_relationships.py",
+        "worker-notes/relationships-entries.md",
+        "worker-notes/relationships-entities-review.md"
+      ]
+    },
+    {
+      "name": "relationships_proposed",
+      "model": "gpt-6-luna",
+      "role": "relationship worker 2",
+      "owns": [
+        "worker-notes/relationships-proposed.md"
+      ]
+    },
+    {
+      "name": "qa_graph",
+      "model": "gpt-6-luna",
+      "role": "independent QA worker",
+      "owns": [
+        "worker-notes/qa-independent.md"
+      ]
+    }
+  ],
+  "integration_policy": "Read actual files and independently validate outputs; worker self-reports are not sufficient.",
+  "boundaries": {
+    "live_database_access": false,
+    "input_files_extracted": 4,
+    "sqlite_files_committed": 0,
+    "original_research_modified": false
+  },
+  "branch_resolution": {
+    "commit_and_pr_branch": "ls/25-trump-files-phase-3-offline-neo4j-graph--Ca7k",
+    "requested_additional_pointer": "lightsprint/phase-3-neo4j-staging-20261023",
+    "reason": "Preserve task branch for the prescribed PR linker while satisfying the requested named branch."
+  },
+  "reconciliation": {
+    "canonical_entry_count": 7143,
+    "proposed_candidate_count": 147,
+    "validated_worker_files": true,
+    "repeat_results_identical": true,
+    "resolutions": [
+      "Source metadata receives field-level candidate provenance",
+      "Mismatching aliases are withheld before lookup",
+      "Matching alias evidence is attached to MENTIONS",
+      "Source.url uses an index so isolated review copies need not share identity"
+    ],
+    "no_live_database_access": true
+  }
+}

@@ -1,0 +1,9 @@
+# Entry relationship projection notes
+
+The entry relationship projection emits no canonical relationships from the current snapshots. The frozen `trump_entry_links` table is empty. The staged table has 56 rows, all `RELATES_TO`, and all have an empty `source_url`. Their notes make interpretive claims rather than identify objective records that establish an entry-to-entry connection. For example, `entry:13 → entry:3` says both entries involve campaigns to deny facts, and `entry:185 → entry:115` says one action escalated into another; neither row cites evidence for that connection. These notes are retained verbatim with their table IDs and source fields in `ambiguous`.
+
+The staged `trump_entries.entry_links` JSON contains 57 explicit entry-to-entry objects. Fifty-six match the dedicated table rows and are retained with those rows, including the raw JSON object and its provenance. One additional object, `entry:194 → entry:194`, appears only in JSON; it is retained separately as a self-link candidate. Ordinary URL or source-only values in `entry_links` do not name a target entry, so they are not treated as graph relationships or added as relationship ambiguities. No relationship is inferred from dates, similar names, shared text, or broad thematic overlap.
+
+The staged `workbench_soft_hide_staging_v2` table has 59 rows, all `pending_review`. They remain ambiguous `SAME_AS` candidates while review and any required content or source merge are pending. For example, `entry:4871 → entry:4723` has `requires_content_merge = 1`; it is not emitted as a canonical duplicate relationship.
+
+The result has 116 ambiguous records: 56 dedicated-table claims (with matching JSON evidence attached), one JSON-only self-link, and 59 pending duplicate proposals. It has zero canonical relationships. If a later frozen snapshot contains any `trump_entry_links` rows, the projection raises an error so those baseline candidates cannot be silently dropped or promoted.

@@ -1,0 +1,207 @@
+{
+  "canonical": {
+    "entries": 7143,
+    "nodes": 22409,
+    "nodes_by_confidence": {
+      "high": 7219,
+      "medium": 15190
+    },
+    "nodes_by_status": {
+      "CANONICAL": 22409
+    },
+    "nodes_by_type": {
+      "Category": 51,
+      "Entry": 7143,
+      "Organization": 74,
+      "Person": 573,
+      "Phase": 25,
+      "Source": 6100,
+      "Theme": 8443
+    },
+    "relationships": 50313,
+    "relationships_by_confidence": {
+      "high": 14286,
+      "medium": 36027
+    },
+    "relationships_by_status": {
+      "CANONICAL": 50313
+    },
+    "relationships_by_type": {
+      "HAS_THEME": 23708,
+      "IN_CATEGORY": 7143,
+      "IN_PHASE": 7143,
+      "MENTIONS": 4600,
+      "SOURCED_FROM": 7719
+    }
+  },
+  "confidence_meaning": "Confidence in faithful structured projection, not claim truth or editorial approval",
+  "entity_alias_records": 647,
+  "limitations": [
+    "Coverage includes all frozen entries and Phase 2 candidates; it does not establish every real-world relationship.",
+    "No text co-occurrence, fuzzy identity merge, inferred role, chronology, kinship, ownership, coordination, causality or wrongdoing.",
+    "Source URLs are parsed offline; availability and claim support were not rechecked.",
+    "Raw category and phase labels are retained without catalogue normalization.",
+    "Other-type entities and pending duplicate decisions are withheld, not silently recast."
+  ],
+  "proposed": {
+    "candidates": 147,
+    "nodes": 1307,
+    "nodes_by_confidence": {
+      "medium": 1307
+    },
+    "nodes_by_type": {
+      "Category": 147,
+      "Organization": 384,
+      "Person": 340,
+      "ProposedCandidate": 147,
+      "Source": 289
+    },
+    "relationships": 1160,
+    "relationships_by_confidence": {
+      "medium": 1160
+    },
+    "relationships_by_type": {
+      "IN_CATEGORY": 147,
+      "MENTIONS": 724,
+      "SOURCED_FROM": 289
+    },
+    "rows": 2467,
+    "rows_by_status": {
+      "PROPOSED_NOT_APPROVED": 2467
+    }
+  },
+  "top_connected_entities": [
+    {
+      "display_name": "Donald Trump",
+      "evidence_backed_relationships": 1778,
+      "id": "entity:ent_b895d9ec16d6d00523271eef",
+      "type": "Person"
+    },
+    {
+      "display_name": "Stephen Miller",
+      "evidence_backed_relationships": 94,
+      "id": "entity:ent_c3cdb00c06817b31e154a0e8",
+      "type": "Person"
+    },
+    {
+      "display_name": "Elon Musk",
+      "evidence_backed_relationships": 80,
+      "id": "entity:ent_7aea86d761e092df0f87bc46",
+      "type": "Person"
+    },
+    {
+      "display_name": "Jared Kushner",
+      "evidence_backed_relationships": 64,
+      "id": "entity:ent_af03b4854da181e4de903d10",
+      "type": "Person"
+    },
+    {
+      "display_name": "Pam Bondi",
+      "evidence_backed_relationships": 56,
+      "id": "entity:ent_5d42d517837b1d50e605d1ec",
+      "type": "Person"
+    },
+    {
+      "display_name": "Pete Hegseth",
+      "evidence_backed_relationships": 50,
+      "id": "entity:ent_af9207fad7bb16ce7473e441",
+      "type": "Person"
+    },
+    {
+      "display_name": "Marco Rubio",
+      "evidence_backed_relationships": 43,
+      "id": "entity:ent_91f11af0ce7a08f0e0e5ca3a",
+      "type": "Person"
+    },
+    {
+      "display_name": "Kash Patel",
+      "evidence_backed_relationships": 42,
+      "id": "entity:ent_48bf8d6518ab7c230059149c",
+      "type": "Person"
+    },
+    {
+      "display_name": "Tom Homan",
+      "evidence_backed_relationships": 38,
+      "id": "entity:ent_700d32bd34601d35ed983d1c",
+      "type": "Person"
+    },
+    {
+      "display_name": "Kristi Noem",
+      "evidence_backed_relationships": 37,
+      "id": "entity:ent_5a1c2f6b1a66ff1ff118c112",
+      "type": "Person"
+    },
+    {
+      "display_name": "Rudy Giuliani",
+      "evidence_backed_relationships": 37,
+      "id": "entity:ent_8fc3f83afb74d76dc9b9251f",
+      "type": "Person"
+    },
+    {
+      "display_name": "Vladimir Putin",
+      "evidence_backed_relationships": 36,
+      "id": "entity:ent_a3a688d62e9e95af38dd2dbe",
+      "type": "Person"
+    },
+    {
+      "display_name": "Robert Mueller",
+      "evidence_backed_relationships": 35,
+      "id": "entity:ent_b05b168dbdc86372493c2949",
+      "type": "Person"
+    },
+    {
+      "display_name": "William Barr",
+      "evidence_backed_relationships": 34,
+      "id": "entity:ent_c990392eed75c5ebe476b896",
+      "type": "Person"
+    },
+    {
+      "display_name": "Donald Trump Jr.",
+      "evidence_backed_relationships": 31,
+      "id": "entity:ent_eb0ede0c157108ff6a35d6b5",
+      "type": "Person"
+    },
+    {
+      "display_name": "Mike Pompeo",
+      "evidence_backed_relationships": 30,
+      "id": "entity:ent_213f03ffef4e3cfb86a01e81",
+      "type": "Person"
+    },
+    {
+      "display_name": "Jack Smith",
+      "evidence_backed_relationships": 28,
+      "id": "entity:ent_67bb7ac9fc58852da70c1e41",
+      "type": "Person"
+    },
+    {
+      "display_name": "Ivanka Trump",
+      "evidence_backed_relationships": 27,
+      "id": "entity:ent_6f958fdc06324b384e688439",
+      "type": "Person"
+    },
+    {
+      "display_name": "Jeff Sessions",
+      "evidence_backed_relationships": 26,
+      "id": "entity:ent_d39956990eed3b00789696ee",
+      "type": "Person"
+    },
+    {
+      "display_name": "Mohammed bin Salman",
+      "evidence_backed_relationships": 26,
+      "id": "entity:ent_fb6c1d688c53d58d3172146e",
+      "type": "Person"
+    }
+  ],
+  "withheld": {
+    "by_confidence": {
+      "low": 1473
+    },
+    "by_kind": {
+      "entry_relationship": 116,
+      "proposed_to_canonical": 110,
+      "source_url": 1098,
+      "unsupported_entity_link": 149
+    },
+    "rows": 1473
+  }
+}
