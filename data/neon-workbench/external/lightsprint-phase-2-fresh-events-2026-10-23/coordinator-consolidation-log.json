@@ -1,0 +1,20 @@
+{
+  "raw_counts": {
+    "admin": 19,
+    "fambiz": 6,
+    "gapcheck": 17,
+    "total_raw": 42
+  },
+  "dropped_cross_worker_duplicates": [
+    {
+      "dropped_candidate_id": "oct2026-2026-10-22-world-liberty-uae-emoluments-lawsuit",
+      "lane": "administration",
+      "reason": "cross-worker duplicate event; kept richer version oct2026-2026-10-22-circle-shareholder-emoluments-lawsuit (includes primary court-filing PDF + G42 chip-export angle). Independently found by both the administration and gap-check lanes, which is itself a dedup cross-check, not a conflict."
+    }
+  ],
+  "final_new_candidate_count": 41,
+  "internal_collisions": {},
+  "cross_collisions_with_frozen_or_existing": [],
+  "candidate_id_namespace_collisions": [],
+  "duplicate_candidate_id_within_batch": []
+}
