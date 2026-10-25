@@ -79,6 +79,16 @@ def main() -> int:
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT)
     parser.add_argument("--packet", action="append", default=[])
     parser.add_argument("--report", type=Path)
+    parser.add_argument(
+        "--input-dir",
+        type=Path,
+        help="Directory containing packet inputs; defaults to the directory named by each manifest packet.",
+    )
+    parser.add_argument(
+        "--results-dir",
+        type=Path,
+        help="Directory containing result JSONL files; defaults to <root>/results.",
+    )
     args = parser.parse_args()
     manifest = json.loads((args.root / "manifest.json").read_text(encoding="utf-8"))
     selected = set(args.packet) if args.packet else None
@@ -89,8 +99,8 @@ def main() -> int:
         name = Path(packet["file"]).name
         if selected and name not in selected:
             continue
-        source_path = args.root / packet["file"]
-        result_path = args.root / "results" / name
+        source_path = args.input_dir / name if args.input_dir else args.root / packet["file"]
+        result_path = (args.results_dir or (args.root / "results")) / name
         if not result_path.exists():
             findings.append(f"{name}: missing result file")
             continue
