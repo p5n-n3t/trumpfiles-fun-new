@@ -1,0 +1,485 @@
+{
+  "run_id": "people-enrichment-2026-10-25",
+  "packet_size": 100,
+  "record_count": 5247,
+  "instructions": "For each entry, identify only named people and organizations explicitly involved in the documented event. Do not infer a person from an office, a family relationship, a party, a location, a pronoun, or a source byline. Every proposed person/entity link must cite one of the supplied source URLs and a short evidence claim. Use roles only: subject, actor, official, target, mentioned. If the record/source does not identify a person, return an empty list and explain why. Do not change canonical records, assign new entry numbers, or create live database/Neo4j data.",
+  "packets": [
+    {
+      "file": "packets/people-001.jsonl",
+      "count": 100,
+      "entry_range": [
+        1,
+        100
+      ],
+      "sha256": "c37188c3aea095c1f0215882311019d04a1e2396981080108527d8342c4f552b"
+    },
+    {
+      "file": "packets/people-002.jsonl",
+      "count": 100,
+      "entry_range": [
+        101,
+        200
+      ],
+      "sha256": "a8141ccbae829bbe5778e100f086f6f68902108b6efaaa2ae80d380d7fbcc6f3"
+    },
+    {
+      "file": "packets/people-003.jsonl",
+      "count": 100,
+      "entry_range": [
+        201,
+        300
+      ],
+      "sha256": "9407039eb5a1975b0f39d3e7e7f93ca28ec61cac82a7414d697083d3d9bc8b11"
+    },
+    {
+      "file": "packets/people-004.jsonl",
+      "count": 100,
+      "entry_range": [
+        301,
+        400
+      ],
+      "sha256": "85d4032f3950bd9a74f7e8495513e5257a51b0ccd9fc8c662736d604f0e131f4"
+    },
+    {
+      "file": "packets/people-005.jsonl",
+      "count": 100,
+      "entry_range": [
+        401,
+        500
+      ],
+      "sha256": "603591a5ba55716e0636f0488f7e62e74ecccb62e786581323cb466282de3f0c"
+    },
+    {
+      "file": "packets/people-006.jsonl",
+      "count": 100,
+      "entry_range": [
+        501,
+        600
+      ],
+      "sha256": "831d98c9b3a1f61ac3329c2a062780c440257201dd1070cf4f3bd368ed5c403c"
+    },
+    {
+      "file": "packets/people-007.jsonl",
+      "count": 100,
+      "entry_range": [
+        601,
+        701
+      ],
+      "sha256": "6cec5fae0b201cec1816e7c9711eecee045216fab471c3e36739ed1f64b974e7"
+    },
+    {
+      "file": "packets/people-008.jsonl",
+      "count": 100,
+      "entry_range": [
+        702,
+        803
+      ],
+      "sha256": "def1f378757fe90611fb6d9cbf8adb1bace016b1440b39d13d976eafe884b610"
+    },
+    {
+      "file": "packets/people-009.jsonl",
+      "count": 100,
+      "entry_range": [
+        804,
+        904
+      ],
+      "sha256": "5c7e5c27ae71fee8e8b87aa294feb11fcaac22e44373adca5aba2854401fcc69"
+    },
+    {
+      "file": "packets/people-010.jsonl",
+      "count": 100,
+      "entry_range": [
+        905,
+        1004
+      ],
+      "sha256": "bbe7dbac1fb9ca182034b25e502ca88f72720733e1b8e0f2e279d1d2cc096bea"
+    },
+    {
+      "file": "packets/people-011.jsonl",
+      "count": 100,
+      "entry_range": [
+        1005,
+        1106
+      ],
+      "sha256": "ecc5f2e4d6ab27f1e09ee9e86153863f45a4d9b4f66908fcd5df86e9c9e317e1"
+    },
+    {
+      "file": "packets/people-012.jsonl",
+      "count": 100,
+      "entry_range": [
+        1107,
+        1206
+      ],
+      "sha256": "c7addadc006caea6d6cb0ea9edadfc5ddebc4f8dd314eff66e5820afe6fcb01c"
+    },
+    {
+      "file": "packets/people-013.jsonl",
+      "count": 100,
+      "entry_range": [
+        1207,
+        1306
+      ],
+      "sha256": "5733675adb6761f08dae3c177eea4dee2027b1c58bd388b05294664c9c079b0b"
+    },
+    {
+      "file": "packets/people-014.jsonl",
+      "count": 100,
+      "entry_range": [
+        1307,
+        1406
+      ],
+      "sha256": "c6be93dfdb73712958b34ee62ff829c9f482d5389b413ab9670d1edbbde2e889"
+    },
+    {
+      "file": "packets/people-015.jsonl",
+      "count": 100,
+      "entry_range": [
+        1407,
+        1506
+      ],
+      "sha256": "752c738c26a19c2b803a316c9dd590c4f9c29b7056c49218d6d4e2e18f97faab"
+    },
+    {
+      "file": "packets/people-016.jsonl",
+      "count": 100,
+      "entry_range": [
+        1507,
+        1606
+      ],
+      "sha256": "daea980711722db610271b3086bb1454ac9b352e79bbc627477334dd6fda1209"
+    },
+    {
+      "file": "packets/people-017.jsonl",
+      "count": 100,
+      "entry_range": [
+        1607,
+        1721
+      ],
+      "sha256": "ea0fe87f8f13bd57c25ebe03dacd3fca046667b83596fcdb07c4e61bc90a5fd0"
+    },
+    {
+      "file": "packets/people-018.jsonl",
+      "count": 100,
+      "entry_range": [
+        1722,
+        1829
+      ],
+      "sha256": "958451e5ff012fd13cbd5558fe146a55d3ee400f9d27a5e2f8e19583e4205696"
+    },
+    {
+      "file": "packets/people-019.jsonl",
+      "count": 100,
+      "entry_range": [
+        1830,
+        1929
+      ],
+      "sha256": "b29389270b81fec810150c4d8d0236ac62f336627e2a6e4af6f1fc29da6259a8"
+    },
+    {
+      "file": "packets/people-020.jsonl",
+      "count": 100,
+      "entry_range": [
+        1930,
+        2029
+      ],
+      "sha256": "8f2b3db243941aaf2c8e294806f87ec5c12b0a1166cb97f35c1dcd2edcdff824"
+    },
+    {
+      "file": "packets/people-021.jsonl",
+      "count": 100,
+      "entry_range": [
+        2030,
+        2129
+      ],
+      "sha256": "cdd7ca28f1f95f0574a22e5f3eef994052f21e04f7915dc4db08517e762d88ef"
+    },
+    {
+      "file": "packets/people-022.jsonl",
+      "count": 100,
+      "entry_range": [
+        2130,
+        2229
+      ],
+      "sha256": "2e743775f7d11fa1fecd8367d6b4add89e766a01a27d234b99387cfbebfec1ee"
+    },
+    {
+      "file": "packets/people-023.jsonl",
+      "count": 100,
+      "entry_range": [
+        2230,
+        2329
+      ],
+      "sha256": "accd64b50e707524345b7548d4009e75b5f10fa84fc6af504da8e45a82a0de74"
+    },
+    {
+      "file": "packets/people-024.jsonl",
+      "count": 100,
+      "entry_range": [
+        2330,
+        2429
+      ],
+      "sha256": "4461afcf7b6e3ec504d628513cab6edbbeba3ffc2f5b3c67c7f8663654f88569"
+    },
+    {
+      "file": "packets/people-025.jsonl",
+      "count": 100,
+      "entry_range": [
+        2430,
+        2529
+      ],
+      "sha256": "3a6681e1097f6e0837e08fb606aa85c728f64e520a832bace3dbd256f16ffb5b"
+    },
+    {
+      "file": "packets/people-026.jsonl",
+      "count": 100,
+      "entry_range": [
+        2530,
+        2629
+      ],
+      "sha256": "ace07dd71fe3d679f30a0e1a29411c63f5b5c929320460595574037516096c18"
+    },
+    {
+      "file": "packets/people-027.jsonl",
+      "count": 100,
+      "entry_range": [
+        2630,
+        2729
+      ],
+      "sha256": "b2a31b224b8b34386a9121a1ad46b181ad86effae5fdb712ebe3f4e1b4439498"
+    },
+    {
+      "file": "packets/people-028.jsonl",
+      "count": 100,
+      "entry_range": [
+        2730,
+        2829
+      ],
+      "sha256": "09e1a8cf9f4a6145bf2a007cdc4f530879182d164cb939780161bdc2ca478546"
+    },
+    {
+      "file": "packets/people-029.jsonl",
+      "count": 100,
+      "entry_range": [
+        2830,
+        2929
+      ],
+      "sha256": "579c9fab87af9b4985203e2a21076aa6e81f11acaa5110a6acf2d8e08838fc14"
+    },
+    {
+      "file": "packets/people-030.jsonl",
+      "count": 100,
+      "entry_range": [
+        2930,
+        3029
+      ],
+      "sha256": "e7456a6278b0aad2420677b2e7f7a9c79854113ee91559188f308b07bf36daa9"
+    },
+    {
+      "file": "packets/people-031.jsonl",
+      "count": 100,
+      "entry_range": [
+        3030,
+        3129
+      ],
+      "sha256": "6691977bc61d71a517b72ffa0ba75d80ea3f2e56fcdffe3352dba0c5eae49f70"
+    },
+    {
+      "file": "packets/people-032.jsonl",
+      "count": 100,
+      "entry_range": [
+        3130,
+        3229
+      ],
+      "sha256": "a87c5d76ee365ac6a40fb78ca49d4a1d55a0cfedaf8c4c3f1f3d040e09565d69"
+    },
+    {
+      "file": "packets/people-033.jsonl",
+      "count": 100,
+      "entry_range": [
+        3230,
+        3329
+      ],
+      "sha256": "a1d073d8a3bb74f3633936fb5233a09dcb480ab7698749ea8dc4fa57e166b899"
+    },
+    {
+      "file": "packets/people-034.jsonl",
+      "count": 100,
+      "entry_range": [
+        3330,
+        3429
+      ],
+      "sha256": "fd928a4d3df3cb302e80ec11385d068a86a697b20129d513db8aa3a090dd45ec"
+    },
+    {
+      "file": "packets/people-035.jsonl",
+      "count": 100,
+      "entry_range": [
+        3430,
+        3529
+      ],
+      "sha256": "64e1040db31c03899ea44322b32f1d088e8ccda82d63e56c8b9a51ccf65431e5"
+    },
+    {
+      "file": "packets/people-036.jsonl",
+      "count": 100,
+      "entry_range": [
+        3530,
+        3629
+      ],
+      "sha256": "79eb2aaf277ab347220b1ac400802d0f02ea5da757f45bb36431a9b288bcf27a"
+    },
+    {
+      "file": "packets/people-037.jsonl",
+      "count": 100,
+      "entry_range": [
+        3630,
+        3729
+      ],
+      "sha256": "999ea4e5825938a31564ff58b8d24ab43f90743f544d59a297e2365a1785487d"
+    },
+    {
+      "file": "packets/people-038.jsonl",
+      "count": 100,
+      "entry_range": [
+        3730,
+        3829
+      ],
+      "sha256": "c0ccdde9fadaca3c2c0a416c836dd0c5486ef1a3c1d0dfcb6df7bc211cffa0f3"
+    },
+    {
+      "file": "packets/people-039.jsonl",
+      "count": 100,
+      "entry_range": [
+        3830,
+        3929
+      ],
+      "sha256": "fe6cde5a8659f53fb4151e424deaf446be9a4f1c7db346008a52c337d4f6f334"
+    },
+    {
+      "file": "packets/people-040.jsonl",
+      "count": 100,
+      "entry_range": [
+        3930,
+        4029
+      ],
+      "sha256": "b13fe57a25250f75541b6de430f41a31dc9a0959add0c3ee6703498e5a712361"
+    },
+    {
+      "file": "packets/people-041.jsonl",
+      "count": 100,
+      "entry_range": [
+        4030,
+        4129
+      ],
+      "sha256": "60504fa13c8751da9cb49e7fab0ccd764317f2a458cedbd748a051c760d5fedb"
+    },
+    {
+      "file": "packets/people-042.jsonl",
+      "count": 100,
+      "entry_range": [
+        4130,
+        4229
+      ],
+      "sha256": "5af80efb1a64413fe49851b0c34ea09fd9159d0a33c24e926802a6ae7898e8ee"
+    },
+    {
+      "file": "packets/people-043.jsonl",
+      "count": 100,
+      "entry_range": [
+        4230,
+        4336
+      ],
+      "sha256": "e4211ee9a54b2d5491de69eec7c83dfaf95a77b51035f1732d1235cce49d4729"
+    },
+    {
+      "file": "packets/people-044.jsonl",
+      "count": 100,
+      "entry_range": [
+        4337,
+        4437
+      ],
+      "sha256": "4c4f704cff53f8cced77cd91db73294e52e0c4ee5ea30437ac233052badcbe6e"
+    },
+    {
+      "file": "packets/people-045.jsonl",
+      "count": 100,
+      "entry_range": [
+        4438,
+        4537
+      ],
+      "sha256": "53a42c5dfd333f4e5fe92542728368b95819a2f5866da305298777e18e5f68e1"
+    },
+    {
+      "file": "packets/people-046.jsonl",
+      "count": 100,
+      "entry_range": [
+        4538,
+        4637
+      ],
+      "sha256": "e54dfdd4e5b4f2f0bc53ad621cfa6a019731063ecb1a82e7c2569d0fcc4a4914"
+    },
+    {
+      "file": "packets/people-047.jsonl",
+      "count": 100,
+      "entry_range": [
+        4638,
+        4737
+      ],
+      "sha256": "e8b5a96a6ec7317be4e551911432f84292967c9e4c1161b3d933381b4d7c093e"
+    },
+    {
+      "file": "packets/people-048.jsonl",
+      "count": 100,
+      "entry_range": [
+        4738,
+        4837
+      ],
+      "sha256": "ae5d4f293f69d59e5f10ab7533f1a6a772b370eaa13cc7aa13072ebdc1bc5bfd"
+    },
+    {
+      "file": "packets/people-049.jsonl",
+      "count": 100,
+      "entry_range": [
+        4838,
+        4937
+      ],
+      "sha256": "937ff6f436c01e81960dfe7bb531ec9b403a27792a216b80aa178fc3302e8e34"
+    },
+    {
+      "file": "packets/people-050.jsonl",
+      "count": 100,
+      "entry_range": [
+        4938,
+        5052
+      ],
+      "sha256": "2bcd40c195da005a2496c47d14789b9843ffc8aacb4a8ce46561cea0030bb404"
+    },
+    {
+      "file": "packets/people-051.jsonl",
+      "count": 100,
+      "entry_range": [
+        5053,
+        5152
+      ],
+      "sha256": "0a8ce0623a731a3741de83f7395d90156ab5c11dbfaa542b08d49d2d51ac9eef"
+    },
+    {
+      "file": "packets/people-052.jsonl",
+      "count": 100,
+      "entry_range": [
+        5153,
+        5252
+      ],
+      "sha256": "2cdfa325a4f9dc2659bc9f1af271c0ab27ce1693efce42fbcc6f2bb42bc24773"
+    },
+    {
+      "file": "packets/people-053.jsonl",
+      "count": 47,
+      "entry_range": [
+        5253,
+        5692
+      ],
+      "sha256": "87e3363f487b01bb6cff807dd149ac030fc5acf00bad2fa222817606cda7c212"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# People and organization enrichment
+
+For each entry, identify only named people and organizations explicitly involved in the documented event. Do not infer a person from an office, a family relationship, a party, a location, a pronoun, or a source byline. Every proposed person/entity link must cite one of the supplied source URLs and a short evidence claim. Use roles only: subject, actor, official, target, mentioned. If the record/source does not identify a person, return an empty list and explain why. Do not change canonical records, assign new entry numbers, or create live database/Neo4j data.

@@ -1,0 +1,188 @@
+{
+  "scope": "result-file audit only; no data is changed",
+  "expected_packets": 116,
+  "completed_packets": 43,
+  "remaining_packets": [
+    "source-recovery-007.jsonl",
+    "source-recovery-008.jsonl",
+    "source-recovery-010.jsonl",
+    "source-recovery-011.jsonl",
+    "source-recovery-013.jsonl",
+    "source-recovery-014.jsonl",
+    "source-recovery-016.jsonl",
+    "source-recovery-017.jsonl",
+    "source-recovery-019.jsonl",
+    "source-recovery-020.jsonl",
+    "source-recovery-022.jsonl",
+    "source-recovery-024.jsonl",
+    "source-recovery-026.jsonl",
+    "source-recovery-027.jsonl",
+    "source-recovery-029.jsonl",
+    "source-recovery-030.jsonl",
+    "source-recovery-032.jsonl",
+    "source-recovery-033.jsonl",
+    "source-recovery-035.jsonl",
+    "source-recovery-036.jsonl",
+    "source-recovery-038.jsonl",
+    "source-recovery-039.jsonl",
+    "source-recovery-041.jsonl",
+    "source-recovery-042.jsonl",
+    "source-recovery-044.jsonl",
+    "source-recovery-045.jsonl",
+    "source-recovery-047.jsonl",
+    "source-recovery-048.jsonl",
+    "source-recovery-050.jsonl",
+    "source-recovery-051.jsonl",
+    "source-recovery-053.jsonl",
+    "source-recovery-054.jsonl",
+    "source-recovery-056.jsonl",
+    "source-recovery-057.jsonl",
+    "source-recovery-059.jsonl",
+    "source-recovery-060.jsonl",
+    "source-recovery-062.jsonl",
+    "source-recovery-063.jsonl",
+    "source-recovery-065.jsonl",
+    "source-recovery-066.jsonl",
+    "source-recovery-068.jsonl",
+    "source-recovery-069.jsonl",
+    "source-recovery-071.jsonl",
+    "source-recovery-072.jsonl",
+    "source-recovery-074.jsonl",
+    "source-recovery-075.jsonl",
+    "source-recovery-077.jsonl",
+    "source-recovery-078.jsonl",
+    "source-recovery-080.jsonl",
+    "source-recovery-081.jsonl",
+    "source-recovery-083.jsonl",
+    "source-recovery-084.jsonl",
+    "source-recovery-086.jsonl",
+    "source-recovery-087.jsonl",
+    "source-recovery-089.jsonl",
+    "source-recovery-090.jsonl",
+    "source-recovery-092.jsonl",
+    "source-recovery-093.jsonl",
+    "source-recovery-095.jsonl",
+    "source-recovery-096.jsonl",
+    "source-recovery-098.jsonl",
+    "source-recovery-099.jsonl",
+    "source-recovery-101.jsonl",
+    "source-recovery-102.jsonl",
+    "source-recovery-104.jsonl",
+    "source-recovery-105.jsonl",
+    "source-recovery-107.jsonl",
+    "source-recovery-108.jsonl",
+    "source-recovery-110.jsonl",
+    "source-recovery-111.jsonl",
+    "source-recovery-113.jsonl",
+    "source-recovery-114.jsonl",
+    "source-recovery-116.jsonl"
+  ],
+  "terminal_rows": 1075,
+  "status_counts": {
+    "no_credible_source": 513,
+    "source_found": 562
+  },
+  "top_publishers": [
+    [
+      "U.S. Department of Justice",
+      74
+    ],
+    [
+      "reuters.com",
+      48
+    ],
+    [
+      "apnews.com",
+      32
+    ],
+    [
+      "The White House (archived)",
+      30
+    ],
+    [
+      "The Washington Post",
+      27
+    ],
+    [
+      "U.S. Department of Justice, Office of the Pardon Attorney",
+      25
+    ],
+    [
+      "nytimes.com",
+      22
+    ],
+    [
+      "whitehouse.gov",
+      21
+    ],
+    [
+      "The Guardian",
+      20
+    ],
+    [
+      "CBS News",
+      16
+    ],
+    [
+      "CNN",
+      16
+    ],
+    [
+      "Associated Press",
+      14
+    ],
+    [
+      "The Hill",
+      11
+    ],
+    [
+      "ABC News",
+      10
+    ],
+    [
+      "cnn.com",
+      10
+    ],
+    [
+      "NPR",
+      9
+    ],
+    [
+      "NBC News",
+      9
+    ],
+    [
+      "washingtonpost.com",
+      9
+    ],
+    [
+      "BBC News",
+      8
+    ],
+    [
+      "justice.gov",
+      8
+    ],
+    [
+      "TIME",
+      7
+    ],
+    [
+      "Reuters",
+      7
+    ],
+    [
+      "USA Today",
+      6
+    ],
+    [
+      "Federal Bureau of Investigation",
+      6
+    ],
+    [
+      "Axios",
+      5
+    ]
+  ],
+  "concerns": []
+}

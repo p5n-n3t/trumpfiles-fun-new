@@ -1,0 +1,12 @@
+{
+  "empty_people_tags": 5247,
+  "entity_entry_evidence_rows": 0,
+  "entity_entry_links": 4749,
+  "entries": 7143,
+  "generated_at": "2026-10-25T14:45:37.033373+00:00",
+  "offline_only": true,
+  "source": "/home/jq/Desktop/trumpfiles.fun-new/data/neon-workbench/working/schema_v2_graph_staged.sqlite",
+  "source_unchanged": true,
+  "status": "ok",
+  "target": "/home/jq/Desktop/trumpfiles.fun-new/data/neon-workbench/working/schema_v2_entity_enrichment_staged.sqlite"
+}

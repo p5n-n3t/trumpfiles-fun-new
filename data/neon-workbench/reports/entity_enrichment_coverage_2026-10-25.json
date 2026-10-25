@@ -1,0 +1,38 @@
+{
+  "scope": "offline proposal lane only; frozen/canonical/Neon/live Neo4j unchanged",
+  "legacy_blank_people_tag_entries": 5247,
+  "original_packet_results": {
+    "packets": 29,
+    "entries_terminally_classified": 2900,
+    "status_counts": {
+      "enriched": 1193,
+      "needs_source": 1355,
+      "no_supported_people": 352
+    },
+    "entries_not_yet_classified": 2347
+  },
+  "source_recovery": {
+    "eligible_entries": 2897,
+    "packets_completed": 43,
+    "entries_terminally_researched": 1075,
+    "status_counts": {
+      "no_credible_source": 518,
+      "source_found": 557
+    },
+    "entity_followups_completed": 32,
+    "entity_followup_entries": 800,
+    "entity_status_counts": {
+      "enriched": 440,
+      "needs_source": 336,
+      "no_supported_people": 24
+    }
+  },
+  "proposed_relationships": {
+    "entries_with_at_least_one_link": 1633,
+    "links": 2988,
+    "by_kind": {
+      "organization": 359,
+      "person": 2629
+    }
+  }
+}
