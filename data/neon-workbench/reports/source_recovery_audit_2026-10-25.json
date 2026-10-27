@@ -1,63 +1,47 @@
 {
   "scope": "result-file audit only; no data is changed",
   "expected_packets": 116,
-  "completed_packets": 99,
+  "completed_packets": 115,
   "remaining_packets": [
-    "source-recovery-065.jsonl",
-    "source-recovery-071.jsonl",
-    "source-recovery-074.jsonl",
-    "source-recovery-077.jsonl",
-    "source-recovery-080.jsonl",
-    "source-recovery-083.jsonl",
-    "source-recovery-086.jsonl",
-    "source-recovery-089.jsonl",
-    "source-recovery-092.jsonl",
-    "source-recovery-095.jsonl",
-    "source-recovery-098.jsonl",
-    "source-recovery-101.jsonl",
-    "source-recovery-104.jsonl",
-    "source-recovery-107.jsonl",
-    "source-recovery-110.jsonl",
-    "source-recovery-113.jsonl",
-    "source-recovery-116.jsonl"
+    "source-recovery-110.jsonl"
   ],
-  "terminal_rows": 2475,
+  "terminal_rows": 2872,
   "status_counts": {
-    "no_credible_source": 1036,
-    "source_found": 1439
+    "no_credible_source": 1118,
+    "source_found": 1754
   },
   "top_publishers": [
+    [
+      "Associated Press",
+      161
+    ],
+    [
+      "Reuters",
+      133
+    ],
     [
       "U.S. Department of Justice, Office of the Pardon Attorney",
       125
     ],
     [
       "U.S. Department of Justice",
-      116
-    ],
-    [
-      "Associated Press",
-      101
+      119
     ],
     [
       "apnews.com",
       88
     ],
     [
+      "The Guardian",
+      86
+    ],
+    [
       "reuters.com",
       84
     ],
     [
-      "The Guardian",
-      80
-    ],
-    [
       "The Washington Post",
-      57
-    ],
-    [
-      "Reuters",
-      45
+      68
     ],
     [
       "nytimes.com",
@@ -65,7 +49,11 @@
     ],
     [
       "The White House (archived)",
-      33
+      34
+    ],
+    [
+      "The New York Times",
+      28
     ],
     [
       "cnn.com",
@@ -80,11 +68,19 @@
       23
     ],
     [
+      "NPR",
+      23
+    ],
+    [
+      "CNN",
+      23
+    ],
+    [
       "whitehouse.gov",
       21
     ],
     [
-      "NPR",
+      "ABC News",
       20
     ],
     [
@@ -92,40 +88,28 @@
       20
     ],
     [
-      "CNN",
-      19
-    ],
-    [
       "theguardian.com",
       19
     ],
     [
-      "ABC News",
-      17
+      "POLITICO",
+      18
+    ],
+    [
+      "The White House",
+      16
     ],
     [
       "latimes.com",
       16
     ],
     [
-      "The New York Times",
+      "NBC News",
       14
     ],
     [
-      "nbcnews.com",
-      13
-    ],
-    [
-      "npr.org",
-      13
-    ],
-    [
       "Axios",
-      12
-    ],
-    [
-      "Federal Register",
-      12
+      13
     ]
   ],
   "concerns": []
