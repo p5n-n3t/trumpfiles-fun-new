@@ -96,10 +96,14 @@ def main() -> int:
     checked_packets = 0
     checked_entries = 0
     for packet in manifest["packets"]:
-        name = Path(packet["file"]).name
+        # Legacy packet manifests store file names directly; newer manifests
+        # store objects with a `file` field. Support both formats so the same
+        # validator can check the source-recovery follow-up lane.
+        packet_file = packet if isinstance(packet, str) else packet["file"]
+        name = Path(packet_file).name
         if selected and name not in selected:
             continue
-        source_path = args.input_dir / name if args.input_dir else args.root / packet["file"]
+        source_path = args.input_dir / name if args.input_dir else args.root / packet_file
         result_path = (args.results_dir or (args.root / "results")) / name
         if not result_path.exists():
             findings.append(f"{name}: missing result file")
