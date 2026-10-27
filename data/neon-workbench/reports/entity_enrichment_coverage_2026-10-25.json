@@ -13,26 +13,26 @@
   },
   "source_recovery": {
     "eligible_entries": 2897,
-    "packets_completed": 99,
-    "entries_terminally_researched": 2475,
+    "packets_completed": 116,
+    "entries_terminally_researched": 2897,
     "status_counts": {
-      "no_credible_source": 1036,
-      "source_found": 1439
+      "no_credible_source": 1128,
+      "source_found": 1769
     },
-    "entity_followups_completed": 99,
-    "entity_followup_entries": 2475,
+    "entity_followups_completed": 116,
+    "entity_followup_entries": 2897,
     "entity_status_counts": {
-      "enriched": 1332,
-      "needs_source": 940,
-      "no_supported_people": 203
+      "enriched": 1661,
+      "needs_source": 1032,
+      "no_supported_people": 204
     }
   },
   "proposed_relationships": {
-    "entries_with_at_least_one_link": 2525,
-    "links": 4180,
+    "entries_with_at_least_one_link": 2854,
+    "links": 4978,
     "by_kind": {
-      "organization": 1058,
-      "person": 3122
+      "organization": 1401,
+      "person": 3577
     }
   }
 }
