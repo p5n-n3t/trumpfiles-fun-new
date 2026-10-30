@@ -2,8 +2,8 @@
   "worker": "cloud-09",
   "assignment": "reader-metadata-readiness",
   "assigned_count": 578,
-  "saved_count": 15,
-  "remaining_count": 563,
+  "saved_count": 20,
+  "remaining_count": 558,
   "saved_ids": [
     "entry-1005",
     "entry-1016",
@@ -19,14 +19,14 @@
     "entry-1126",
     "entry-1137",
     "entry-1148",
-    "entry-1159"
-  ],
-  "remaining_ids": [
+    "entry-1159",
     "entry-117",
     "entry-1180",
     "entry-1191",
     "entry-1201",
-    "entry-1212",
+    "entry-1212"
+  ],
+  "remaining_ids": [
     "entry-1223",
     "entry-1234",
     "entry-1245",
@@ -589,6 +589,7 @@
   "batch_files": [
     "cloud-09-release-qa-01.jsonl",
     "cloud-09-release-qa-02.jsonl",
-    "cloud-09-release-qa-03.jsonl"
+    "cloud-09-release-qa-03.jsonl",
+    "cloud-09-release-qa-04.jsonl"
   ]
 }
