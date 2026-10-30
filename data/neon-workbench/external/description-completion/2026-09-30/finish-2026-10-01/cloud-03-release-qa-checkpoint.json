@@ -2,12 +2,12 @@
   "worker": "03",
   "assignment_file": "worker-03-score-input.jsonl",
   "assigned_count": 579,
-  "saved_count": 570,
-  "remaining_count": 9,
+  "saved_count": 578,
+  "remaining_count": 1,
   "status_counts": {
-    "needs_fix": 398,
-    "needs_context": 148,
-    "pass": 24
+    "needs_fix": 401,
+    "needs_context": 152,
+    "pass": 25
   },
   "output_files": [
     "quality-outputs/cloud-03-release-qa-001.jsonl",
@@ -85,7 +85,8 @@
     "quality-outputs/cloud-03-release-qa-073.jsonl",
     "quality-outputs/cloud-03-release-qa-074.jsonl",
     "quality-outputs/cloud-03-release-qa-075.jsonl",
-    "quality-outputs/cloud-03-release-qa-076.jsonl"
+    "quality-outputs/cloud-03-release-qa-076.jsonl",
+    "quality-outputs/cloud-03-release-qa-077.jsonl"
   ],
   "saved_record_ids": [
     "entry-100",
@@ -657,7 +658,15 @@
     "entry-94",
     "entry-950",
     "entry-961",
-    "entry-972"
+    "entry-972",
+    "entry-983",
+    "entry-994",
+    "expanded-20260827-anthropic-blacklist-order",
+    "expanded-20260908-gsa-canada-exclusion",
+    "expanded-20260914-usps-sc-denial",
+    "expanded-20260922-doj-media-security-defense",
+    "expanded-20260925-whitehouse-ads-psa-defense",
+    "expanded-20260929-smith-senate-accusations"
   ],
-  "updated_at_utc": "2026-10-30T06:38:29+00:00"
+  "updated_at_utc": "2026-10-30T06:39:46+00:00"
 }
