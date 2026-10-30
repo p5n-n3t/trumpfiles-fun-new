@@ -7,9 +7,9 @@
   ],
   "total_assigned": 579,
   "pass": 34,
-  "needs_fix": 355,
+  "needs_fix": 363,
   "needs_context": 143,
-  "remaining": 47,
+  "remaining": 39,
   "processed_record_ids": [
     "entry-3",
     "entry-10",
@@ -68,6 +68,8 @@
     "entry-599",
     "entry-684",
     "entry-699",
+    "entry-701",
+    "entry-707",
     "entry-1020",
     "entry-1031",
     "entry-1042",
@@ -542,7 +544,13 @@
     "entry-6915",
     "entry-6932",
     "entry-6957",
-    "entry-6979"
+    "entry-6979",
+    "entry-7020",
+    "entry-7031",
+    "entry-7042",
+    "entry-7058",
+    "entry-7081",
+    "entry-7098"
   ],
   "output_files": [
     "quality-outputs/cloud-02-release-qa-001.jsonl",
@@ -602,6 +610,7 @@
     "quality-outputs/cloud-02-release-qa-055.jsonl",
     "quality-outputs/cloud-02-release-qa-056.jsonl",
     "quality-outputs/cloud-02-release-qa-057.jsonl",
-    "quality-outputs/cloud-02-release-qa-058.jsonl"
+    "quality-outputs/cloud-02-release-qa-058.jsonl",
+    "quality-outputs/cloud-02-release-qa-059.jsonl"
   ]
 }
