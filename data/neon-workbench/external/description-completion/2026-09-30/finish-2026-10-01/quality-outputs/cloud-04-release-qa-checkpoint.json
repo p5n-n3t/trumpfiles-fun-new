@@ -2,8 +2,8 @@
   "worker": "04",
   "assignment": "worker-04-score-input.jsonl",
   "assigned_count": 579,
-  "terminal_count": 575,
-  "remaining_count": 4,
+  "terminal_count": 579,
+  "remaining_count": 0,
   "terminal_record_ids": [
     "entry-8",
     "entry-19",
@@ -579,11 +579,15 @@
     "entry-7192",
     "expanded-20260827-usps-new-tro",
     "expanded-20260908-save-sc-request",
-    "expanded-20260915-ice-locator-exclusion"
+    "expanded-20260915-ice-locator-exclusion",
+    "expanded-20260922-solar-harris-order",
+    "expanded-20260926-iran-proposal-rejection",
+    "expanded-20260929-third-country-sc-stay",
+    "fresh-20260922-curtis-probe-request"
   ],
   "status_counts": {
     "needs_context": 160,
     "pass": 24,
-    "needs_fix": 391
+    "needs_fix": 395
   }
 }
