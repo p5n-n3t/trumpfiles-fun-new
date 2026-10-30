@@ -1,11 +1,6 @@
 {
   "worker_id": "cloud-06",
   "task": "release-reader-metadata-readiness",
-  "inputs": {
-    "score": "worker-06-score-input.jsonl",
-    "reference_inputs": "origin/codex/description-inputs-2026-09-30",
-    "reference_results": "origin/codex/description-results-2026-09-30"
-  },
   "assigned_count": 579,
   "checked_ids": [
     "entry-1002",
@@ -212,11 +207,22 @@
     "entry-3197",
     "entry-3207",
     "entry-3218",
-    "entry-3229"
+    "entry-3229",
+    "entry-324",
+    "entry-3250",
+    "entry-3261",
+    "entry-3272",
+    "entry-3283",
+    "entry-3294",
+    "entry-3304",
+    "entry-3315",
+    "entry-3326",
+    "entry-3337"
   ],
   "pass_count": 4,
-  "needs_fix_count": 150,
-  "needs_context_count": 51,
+  "needs_fix_count": 159,
+  "needs_context_count": 52,
+  "remaining_count": 364,
   "batches": [
     "quality-outputs/cloud-06-release-qa-001.jsonl",
     "quality-outputs/cloud-06-release-qa-002.jsonl",
@@ -240,6 +246,7 @@
     "quality-outputs/cloud-06-release-qa-020.jsonl",
     "quality-outputs/cloud-06-release-qa-021.jsonl",
     "quality-outputs/cloud-06-release-qa-022.jsonl",
-    "quality-outputs/cloud-06-release-qa-023.jsonl"
+    "quality-outputs/cloud-06-release-qa-023.jsonl",
+    "quality-outputs/cloud-06-release-qa-024.jsonl"
   ]
 }
