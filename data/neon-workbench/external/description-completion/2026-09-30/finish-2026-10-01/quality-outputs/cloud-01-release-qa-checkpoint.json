@@ -2,13 +2,13 @@
   "worker": "cloud-01",
   "pass": "release-qa",
   "assignment": "worker-01-score-input.jsonl",
-  "checked_id_count": 572,
+  "checked_id_count": 579,
   "assigned_id_count": 579,
-  "remaining_id_count": 7,
+  "remaining_id_count": 0,
   "status_counts": {
     "needs_context": 159,
-    "needs_fix": 379,
-    "pass": 34
+    "needs_fix": 385,
+    "pass": 35
   },
   "batches": [
     "quality-outputs/cloud-01-release-qa-001.jsonl",
@@ -82,7 +82,8 @@
     "quality-outputs/cloud-01-release-qa-069.jsonl",
     "quality-outputs/cloud-01-release-qa-070.jsonl",
     "quality-outputs/cloud-01-release-qa-071.jsonl",
-    "quality-outputs/cloud-01-release-qa-072.jsonl"
+    "quality-outputs/cloud-01-release-qa-072.jsonl",
+    "quality-outputs/cloud-01-release-qa-073.jsonl"
   ],
   "checked_ids": [
     "entry-1",
@@ -656,6 +657,13 @@
     "entry-96",
     "entry-970",
     "entry-981",
-    "entry-992"
+    "entry-992",
+    "expanded-20260824-economic-outcast",
+    "expanded-20260902-doj-welfare-reporting",
+    "expanded-20260914-epa-power-repeal",
+    "expanded-20260921-garces-detention-conference",
+    "expanded-20260925-public-citizen-first-ad-complaint",
+    "expanded-20260929-murray-murphy-ad-letter",
+    "fresh-20260915-tbilisi-launch"
   ]
 }
