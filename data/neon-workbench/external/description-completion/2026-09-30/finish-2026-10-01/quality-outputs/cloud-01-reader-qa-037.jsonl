@@ -1,0 +1,10 @@
+{"record_id":"entry-491","entry_number":491,"status":"pass","findings":[]}
+{"record_id":"entry-4920","entry_number":4920,"status":"pass","findings":[]}
+{"record_id":"entry-4931","entry_number":4931,"status":"pass","findings":[]}
+{"record_id":"entry-4942","entry_number":4942,"status":"finding","findings":[{"type":"truncated_or_malformed_sentence","detail":"The medium ends mid-sentence after “By April 24, Reuters confirmed at least 20 firings total,” leaving the claim unfinished. The long completes the chronology, but does not repair the malformed medium field."}]}
+{"record_id":"entry-496","entry_number":496,"status":"pass","findings":[]}
+{"record_id":"entry-4978","entry_number":4978,"status":"pass","findings":[]}
+{"record_id":"entry-4989","entry_number":4989,"status":"pass","findings":[]}
+{"record_id":"entry-5","entry_number":5,"status":"finding","findings":[{"type":"unsupported_or_contradictory_claim","detail":"The long says Trump suggested white supremacists were among the “very fine people” and frames his remarks as a false equivalence between Nazis and opponents, while the medium preserves his explicit statement that he was not referring to neo-Nazis or white nationalists and says they should be condemned. The long’s conclusion that he mainstreamed Nazi talking points also goes beyond the concrete quotation without acknowledging that qualification."}]}
+{"record_id":"entry-5009","entry_number":5009,"status":"pass","findings":[]}
+{"record_id":"entry-502","entry_number":502,"status":"pass","findings":[]}

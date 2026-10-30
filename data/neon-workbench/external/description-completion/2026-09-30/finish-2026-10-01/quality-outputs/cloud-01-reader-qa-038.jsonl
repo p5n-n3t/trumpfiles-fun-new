@@ -1,0 +1,10 @@
+{"record_id":"entry-5030","entry_number":5030,"status":"pass","findings":[]}
+{"record_id":"entry-5041","entry_number":5041,"status":"pass","findings":[]}
+{"record_id":"entry-5052","entry_number":5052,"status":"pass","findings":[]}
+{"record_id":"entry-5063","entry_number":5063,"status":"pass","findings":[]}
+{"record_id":"entry-5074","entry_number":5074,"status":"finding","findings":[{"type":"internal_editorial_commentary","detail":"The medium ends with the instruction that “the record should not describe” the exemption as purchased or sold. The long also closes with “The account concerns one exemption and should not be generalized.” These are editing/source-management directions rather than reader-facing explanation; the rest of the long supplies the relevant caveat directly."}]}
+{"record_id":"entry-5085","entry_number":5085,"status":"finding","findings":[{"type":"unsupported_or_contradictory_claim","detail":"The medium describes farm hardship as “attributed in the record to” tariff policies. The long removes that qualification and calls the aid a “tacit admission” that tariffs “devastated” farmers, says Trump “forced” taxpayers to subsidize “self-inflicted” harm, and declares the cycle “economically irrational.” These are causal and evaluative conclusions stated as fact rather than attributed analysis."}]}
+{"record_id":"entry-5096","entry_number":5096,"status":"pass","findings":[]}
+{"record_id":"entry-5106","entry_number":5106,"status":"pass","findings":[]}
+{"record_id":"entry-5118","entry_number":5118,"status":"pass","findings":[]}
+{"record_id":"entry-5129","entry_number":5129,"status":"finding","findings":[{"type":"unsupported_or_contradictory_claim","detail":"The long opens by describing “military convoys of ICE agents” and then says military units led the raids. The medium more precisely says local reports documented uniformed military-style units, not civilian law enforcement. The long’s phrasing can imply active-duty military participation, which the supplied context does not establish."}]}

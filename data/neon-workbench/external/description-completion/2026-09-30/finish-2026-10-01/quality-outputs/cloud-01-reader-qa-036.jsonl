@@ -1,0 +1,10 @@
+{"record_id":"entry-48","entry_number":48,"status":"finding","findings":[{"type":"unsupported_or_contradictory_claim","detail":"The medium limits the record to documented praise and related imagery, explicitly distinguishing those gestures from claims about their effects. The long instead states that Trump legitimized QAnon, ensured its messages reached millions, and produced one of the most dangerous normalizations in presidential history as established conclusions. Those causal and historical judgments are not qualified in the long."}]}
+{"record_id":"entry-481","entry_number":481,"status":"finding","findings":[{"type":"missing_descriptions","detail":"The medium is a 15-word title-like assertion rather than a useful event summary, and the long is null. Neither field explains the shooting with reader-facing context."}]}
+{"record_id":"entry-4820","entry_number":4820,"status":"pass","findings":[]}
+{"record_id":"entry-4832","entry_number":4832,"status":"pass","findings":[]}
+{"record_id":"entry-4843","entry_number":4843,"status":"finding","findings":[{"type":"internal_audit_boilerplate","detail":"The long repeatedly discusses what the “available source note” supports, what the “supplied synopsis” mentions, the lack of a linked source, and which claims need additional documentation. This packet-review commentary interrupts the otherwise useful account of the investigations and their chronology."}]}
+{"record_id":"entry-4854","entry_number":4854,"status":"finding","findings":[{"type":"missing_descriptions","detail":"Both medium and long are null, despite the supplied context describing Trump’s February 2022 praise of Putin’s actions in Ukraine and providing Cheney’s response."}]}
+{"record_id":"entry-4865","entry_number":4865,"status":"pass","findings":[]}
+{"record_id":"entry-4877","entry_number":4877,"status":"pass","findings":[]}
+{"record_id":"entry-4888","entry_number":4888,"status":"pass","findings":[]}
+{"record_id":"entry-4899","entry_number":4899,"status":"pass","findings":[]}

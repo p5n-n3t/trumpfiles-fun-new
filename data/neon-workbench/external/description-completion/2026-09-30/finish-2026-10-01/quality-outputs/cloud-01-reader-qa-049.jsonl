@@ -1,0 +1,10 @@
+{"record_id":"entry-6263","entry_number":6263,"status":"pass","findings":[]}
+{"record_id":"entry-6274","entry_number":6274,"status":"pass","findings":[]}
+{"record_id":"entry-6286","entry_number":6286,"status":"pass","findings":[]}
+{"record_id":"entry-6297","entry_number":6297,"status":"pass","findings":[]}
+{"record_id":"entry-6307","entry_number":6307,"status":"finding","findings":[{"type":"repetitive_or_malformed_text","detail":"The long describes the chat’s weapons, sequencing and timing in the opening paragraph, then repeats the same list in the sentence “The messages included discussion of targets, weapons packages, sequencing, and timing.” That sentence adds no new context and makes the close repetitive."}]}
+{"record_id":"entry-632","entry_number":632,"status":"pass","findings":[]}
+{"record_id":"entry-6331","entry_number":6331,"status":"pass","findings":[]}
+{"record_id":"entry-6342","entry_number":6342,"status":"finding","findings":[{"type":"internal_audit_boilerplate","detail":"The long explicitly says it “corrects the supplied title and synopsis,” repeatedly discusses what the Reuters report does or does not support, and closes by saying what the entry records. This is record-repair commentary rather than a reader-facing account of the reported fees and trader losses."}]}
+{"record_id":"entry-6353","entry_number":6353,"status":"pass","findings":[]}
+{"record_id":"entry-6364","entry_number":6364,"status":"pass","findings":[]}

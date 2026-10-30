@@ -1,0 +1,6 @@
+{"record_id":"entry-96","entry_number":96,"status":"pass","findings":[]}
+{"record_id":"entry-970","entry_number":970,"status":"finding","findings":[{"type":"redundant_closing","detail":"The final sentence repeats that the White House cited Perez's employment and advocacy as evidence of rehabilitation, already stated in the preceding paragraph. The long could end after explaining the clemency action's scope."}]}
+{"record_id":"entry-981","entry_number":981,"status":"pass","findings":[]}
+{"record_id":"entry-992","entry_number":992,"status":"finding","findings":[{"type":"medium_long_repetition","detail":"The long repeats the medium's date, clemency action, court, original sentence, and offense almost verbatim. Its added explanation is followed by several paragraphs about what the DOJ table does not provide and what the account avoids attributing, rather than much additional case context."},{"type":"internal_audit_boilerplate","detail":"The long repeatedly discusses the DOJ table's limits, the lack of warrant terms or rationale, and what further documentation would be required. Those research-status caveats dominate its expanded portion."}]}
+{"record_id":"expanded-20260824-economic-outcast","entry_number":null,"status":"pass","findings":[]}
+{"record_id":"expanded-20260902-doj-welfare-reporting","entry_number":null,"status":"pass","findings":[]}

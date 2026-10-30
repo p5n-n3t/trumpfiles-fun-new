@@ -1,0 +1,10 @@
+{"record_id":"entry-514","entry_number":514,"status":"pass","findings":[]}
+{"record_id":"entry-5150","entry_number":5150,"status":"pass","findings":[]}
+{"record_id":"entry-5162","entry_number":5162,"status":"pass","findings":[]}
+{"record_id":"entry-5173","entry_number":5173,"status":"finding","findings":[{"type":"truncated_or_malformed_sentence","detail":"The final sentence says environmental groups warned that Willow’s approval “as a foot in the door” for broader industrialization “had been confirmed.” The wording is grammatically awkward and leaves unclear whether the approval, the warning, or a prediction was confirmed."}]}
+{"record_id":"entry-5184","entry_number":5184,"status":"pass","findings":[]}
+{"record_id":"entry-5198","entry_number":5198,"status":"pass","findings":[]}
+{"record_id":"entry-5209","entry_number":5209,"status":"finding","findings":[{"type":"unsupported_or_contradictory_claim","detail":"The long calls the product and policy overlap an “unprecedented feedback loop of personal enrichment and policy capture” as fact. The supplied details establish planned investment products and overlapping presidential crypto policy, but do not show that this arrangement captured policy or produced personal enrichment; the medium states the conflict concern more carefully."}]}
+{"record_id":"entry-5220","entry_number":5220,"status":"pass","findings":[]}
+{"record_id":"entry-5232","entry_number":5232,"status":"pass","findings":[]}
+{"record_id":"entry-5244","entry_number":5244,"status":"pass","findings":[]}
