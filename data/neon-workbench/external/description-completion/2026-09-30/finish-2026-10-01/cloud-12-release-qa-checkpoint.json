@@ -2,6 +2,9 @@
   "worker": 12,
   "assignment_file": "worker-12-score-input.jsonl",
   "assigned_count": 578,
+  "reviewed_count": 571,
+  "remaining_count": 7,
+  "batch_file": "cloud-12-release-qa-081.jsonl",
   "reviewed_ids": [
     "entry-1008",
     "entry-1019",
@@ -567,9 +570,12 @@
     "entry-894",
     "entry-904",
     "entry-915",
-    "entry-926"
-  ],
-  "reviewed_count": 565,
-  "remaining_count": 13,
-  "batch_file": "cloud-12-release-qa-080.jsonl"
+    "entry-926",
+    "entry-937",
+    "entry-948",
+    "entry-959",
+    "entry-97",
+    "entry-980",
+    "entry-991"
+  ]
 }
