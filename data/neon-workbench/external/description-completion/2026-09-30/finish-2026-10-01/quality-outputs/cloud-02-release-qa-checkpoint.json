@@ -1,0 +1,28 @@
+{
+  "worker": "cloud-02",
+  "assignment": "final reader/metadata readiness pass",
+  "reference_branches": [
+    "codex/description-results-2026-09-30",
+    "codex/description-inputs-2026-09-30"
+  ],
+  "total_assigned": 579,
+  "pass": 2,
+  "needs_fix": 4,
+  "needs_context": 4,
+  "remaining": 569,
+  "processed_record_ids": [
+    "entry-10",
+    "entry-101",
+    "entry-1020",
+    "entry-1031",
+    "entry-1042",
+    "entry-1053",
+    "entry-1066",
+    "entry-1077",
+    "entry-1088",
+    "entry-1099"
+  ],
+  "output_files": [
+    "quality-outputs/cloud-02-release-qa-001.jsonl"
+  ]
+}
