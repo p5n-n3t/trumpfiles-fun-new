@@ -472,7 +472,12 @@
     "entry-614",
     "entry-6150",
     "entry-6161",
-    "entry-6172"
+    "entry-6172",
+    "entry-6183",
+    "entry-6194",
+    "entry-6204",
+    "entry-6218",
+    "entry-6229"
   ],
   "output_files": [
     "cloud-11-release-qa-001.jsonl",
@@ -772,11 +777,16 @@
     "cloud-11-release-qa-094.jsonl",
     "cloud-11-release-qa-094.jsonl",
     "cloud-11-release-qa-094.jsonl",
-    "cloud-11-release-qa-094.jsonl"
+    "cloud-11-release-qa-094.jsonl",
+    "cloud-11-release-qa-095.jsonl",
+    "cloud-11-release-qa-095.jsonl",
+    "cloud-11-release-qa-095.jsonl",
+    "cloud-11-release-qa-095.jsonl",
+    "cloud-11-release-qa-095.jsonl"
   ],
   "pass_count": 1,
-  "needs_fix_count": 379,
-  "needs_context_count": 90,
-  "checked_count": 470,
-  "remaining_count": 108
+  "needs_fix_count": 383,
+  "needs_context_count": 91,
+  "checked_count": 475,
+  "remaining_count": 103
 }
