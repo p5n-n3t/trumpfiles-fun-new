@@ -2,11 +2,11 @@
   "worker": "03",
   "assignment_file": "worker-03-score-input.jsonl",
   "assigned_count": 579,
-  "saved_count": 432,
-  "remaining_count": 147,
+  "saved_count": 437,
+  "remaining_count": 142,
   "status_counts": {
-    "needs_fix": 328,
-    "needs_context": 90,
+    "needs_fix": 330,
+    "needs_context": 93,
     "pass": 14
   },
   "output_files": [
@@ -67,7 +67,8 @@
     "quality-outputs/cloud-03-release-qa-055.jsonl",
     "quality-outputs/cloud-03-release-qa-056.jsonl",
     "quality-outputs/cloud-03-release-qa-057.jsonl",
-    "quality-outputs/cloud-03-release-qa-058.jsonl"
+    "quality-outputs/cloud-03-release-qa-058.jsonl",
+    "quality-outputs/cloud-03-release-qa-059.jsonl"
   ],
   "saved_record_ids": [
     "entry-100",
