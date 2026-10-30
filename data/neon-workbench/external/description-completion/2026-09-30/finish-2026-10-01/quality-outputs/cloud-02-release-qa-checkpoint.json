@@ -7,9 +7,9 @@
   ],
   "total_assigned": 579,
   "pass": 7,
-  "needs_fix": 68,
-  "needs_context": 25,
-  "remaining": 479,
+  "needs_fix": 77,
+  "needs_context": 26,
+  "remaining": 469,
   "processed_record_ids": [
     "entry-10",
     "entry-101",
@@ -110,18 +110,29 @@
     "entry-2059",
     "entry-207",
     "entry-2080",
-    "entry-2091"
+    "entry-2091",
+    "entry-2101",
+    "entry-2112",
+    "entry-2123",
+    "entry-2134",
+    "entry-2145",
+    "entry-2156",
+    "entry-2167",
+    "entry-2178",
+    "entry-2189",
+    "entry-22"
   ],
   "output_files": [
-    "quality-outputs/cloud-02-release-qa-001.jsonl",
-    "quality-outputs/cloud-02-release-qa-002.jsonl",
-    "quality-outputs/cloud-02-release-qa-003.jsonl",
-    "quality-outputs/cloud-02-release-qa-004.jsonl",
-    "quality-outputs/cloud-02-release-qa-005.jsonl",
-    "quality-outputs/cloud-02-release-qa-006.jsonl",
-    "quality-outputs/cloud-02-release-qa-007.jsonl",
-    "quality-outputs/cloud-02-release-qa-008.jsonl",
-    "quality-outputs/cloud-02-release-qa-009.jsonl",
-    "quality-outputs/cloud-02-release-qa-010.jsonl"
+    "cloud-02-release-qa-001.jsonl",
+    "cloud-02-release-qa-002.jsonl",
+    "cloud-02-release-qa-003.jsonl",
+    "cloud-02-release-qa-004.jsonl",
+    "cloud-02-release-qa-005.jsonl",
+    "cloud-02-release-qa-006.jsonl",
+    "cloud-02-release-qa-007.jsonl",
+    "cloud-02-release-qa-008.jsonl",
+    "cloud-02-release-qa-009.jsonl",
+    "cloud-02-release-qa-010.jsonl",
+    "cloud-02-release-qa-011.jsonl"
   ]
 }
