@@ -2,10 +2,10 @@
   "worker": "03",
   "assignment_file": "worker-03-score-input.jsonl",
   "assigned_count": 579,
-  "saved_count": 578,
-  "remaining_count": 1,
+  "saved_count": 579,
+  "remaining_count": 0,
   "status_counts": {
-    "needs_fix": 401,
+    "needs_fix": 402,
     "needs_context": 152,
     "pass": 25
   },
@@ -86,7 +86,8 @@
     "quality-outputs/cloud-03-release-qa-074.jsonl",
     "quality-outputs/cloud-03-release-qa-075.jsonl",
     "quality-outputs/cloud-03-release-qa-076.jsonl",
-    "quality-outputs/cloud-03-release-qa-077.jsonl"
+    "quality-outputs/cloud-03-release-qa-077.jsonl",
+    "quality-outputs/cloud-03-release-qa-078.jsonl"
   ],
   "saved_record_ids": [
     "entry-100",
@@ -666,7 +667,8 @@
     "expanded-20260914-usps-sc-denial",
     "expanded-20260922-doj-media-security-defense",
     "expanded-20260925-whitehouse-ads-psa-defense",
-    "expanded-20260929-smith-senate-accusations"
+    "expanded-20260929-smith-senate-accusations",
+    "fresh-20260918-trump-repayment-statement"
   ],
-  "updated_at_utc": "2026-10-30T06:39:46+00:00"
+  "updated_at_utc": "2026-10-30T06:40:43+00:00"
 }
