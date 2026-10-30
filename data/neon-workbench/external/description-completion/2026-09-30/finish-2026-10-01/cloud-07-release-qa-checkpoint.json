@@ -569,13 +569,19 @@
     "entry-921",
     "entry-932",
     "entry-943",
-    "entry-954"
+    "entry-954",
+    "entry-965",
+    "entry-976",
+    "entry-987",
+    "entry-998",
+    "expanded-20260830-kharg-ai-post",
+    "expanded-20260909-rnc-dividend-pledge"
   ],
-  "checked_count": 568,
+  "checked_count": 574,
   "pass_count": 35,
-  "needs_fix_count": 397,
+  "needs_fix_count": 403,
   "needs_context_count": 136,
-  "next_input_index": 568,
+  "next_input_index": 574,
   "latest_results_ref": "origin/codex/description-results-2026-09-30",
   "original_inputs_ref": "origin/codex/description-inputs-2026-09-30"
 }
