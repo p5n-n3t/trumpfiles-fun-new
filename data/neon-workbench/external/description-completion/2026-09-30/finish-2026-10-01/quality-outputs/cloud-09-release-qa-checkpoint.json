@@ -2,8 +2,8 @@
   "worker": "cloud-09",
   "assignment": "reader-metadata-readiness",
   "assigned_count": 578,
-  "saved_count": 575,
-  "remaining_count": 3,
+  "saved_count": 578,
+  "remaining_count": 0,
   "saved_ids": [
     "entry-1005",
     "entry-1016",
@@ -579,7 +579,10 @@
     "expanded-20260820-bessent-regime-collapse",
     "expanded-20260831-ballroom-sc-stay",
     "expanded-20260910-h1b-grace-proposal",
-    "expanded-20260917-trump-axios-annihilate"
+    "expanded-20260917-trump-axios-annihilate",
+    "expanded-20260924-press-arrival-exclusion",
+    "expanded-20260928-lee-memorial-bill-objection",
+    "fresh-20260903-golf-retreat-offer"
   ],
-  "last_output_file": "cloud-09-release-qa-84.jsonl"
+  "last_output_file": "cloud-09-release-qa-85.jsonl"
 }
