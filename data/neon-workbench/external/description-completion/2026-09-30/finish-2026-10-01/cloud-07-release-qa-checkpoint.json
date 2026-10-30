@@ -575,13 +575,18 @@
     "entry-987",
     "entry-998",
     "expanded-20260830-kharg-ai-post",
-    "expanded-20260909-rnc-dividend-pledge"
+    "expanded-20260909-rnc-dividend-pledge",
+    "expanded-20260916-nih-censorship-lawsuit",
+    "expanded-20260924-ice-federal-plaza-injunction",
+    "expanded-20260928-garces-criminal-complaint",
+    "fresh-20260831-polymarket-round",
+    "fresh-20260928-draganfly-financing"
   ],
-  "checked_count": 574,
+  "checked_count": 579,
   "pass_count": 35,
-  "needs_fix_count": 403,
+  "needs_fix_count": 408,
   "needs_context_count": 136,
-  "next_input_index": 574,
+  "next_input_index": 579,
   "latest_results_ref": "origin/codex/description-results-2026-09-30",
   "original_inputs_ref": "origin/codex/description-inputs-2026-09-30"
 }
