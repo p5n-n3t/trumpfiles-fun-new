@@ -568,12 +568,20 @@
     "entry-9",
     "entry-91",
     "entry-920",
-    "entry-931"
+    "entry-931",
+    "entry-942",
+    "entry-953",
+    "entry-964",
+    "entry-975",
+    "entry-986",
+    "entry-997",
+    "expanded-20260828-smithsonian-pressure-letter",
+    "expanded-20260909-kimmel-talarico-broadcast"
   ],
   "pass_count": 38,
-  "needs_fix_count": 371,
-  "needs_context_count": 157,
-  "remaining_count": 13,
+  "needs_fix_count": 375,
+  "needs_context_count": 161,
+  "remaining_count": 5,
   "batches": [
     "quality-outputs/cloud-06-release-qa-001.jsonl",
     "quality-outputs/cloud-06-release-qa-002.jsonl",
@@ -638,6 +646,7 @@
     "quality-outputs/cloud-06-release-qa-061.jsonl",
     "quality-outputs/cloud-06-release-qa-062.jsonl",
     "quality-outputs/cloud-06-release-qa-063.jsonl",
-    "quality-outputs/cloud-06-release-qa-064.jsonl"
+    "quality-outputs/cloud-06-release-qa-064.jsonl",
+    "quality-outputs/cloud-06-release-qa-065.jsonl"
   ]
 }
