@@ -4,8 +4,8 @@
   "reference_results_branch": "origin/codex/description-results-2026-09-30",
   "reference_inputs_branch": "origin/codex/description-inputs-2026-09-30",
   "assigned_count": 579,
-  "checked_count": 35,
-  "remaining_count": 544,
-  "checked_ids": ["entry-1004", "entry-1015", "entry-1026", "entry-1037", "entry-1048", "entry-1059", "entry-1071", "entry-1082", "entry-1093", "entry-1103", "entry-1114", "entry-1125", "entry-1136", "entry-1147", "entry-1158", "entry-1169", "entry-118", "entry-1190", "entry-1200", "entry-1211", "entry-1222", "entry-1233", "entry-1244", "entry-1255", "entry-1266", "entry-1277", "entry-1288", "entry-1299", "entry-1309", "entry-132", "entry-1330", "entry-1341", "entry-1352", "entry-1363", "entry-1374"],
-  "output_files": ["quality-outputs/cloud-08-release-qa-001.jsonl", "quality-outputs/cloud-08-release-qa-002.jsonl", "quality-outputs/cloud-08-release-qa-003.jsonl", "quality-outputs/cloud-08-release-qa-004.jsonl", "quality-outputs/cloud-08-release-qa-005.jsonl"]
+  "checked_count": 45,
+  "remaining_count": 534,
+  "checked_ids": ["entry-1004", "entry-1015", "entry-1026", "entry-1037", "entry-1048", "entry-1059", "entry-1071", "entry-1082", "entry-1093", "entry-1103", "entry-1114", "entry-1125", "entry-1136", "entry-1147", "entry-1158", "entry-1169", "entry-118", "entry-1190", "entry-1200", "entry-1211", "entry-1222", "entry-1233", "entry-1244", "entry-1255", "entry-1266", "entry-1277", "entry-1288", "entry-1299", "entry-1309", "entry-132", "entry-1330", "entry-1341", "entry-1352", "entry-1363", "entry-1374", "entry-1385", "entry-1396", "entry-1406", "entry-1417", "entry-1428", "entry-1439", "entry-145", "entry-1460", "entry-1471", "entry-1482"],
+  "output_files": ["quality-outputs/cloud-08-release-qa-001.jsonl", "quality-outputs/cloud-08-release-qa-002.jsonl", "quality-outputs/cloud-08-release-qa-003.jsonl", "quality-outputs/cloud-08-release-qa-004.jsonl", "quality-outputs/cloud-08-release-qa-005.jsonl", "quality-outputs/cloud-08-release-qa-006.jsonl"]
 }
