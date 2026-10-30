@@ -4,8 +4,8 @@
   "reference_results_branch": "origin/codex/description-results-2026-09-30",
   "reference_inputs_branch": "origin/codex/description-inputs-2026-09-30",
   "assigned_count": 579,
-  "checked_count": 485,
-  "remaining_count": 94,
+  "checked_count": 490,
+  "remaining_count": 89,
   "checked_ids": [
     "entry-20",
     "entry-24",
@@ -491,7 +491,12 @@
     "entry-6302",
     "entry-6313",
     "entry-6327",
-    "entry-6338"
+    "entry-6338",
+    "entry-6349",
+    "entry-636",
+    "entry-6371",
+    "entry-6383",
+    "entry-6395"
   ],
   "output_files": [
     "quality-outputs/cloud-08-release-qa-001.jsonl",
@@ -582,6 +587,7 @@
     "quality-outputs/cloud-08-release-qa-086.jsonl",
     "quality-outputs/cloud-08-release-qa-087.jsonl",
     "quality-outputs/cloud-08-release-qa-088.jsonl",
-    "quality-outputs/cloud-08-release-qa-089.jsonl"
+    "quality-outputs/cloud-08-release-qa-089.jsonl",
+    "quality-outputs/cloud-08-release-qa-090.jsonl"
   ]
 }
