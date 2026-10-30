@@ -2,8 +2,8 @@
   "worker": "04",
   "assignment": "worker-04-score-input.jsonl",
   "assigned_count": 579,
-  "terminal_count": 40,
-  "remaining_count": 539,
+  "terminal_count": 45,
+  "remaining_count": 534,
   "terminal_record_ids": [
     "entry-1000",
     "entry-1011",
@@ -44,11 +44,16 @@
     "entry-1392",
     "entry-1402",
     "entry-1413",
-    "entry-1424"
+    "entry-1424",
+    "entry-1435",
+    "entry-1446",
+    "entry-1457",
+    "entry-1468",
+    "entry-1479"
   ],
   "status_counts": {
     "pass": 9,
-    "needs_fix": 25,
-    "needs_context": 6
+    "needs_fix": 28,
+    "needs_context": 8
   }
 }\n
