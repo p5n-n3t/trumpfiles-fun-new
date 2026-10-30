@@ -4,11 +4,11 @@
   "reference_inputs_branch": "codex/description-inputs-2026-09-30",
   "reference_results_branch": "codex/description-results-2026-09-30",
   "assigned_record_count": 578,
-  "reviewed_count": 90,
+  "reviewed_count": 100,
   "pass_count": 2,
-  "needs_fix_count": 71,
+  "needs_fix_count": 81,
   "needs_context_count": 17,
-  "remaining_count": 488,
+  "remaining_count": 478,
   "reviewed_ids": [
     "entry-1006",
     "entry-1017",
@@ -99,7 +99,17 @@
     "entry-1959",
     "entry-197",
     "entry-1980",
-    "entry-1991"
+    "entry-1991",
+    "entry-2000",
+    "entry-2011",
+    "entry-2022",
+    "entry-2033",
+    "entry-2044",
+    "entry-2055",
+    "entry-2066",
+    "entry-2077",
+    "entry-2088",
+    "entry-2099"
   ],
   "batches": [
     {
@@ -300,6 +310,27 @@
         "pass": 0,
         "needs_fix": 8,
         "needs_context": 2
+      }
+    },
+    {
+      "batch": 11,
+      "record_ids": [
+        "entry-2000",
+        "entry-2011",
+        "entry-2022",
+        "entry-2033",
+        "entry-2044",
+        "entry-2055",
+        "entry-2066",
+        "entry-2077",
+        "entry-2088",
+        "entry-2099"
+      ],
+      "output_file": "cloud-10-release-qa-011.jsonl",
+      "disposition_counts": {
+        "pass": 0,
+        "needs_fix": 10,
+        "needs_context": 0
       }
     }
   ]
