@@ -4,9 +4,9 @@
   "assigned_total": 579,
   "saved_total": 535,
   "pass": 23,
-  "needs_fix": 405,
-  "needs_context": 137,
-  "remaining": 14,
+  "needs_fix": 407,
+  "needs_context": 140,
+  "remaining": 9,
   "saved_record_ids": [
     "entry-23",
     "entry-27",
@@ -79,6 +79,11 @@
     "entry-888",
     "entry-899",
     "entry-909",
+    "entry-930",
+    "entry-941",
+    "entry-952",
+    "entry-963",
+    "entry-974",
     "entry-1001",
     "entry-1012",
     "entry-1023",
@@ -574,7 +579,7 @@
     "entry-7180",
     "entry-7193"
   ],
-  "last_output": "cloud-05-release-qa-103.jsonl",
+  "last_output": "cloud-05-release-qa-104.jsonl",
   "references": {
     "input": "origin/codex/description-inputs-2026-09-30",
     "latest_descriptions": "origin/codex/description-results-2026-09-30"
