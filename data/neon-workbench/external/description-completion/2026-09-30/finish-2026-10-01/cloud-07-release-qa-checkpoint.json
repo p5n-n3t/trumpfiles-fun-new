@@ -561,13 +561,21 @@
     "entry-835",
     "entry-846",
     "entry-857",
-    "entry-868"
+    "entry-868",
+    "entry-879",
+    "entry-89",
+    "entry-90",
+    "entry-910",
+    "entry-921",
+    "entry-932",
+    "entry-943",
+    "entry-954"
   ],
-  "checked_count": 560,
+  "checked_count": 568,
   "pass_count": 35,
-  "needs_fix_count": 393,
-  "needs_context_count": 132,
-  "next_input_index": 560,
+  "needs_fix_count": 397,
+  "needs_context_count": 136,
+  "next_input_index": 568,
   "latest_results_ref": "origin/codex/description-results-2026-09-30",
   "original_inputs_ref": "origin/codex/description-inputs-2026-09-30"
 }
