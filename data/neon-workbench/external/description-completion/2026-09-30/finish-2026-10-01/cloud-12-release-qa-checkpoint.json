@@ -352,9 +352,19 @@
     "entry-4788",
     "entry-4799",
     "entry-4809",
-    "entry-482"
+    "entry-482",
+    "entry-4831",
+    "entry-4842",
+    "entry-4853",
+    "entry-4864",
+    "entry-4876",
+    "entry-4887",
+    "entry-4898",
+    "entry-4909",
+    "entry-492",
+    "entry-4930"
   ],
-  "reviewed_count": 350,
-  "remaining_count": 228,
-  "batch_file": "cloud-12-release-qa-058.jsonl"
+  "reviewed_count": 360,
+  "remaining_count": 218,
+  "batch_file": "cloud-12-release-qa-059.jsonl"
 }
