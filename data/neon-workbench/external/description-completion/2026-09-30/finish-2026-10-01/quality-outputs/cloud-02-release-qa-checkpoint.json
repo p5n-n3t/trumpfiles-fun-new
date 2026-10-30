@@ -6,10 +6,10 @@
     "codex/description-inputs-2026-09-30"
   ],
   "total_assigned": 579,
-  "pass": 35,
-  "needs_fix": 393,
+  "pass": 36,
+  "needs_fix": 397,
   "needs_context": 146,
-  "remaining": 5,
+  "remaining": 0,
   "processed_record_ids": [
     "entry-10",
     "entry-101",
@@ -584,7 +584,12 @@
     "entry-982",
     "entry-993",
     "expanded-20260825-usps-injunction-violation",
-    "expanded-20260903-smithsonian-signs-letter"
+    "expanded-20260903-smithsonian-signs-letter",
+    "expanded-20260914-un-civilian-airstrike-rebuke",
+    "expanded-20260921-media-ban-lawsuit",
+    "expanded-20260925-save-sc-stay",
+    "expanded-20260929-public-citizen-broadcaster-complaint",
+    "fresh-20260916-eric-dominari-13g"
   ],
   "output_files": [
     "cloud-02-release-qa-001.jsonl",
@@ -650,6 +655,7 @@
     "cloud-02-release-qa-061.jsonl",
     "cloud-02-release-qa-062.jsonl",
     "cloud-02-release-qa-063.jsonl",
-    "cloud-02-release-qa-064.jsonl"
+    "cloud-02-release-qa-064.jsonl",
+    "cloud-02-release-qa-065.jsonl"
   ]
 }
