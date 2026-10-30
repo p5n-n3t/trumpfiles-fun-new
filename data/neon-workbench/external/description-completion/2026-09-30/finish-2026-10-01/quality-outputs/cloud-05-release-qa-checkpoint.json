@@ -2,11 +2,11 @@
   "worker": "05",
   "phase": "release_qa",
   "assigned_total": 579,
-  "saved_total": 30,
+  "saved_total": 35,
   "pass": 1,
-  "needs_fix": 29,
+  "needs_fix": 34,
   "needs_context": 0,
-  "remaining": 549,
+  "remaining": 544,
   "saved_record_ids": [
     "entry-1001",
     "entry-1012",
@@ -37,9 +37,14 @@
     "entry-1285",
     "entry-1296",
     "entry-1306",
-    "entry-1317"
+    "entry-1317",
+    "entry-1328",
+    "entry-1339",
+    "entry-135",
+    "entry-1360",
+    "entry-1371"
   ],
-  "last_output": "cloud-05-release-qa-004.jsonl",
+  "last_output": "cloud-05-release-qa-005.jsonl",
   "references": {
     "input": "origin/codex/description-inputs-2026-09-30",
     "latest_descriptions": "origin/codex/description-results-2026-09-30"
