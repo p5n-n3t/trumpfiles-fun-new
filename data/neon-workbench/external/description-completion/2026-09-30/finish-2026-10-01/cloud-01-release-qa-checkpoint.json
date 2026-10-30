@@ -4,11 +4,11 @@
   "reference_results_branch": "origin/codex/description-results-2026-09-30",
   "reference_inputs_branch": "origin/codex/description-inputs-2026-09-30",
   "assigned_count": 579,
-  "checked_count": 365,
-  "remaining_count": 214,
-  "pass_count": 23,
-  "needs_fix_count": 244,
-  "needs_context_count": 98,
+  "checked_count": 375,
+  "remaining_count": 204,
+  "pass_count": 24,
+  "needs_fix_count": 247,
+  "needs_context_count": 104,
   "checked_record_ids": [
     "entry-1",
     "entry-1009",
@@ -374,7 +374,17 @@
     "entry-4942",
     "entry-496",
     "entry-4978",
-    "entry-4989"
+    "entry-4989",
+    "entry-5",
+    "entry-5009",
+    "entry-502",
+    "entry-5030",
+    "entry-5041",
+    "entry-5052",
+    "entry-5063",
+    "entry-5074",
+    "entry-5085",
+    "entry-5096"
   ],
   "batch_files": [
     "quality-outputs/cloud-01-release-qa-001.jsonl",
@@ -423,6 +433,7 @@
     "quality-outputs/cloud-01-release-qa-044.jsonl",
     "quality-outputs/cloud-01-release-qa-045.jsonl",
     "quality-outputs/cloud-01-release-qa-046.jsonl",
-    "quality-outputs/cloud-01-release-qa-047.jsonl"
+    "quality-outputs/cloud-01-release-qa-047.jsonl",
+    "quality-outputs/cloud-01-release-qa-048.jsonl"
   ]
 }
