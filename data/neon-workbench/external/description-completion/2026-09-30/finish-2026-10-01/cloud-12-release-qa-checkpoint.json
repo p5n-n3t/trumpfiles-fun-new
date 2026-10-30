@@ -1,0 +1,15 @@
+{
+  "worker": 12,
+  "assignment_file": "worker-12-score-input.jsonl",
+  "assigned_count": 578,
+  "reviewed_ids": [
+    "entry-1008",
+    "entry-1019",
+    "entry-103",
+    "entry-1040",
+    "entry-1051"
+  ],
+  "reviewed_count": 5,
+  "remaining_count": 573,
+  "batch_file": "cloud-12-release-qa-001.jsonl"
+}
