@@ -66,13 +66,18 @@
     "entry-1668",
     "entry-168",
     "entry-1694",
-    "entry-1706"
+    "entry-1706",
+    "entry-1721",
+    "entry-1736",
+    "entry-1750",
+    "entry-1761",
+    "entry-1772"
   ],
-  "checked_count": 65,
+  "checked_count": 70,
   "pass_count": 13,
-  "needs_fix_count": 50,
+  "needs_fix_count": 55,
   "needs_context_count": 2,
-  "next_input_index": 65,
+  "next_input_index": 70,
   "latest_results_ref": "origin/codex/description-results-2026-09-30",
   "original_inputs_ref": "origin/codex/description-inputs-2026-09-30"
 }
