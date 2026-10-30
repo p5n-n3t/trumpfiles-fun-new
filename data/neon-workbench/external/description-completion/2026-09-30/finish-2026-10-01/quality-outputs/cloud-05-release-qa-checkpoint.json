@@ -1,0 +1,24 @@
+{
+  "worker": "05",
+  "phase": "release_qa",
+  "assigned_total": 579,
+  "saved_total": 5,
+  "pass": 0,
+  "needs_fix": 5,
+  "needs_context": 0,
+  "remaining": 574,
+  "saved_record_ids": [
+    "entry-1001",
+    "entry-1012",
+    "entry-1023",
+    "entry-1034",
+    "entry-1045"
+  ],
+  "last_output": "cloud-05-release-qa-001.jsonl",
+  "references": {
+    "input": "origin/codex/description-inputs-2026-09-30",
+    "latest_descriptions": "origin/codex/description-results-2026-09-30"
+  },
+  "model": "GPT-6 (available session model; requested GPT-6 Luna low unavailable)",
+  "updated_at": "2026-10-30"
+}
