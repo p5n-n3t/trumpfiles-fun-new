@@ -1,12 +1,28 @@
 {
   "worker": "07",
   "task": "final-reader-metadata-readiness",
-  "checked_ids": ["entry-1003", "entry-1014", "entry-1025", "entry-1036", "entry-1047"],
-  "checked_count": 5,
-  "pass_count": 1,
-  "needs_fix_count": 4,
+  "checked_ids": [
+    "entry-1003",
+    "entry-1014",
+    "entry-1025",
+    "entry-1036",
+    "entry-1047",
+    "entry-1058",
+    "entry-1070",
+    "entry-1081",
+    "entry-1092",
+    "entry-1102",
+    "entry-1113",
+    "entry-1124",
+    "entry-1135",
+    "entry-1146",
+    "entry-1157"
+  ],
+  "checked_count": 15,
+  "pass_count": 5,
+  "needs_fix_count": 10,
   "needs_context_count": 0,
-  "next_input_index": 5,
+  "next_input_index": 15,
   "latest_results_ref": "origin/codex/description-results-2026-09-30",
   "original_inputs_ref": "origin/codex/description-inputs-2026-09-30"
 }
