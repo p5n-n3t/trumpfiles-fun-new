@@ -1,0 +1,11 @@
+{
+  "worker": "cloud-08",
+  "assignment_file": "worker-08-score-input.jsonl",
+  "reference_results_branch": "origin/codex/description-results-2026-09-30",
+  "reference_inputs_branch": "origin/codex/description-inputs-2026-09-30",
+  "assigned_count": 579,
+  "checked_count": 5,
+  "remaining_count": 574,
+  "checked_ids": ["entry-1004", "entry-1015", "entry-1026", "entry-1037", "entry-1048"],
+  "output_files": ["quality-outputs/cloud-08-release-qa-001.jsonl"]
+}
