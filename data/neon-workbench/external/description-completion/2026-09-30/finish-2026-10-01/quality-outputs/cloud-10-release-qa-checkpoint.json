@@ -1,0 +1,337 @@
+{
+  "worker": 10,
+  "input_file": "worker-10-score-input.jsonl",
+  "reference_inputs_branch": "codex/description-inputs-2026-09-30",
+  "reference_results_branch": "codex/description-results-2026-09-30",
+  "assigned_record_count": 578,
+  "reviewed_count": 100,
+  "pass_count": 2,
+  "needs_fix_count": 81,
+  "needs_context_count": 17,
+  "remaining_count": 478,
+  "reviewed_ids": [
+    "entry-1006",
+    "entry-1017",
+    "entry-1028",
+    "entry-1039",
+    "entry-105",
+    "entry-1062",
+    "entry-1073",
+    "entry-1084",
+    "entry-1095",
+    "entry-1105",
+    "entry-1116",
+    "entry-1127",
+    "entry-1138",
+    "entry-1149",
+    "entry-116",
+    "entry-1170",
+    "entry-1181",
+    "entry-1192",
+    "entry-1202",
+    "entry-1213",
+    "entry-1224",
+    "entry-1235",
+    "entry-1246",
+    "entry-1257",
+    "entry-1268",
+    "entry-1279",
+    "entry-129",
+    "entry-130",
+    "entry-1310",
+    "entry-1321",
+    "entry-1332",
+    "entry-1343",
+    "entry-1354",
+    "entry-1365",
+    "entry-1376",
+    "entry-1387",
+    "entry-1398",
+    "entry-1408",
+    "entry-1419",
+    "entry-143",
+    "entry-1440",
+    "entry-1451",
+    "entry-1462",
+    "entry-1473",
+    "entry-1484",
+    "entry-1495",
+    "entry-1505",
+    "entry-1516",
+    "entry-1527",
+    "entry-1538",
+    "entry-1549",
+    "entry-156",
+    "entry-1570",
+    "entry-1581",
+    "entry-1592",
+    "entry-1602",
+    "entry-1613",
+    "entry-1626",
+    "entry-1637",
+    "entry-1648",
+    "entry-166",
+    "entry-1670",
+    "entry-1685",
+    "entry-1697",
+    "entry-1711",
+    "entry-1726",
+    "entry-174",
+    "entry-1753",
+    "entry-1764",
+    "entry-1775",
+    "entry-1786",
+    "entry-1797",
+    "entry-1807",
+    "entry-1818",
+    "entry-1829",
+    "entry-184",
+    "entry-1850",
+    "entry-1861",
+    "entry-1872",
+    "entry-1883",
+    "entry-1894",
+    "entry-1904",
+    "entry-1915",
+    "entry-1926",
+    "entry-1937",
+    "entry-1948",
+    "entry-1959",
+    "entry-197",
+    "entry-1980",
+    "entry-1991",
+    "entry-2000",
+    "entry-2011",
+    "entry-2022",
+    "entry-2033",
+    "entry-2044",
+    "entry-2055",
+    "entry-2066",
+    "entry-2077",
+    "entry-2088",
+    "entry-2099"
+  ],
+  "batches": [
+    {
+      "batch": 1,
+      "record_ids": [
+        "entry-1006",
+        "entry-1017",
+        "entry-1028",
+        "entry-1039",
+        "entry-105"
+      ],
+      "output_file": "cloud-10-release-qa-001.jsonl",
+      "disposition_counts": {
+        "pass": 0,
+        "needs_fix": 5,
+        "needs_context": 0
+      }
+    },
+    {
+      "batch": 2,
+      "record_ids": [
+        "entry-1062",
+        "entry-1073",
+        "entry-1084",
+        "entry-1095",
+        "entry-1105"
+      ],
+      "output_file": "cloud-10-release-qa-002.jsonl",
+      "disposition_counts": {
+        "pass": 1,
+        "needs_fix": 3,
+        "needs_context": 1
+      }
+    },
+    {
+      "batch": 3,
+      "record_ids": [
+        "entry-1116",
+        "entry-1127",
+        "entry-1138",
+        "entry-1149",
+        "entry-116",
+        "entry-1170",
+        "entry-1181",
+        "entry-1192",
+        "entry-1202",
+        "entry-1213"
+      ],
+      "output_file": "cloud-10-release-qa-003.jsonl",
+      "disposition_counts": {
+        "pass": 1,
+        "needs_fix": 5,
+        "needs_context": 4
+      }
+    },
+    {
+      "batch": 4,
+      "record_ids": [
+        "entry-1224",
+        "entry-1235",
+        "entry-1246",
+        "entry-1257",
+        "entry-1268",
+        "entry-1279",
+        "entry-129",
+        "entry-130",
+        "entry-1310",
+        "entry-1321"
+      ],
+      "output_file": "cloud-10-release-qa-004.jsonl",
+      "disposition_counts": {
+        "pass": 0,
+        "needs_fix": 9,
+        "needs_context": 1
+      }
+    },
+    {
+      "batch": 5,
+      "record_ids": [
+        "entry-1332",
+        "entry-1343",
+        "entry-1354",
+        "entry-1365",
+        "entry-1376",
+        "entry-1387",
+        "entry-1398",
+        "entry-1408",
+        "entry-1419",
+        "entry-143"
+      ],
+      "output_file": "cloud-10-release-qa-005.jsonl",
+      "disposition_counts": {
+        "pass": 0,
+        "needs_fix": 8,
+        "needs_context": 2
+      }
+    },
+    {
+      "batch": 6,
+      "record_ids": [
+        "entry-1440",
+        "entry-1451",
+        "entry-1462",
+        "entry-1473",
+        "entry-1484",
+        "entry-1495",
+        "entry-1505",
+        "entry-1516",
+        "entry-1527",
+        "entry-1538"
+      ],
+      "output_file": "cloud-10-release-qa-006.jsonl",
+      "disposition_counts": {
+        "pass": 0,
+        "needs_fix": 10,
+        "needs_context": 0
+      }
+    },
+    {
+      "batch": 7,
+      "record_ids": [
+        "entry-1549",
+        "entry-156",
+        "entry-1570",
+        "entry-1581",
+        "entry-1592",
+        "entry-1602",
+        "entry-1613",
+        "entry-1626",
+        "entry-1637",
+        "entry-1648"
+      ],
+      "output_file": "cloud-10-release-qa-007.jsonl",
+      "disposition_counts": {
+        "pass": 0,
+        "needs_fix": 7,
+        "needs_context": 3
+      }
+    },
+    {
+      "batch": 8,
+      "record_ids": [
+        "entry-166",
+        "entry-1670",
+        "entry-1685",
+        "entry-1697",
+        "entry-1711",
+        "entry-1726",
+        "entry-174",
+        "entry-1753",
+        "entry-1764",
+        "entry-1775"
+      ],
+      "output_file": "cloud-10-release-qa-008.jsonl",
+      "disposition_counts": {
+        "pass": 0,
+        "needs_fix": 7,
+        "needs_context": 3
+      }
+    },
+    {
+      "batch": 9,
+      "record_ids": [
+        "entry-1786",
+        "entry-1797",
+        "entry-1807",
+        "entry-1818",
+        "entry-1829",
+        "entry-184",
+        "entry-1850",
+        "entry-1861",
+        "entry-1872",
+        "entry-1883"
+      ],
+      "output_file": "cloud-10-release-qa-009.jsonl",
+      "disposition_counts": {
+        "pass": 0,
+        "needs_fix": 9,
+        "needs_context": 1
+      }
+    },
+    {
+      "batch": 10,
+      "record_ids": [
+        "entry-1894",
+        "entry-1904",
+        "entry-1915",
+        "entry-1926",
+        "entry-1937",
+        "entry-1948",
+        "entry-1959",
+        "entry-197",
+        "entry-1980",
+        "entry-1991"
+      ],
+      "output_file": "cloud-10-release-qa-010.jsonl",
+      "disposition_counts": {
+        "pass": 0,
+        "needs_fix": 8,
+        "needs_context": 2
+      }
+    },
+    {
+      "batch": 11,
+      "record_ids": [
+        "entry-2000",
+        "entry-2011",
+        "entry-2022",
+        "entry-2033",
+        "entry-2044",
+        "entry-2055",
+        "entry-2066",
+        "entry-2077",
+        "entry-2088",
+        "entry-2099"
+      ],
+      "output_file": "cloud-10-release-qa-011.jsonl",
+      "disposition_counts": {
+        "pass": 0,
+        "needs_fix": 10,
+        "needs_context": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "audit": "worker-10 preserved-description quality audit",
+  "audit_date": "2026-09-30",
+  "scope": {
+    "assigned_worker": 10,
+    "assigned_record_count": 90,
+    "reviewed_record_count": 90,
+    "effective_output": "cloud-10-revision-001.jsonl, overlaid by cloud-10-revision-002.jsonl for entry-308",
+    "preexisting_fields_reviewed": {
+      "description_short": 90,
+      "description_medium": 0,
+      "description_long": 24
+    },
+    "method": "Compared populated original description fields with effective output rows and the latest card summaries. No source research was performed. No description rows were edited."
+  },
+  "findings_count": 28,
+  "flagged_record_count": 18,
+  "findings": [
+    {
+      "record_id": "entry-1816",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Taken together, the episode showed how Trump's current governing style continues to centralize power, push legal limits, and shift institutional norms in ways that raise long-tail accountability risk. The event also intensified concerns about downstream harm to due process, regulatory integrity, or federal-state coordination depending on the policy domain involved.",
+      "reason": "Generic governance-template language unrelated to a sewage spill emergency request; it conflicts with the summary’s narrow account of local disaster assistance."
+    },
+    {
+      "record_id": "entry-5158",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "The complete absence of federal enforcement — with the FEC lacking a quorum and the DOJ focused on targeting perceived enemies — left voters with no protection against a tidal wave of AI-generated political disinformation in the most consequential election of Trump's second term.",
+      "reason": "Sweeping, absolute conclusions about enforcement, voter protection, and election impact exceed the summary’s documented ads, fake accounts, and lack of a federal disclosure requirement."
+    },
+    {
+      "record_id": "entry-30",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Donald Trump systematically sabotaged the United States Postal Service to suppress mail-in voting during the 2020 election, appointing donor Louis DeJoy as Postmaster General to slow mail delivery and remove mail sorting machines and collection boxes in Democratic areas.",
+      "reason": "States intentional voter suppression and a coordinated appointment purpose as fact; the summary says the supplied account characterizes the changes that way, while reporting operational changes and Trump’s public funding statement."
+    },
+    {
+      "record_id": "entry-30",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Trump openly admitted his strategy, saying he opposed USPS funding because 'they need that money in order to have the post office work so it can take all of these millions and millions of ballots.'",
+      "reason": "The quoted statement explains his objection to funding in terms of mail ballots; it is not an admission that the purpose was to suppress those ballots."
+    },
+    {
+      "record_id": "entry-265",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Donald Trump systematically destroyed constitutional right to legal counsel by eliminating over 600 federal public defender positions while deferring payment to court-appointed attorneys for over two months through budget cuts that created 'constitutional crisis' where poor defendants faced prosecution without adequate legal representation.",
+      "reason": "Turns a reported funding shortfall and more than 600 jobs at risk into completed mass eliminations and a constitutional crisis; the summary explicitly says those outcomes were not established."
+    },
+    {
+      "record_id": "entry-197",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Donald Trump implemented the largest prison privatization expansion in American history through a $45 billion ICE detention contract with private prison corporations including GEO Group and CoreCivic, creating a massive deportation and forced labor apparatus while enriching companies with ties to Trump administration officials who had lobbied for expanded incarceration.",
+      "reason": "The summary describes an ICE solicitation with a possible two-year value up to $45 billion, not an awarded contract or implemented expansion; it also says the cited solicitation does not establish forced-labor claims."
+    },
+    {
+      "record_id": "entry-197",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "nearly 800,000 prisoners performed forced labor at wages as low as $0.20 per hour",
+      "reason": "This separate, large-scale forced-labor claim is not established by the cited solicitation or by the summary; it is presented without attribution."
+    },
+    {
+      "record_id": "entry-5239",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "granting him read/write access to the Payment Automation Manager and Secure Payment System — the federal infrastructure disbursing over $6 trillion annually, including Social Security and Medicare payments.",
+      "reason": "The long description leaves the access unqualified, while the new summary includes the Washington Post correction that access was mistakenly granted, later corrected, and not used to modify the database."
+    },
+    {
+      "record_id": "entry-5223",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Trump initially claimed to know nothing about it; Hegseth falsely declared nobody was texting war plans.",
+      "reason": "“Falsely” adds a conclusion about Hegseth’s statement that the new summary does not establish; it reports the shared material and officials’ assessment that it would have been classified."
+    },
+    {
+      "record_id": "entry-5089",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "A group of traders was found to have made approximately $100 million on $MELANIA before it went public, suggesting advance knowledge of the launch.",
+      "reason": "The new summary says some traders profited before launch but does not establish how they learned of it; this wording converts timing into implied advance knowledge."
+    },
+    {
+      "record_id": "entry-5089",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "The coin launched while the $TRUMP token was still in freefall from its own launch days earlier, cannibalizing investor attention and causing a sharp decline in the president's coin.",
+      "reason": "Asserts a causal effect on the $TRUMP token that is absent from the summary and unsupported in this preserved passage."
+    },
+    {
+      "record_id": "entry-5089",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "The dual memecoin launches scandalized presidential ethics experts who noted the incoming president was using his inauguration to pump speculative crypto assets in which he held a dominant financial interest.",
+      "reason": "Attributes a deliberate “pump” motive and dominant financial interest; the summary supports concerns about timing and monetization, not that intent."
+    },
+    {
+      "record_id": "entry-5116",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "the Trump DOJ opened a retaliatory investigation into Senator Adam Schiff",
+      "reason": "Labels retaliation as established, while the new summary attributes that characterization to critics and says it was not a judicial finding."
+    },
+    {
+      "record_id": "entry-5116",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "The investigation remained formally open, providing the administration ongoing political leverage.",
+      "reason": "Infers an ongoing political purpose from the investigation’s open status; the summary reports the status and critics’ retaliation concern without establishing that motive."
+    },
+    {
+      "record_id": "entry-308",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "expressing desire to emulate authoritarian control rather than constitutional limitations",
+      "reason": "Infers an intent to replace constitutional limits from public praise of leaders; the summary expressly says the quotations do not establish such a plan."
+    },
+    {
+      "record_id": "entry-186",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Donald Trump implemented Project 2025's plan to privatize the entire federal student loan system controlling $1.6 trillion in debt, eliminating Public Service Loan Forgiveness that had cleared $69.2 billion for 946,000 teachers, firefighters, and public service workers while forcing students into the 'risky private student loan market with less consumer protections.'",
+      "reason": "Conflicts with the summary, which says privatization was an option under discussion and not a completed change; it also asserts PSLF elimination not established there."
+    },
+    {
+      "record_id": "entry-186",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "The privatization scheme eliminated all income-based repayment plans including the SAVE program",
+      "reason": "States completed elimination of repayment plans even though the summary describes proposals and uncertainty during litigation, not completed privatization."
+    },
+    {
+      "record_id": "entry-4727",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Critics noted the program spent approximately $8,000 per departing immigrant while simultaneously terrifying legal residents into fleeing.",
+      "reason": "The summary reports app use, departures, and government assistance but does not support this per-person cost or the broad claim about legal residents fleeing."
+    },
+    {
+      "record_id": "entry-4642",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Throughout 2025 the Trump administration systematically dismantled immigration due process via three parallel strategies.",
+      "reason": "A sweeping legal conclusion broader than the summary’s account of specific enforcement actions, a court order, and concerns about access to hearings."
+    },
+    {
+      "record_id": "entry-4642",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "placed on fast-track 'expedited removal' with no further hearing.",
+      "reason": "Generalizes an absolute no-hearing outcome to the described courthouse arrests; the summary only says some cases were dismissed before arrests and notes a later due-process ruling."
+    },
+    {
+      "record_id": "entry-5064",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Critics noted the fundamental incoherence: DOGE claimed to reduce waste by cutting the agency responsible for collecting federal revenue at a ratio of multiple dollars returned for every dollar spent on enforcement.",
+      "reason": "Editorial judgment and a broad return-on-enforcement claim not supported by the summary, which reports a specific projected revenue estimate and audit staffing cuts."
+    },
+    {
+      "record_id": "entry-144",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Donald Trump weaponized the False Claims Act to criminalize diversity, equity, and inclusion programs at government contractors",
+      "reason": "Overstates the summary’s account of contractor certifications and investigations of alleged violations; the summary says maintaining a DEI program alone was not established as unlawful."
+    },
+    {
+      "record_id": "entry-144",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "The administration financially incentivized whistleblower complaints against organizations' DEI programs, encouraging individuals to file False Claims Act lawsuits against employers and contractors for maintaining diversity initiatives.",
+      "reason": "Adds a broad enforcement mechanism and suggests lawsuits for maintaining DEI programs, neither of which is established in the summary."
+    },
+    {
+      "record_id": "entry-92",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Donald Trump ordered extraordinary Secret Service protection for his adult children, their spouses, and former White House officials after leaving office, costing taxpayers $1.7 million in six months for protection that typically ends when presidents leave office, creating another avenue for Trump to profit from government services.",
+      "reason": "The summary reports that these people received protection and identifies potential conflicts; it does not establish that Trump ordered it, that the coverage violated a norm, or that it created profit for him."
+    },
+    {
+      "record_id": "entry-92",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "The arrangement violated norms limiting post-presidential protection to former presidents, their spouses, and children under 16, extending coverage to wealthy adults and former officials who had no legitimate security need.",
+      "reason": "States a violation and declares there was no legitimate security need, whereas the summary frames the appropriateness of coverage as an open question."
+    },
+    {
+      "record_id": "entry-25",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "demonstrating his belief that fame entitled him to abuse women without consequences.",
+      "reason": "Speculates about Trump’s beliefs and motive beyond the jury’s civil findings summarized in the new card text."
+    },
+    {
+      "record_id": "entry-218",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "Donald Trump implemented Project 2025's systematic destruction of the American social safety net through $1.1 trillion in cuts to SNAP food assistance, Medicaid healthcare, Medicare, and Social Security over 10 years, eliminating benefits for millions of vulnerable Americans while triggering 1.3 million job losses and $113 billion reduction in state economic activity.",
+      "reason": "Presents projected Medicaid/SNAP impacts as implemented cuts and adds Medicare and Social Security cuts not established by the summary, which explicitly says these are projections and Social Security cuts are not supported."
+    },
+    {
+      "record_id": "entry-218",
+      "field": "description_long",
+      "verbatim_problematic_phrase": "The systematic cuts violated federal obligations to protect vulnerable populations",
+      "reason": "Asserts a legal violation and broad consequences not established by the budget projections described in the summary."
+    }
+  ]
+}
