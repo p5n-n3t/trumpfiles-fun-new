@@ -102,9 +102,19 @@
     "entry-2068",
     "entry-2079",
     "entry-209",
-    "entry-210"
+    "entry-210",
+    "entry-2110",
+    "entry-2121",
+    "entry-2132",
+    "entry-2143",
+    "entry-2154",
+    "entry-2165",
+    "entry-2176",
+    "entry-2187",
+    "entry-2198",
+    "entry-2208"
   ],
-  "reviewed_count": 100,
-  "remaining_count": 478,
-  "batch_file": "cloud-12-release-qa-012.jsonl"
+  "reviewed_count": 110,
+  "remaining_count": 468,
+  "batch_file": "cloud-12-release-qa-013.jsonl"
 }
