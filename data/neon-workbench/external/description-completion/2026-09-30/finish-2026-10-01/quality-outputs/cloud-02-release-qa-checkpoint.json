@@ -6,10 +6,10 @@
     "codex/description-inputs-2026-09-30"
   ],
   "total_assigned": 579,
-  "pass": 34,
-  "needs_fix": 389,
+  "pass": 35,
+  "needs_fix": 393,
   "needs_context": 146,
-  "remaining": 10,
+  "remaining": 5,
   "processed_record_ids": [
     "entry-10",
     "entry-101",
@@ -579,7 +579,12 @@
     "entry-928",
     "entry-939",
     "entry-95",
-    "entry-960"
+    "entry-960",
+    "entry-971",
+    "entry-982",
+    "entry-993",
+    "expanded-20260825-usps-injunction-violation",
+    "expanded-20260903-smithsonian-signs-letter"
   ],
   "output_files": [
     "cloud-02-release-qa-001.jsonl",
@@ -644,6 +649,7 @@
     "cloud-02-release-qa-060.jsonl",
     "cloud-02-release-qa-061.jsonl",
     "cloud-02-release-qa-062.jsonl",
-    "cloud-02-release-qa-063.jsonl"
+    "cloud-02-release-qa-063.jsonl",
+    "cloud-02-release-qa-064.jsonl"
   ]
 }
