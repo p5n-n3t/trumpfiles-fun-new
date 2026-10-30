@@ -2,12 +2,12 @@
   "worker": "03",
   "assignment_file": "worker-03-score-input.jsonl",
   "assigned_count": 579,
-  "saved_count": 342,
-  "remaining_count": 237,
+  "saved_count": 347,
+  "remaining_count": 232,
   "status_counts": {
     "pass": 7,
-    "needs_fix": 263,
-    "needs_context": 72
+    "needs_fix": 267,
+    "needs_context": 73
   },
   "output_files": [
     "quality-outputs/cloud-03-release-qa-001.jsonl",
@@ -49,7 +49,8 @@
     "quality-outputs/cloud-03-release-qa-037.jsonl",
     "quality-outputs/cloud-03-release-qa-038.jsonl",
     "quality-outputs/cloud-03-release-qa-039.jsonl",
-    "quality-outputs/cloud-03-release-qa-040.jsonl"
+    "quality-outputs/cloud-03-release-qa-040.jsonl",
+    "quality-outputs/cloud-03-release-qa-041.jsonl"
   ],
   "saved_record_ids": [
     "entry-100",
@@ -393,7 +394,12 @@
     "entry-469",
     "entry-4700",
     "entry-4712",
-    "entry-4723"
+    "entry-4723",
+    "entry-4734",
+    "entry-4746",
+    "entry-4758",
+    "entry-4769",
+    "entry-478"
   ],
-  "updated_at_utc": "2026-10-30T05:59:45+00:00"
+  "updated_at_utc": "2026-10-30T06:00:18+00:00"
 }
