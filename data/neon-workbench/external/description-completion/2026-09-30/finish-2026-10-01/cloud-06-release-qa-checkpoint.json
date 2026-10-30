@@ -352,12 +352,22 @@
     "entry-4782",
     "entry-4793",
     "entry-4803",
-    "entry-4814"
+    "entry-4814",
+    "entry-4825",
+    "entry-4837",
+    "entry-4848",
+    "entry-4859",
+    "entry-487",
+    "entry-4881",
+    "entry-4892",
+    "entry-4902",
+    "entry-4914",
+    "entry-4925"
   ],
-  "pass_count": 10,
-  "needs_fix_count": 242,
-  "needs_context_count": 98,
-  "remaining_count": 229,
+  "pass_count": 12,
+  "needs_fix_count": 247,
+  "needs_context_count": 101,
+  "remaining_count": 219,
   "batches": [
     "quality-outputs/cloud-06-release-qa-001.jsonl",
     "quality-outputs/cloud-06-release-qa-002.jsonl",
@@ -397,6 +407,7 @@
     "quality-outputs/cloud-06-release-qa-036.jsonl",
     "quality-outputs/cloud-06-release-qa-037.jsonl",
     "quality-outputs/cloud-06-release-qa-038.jsonl",
-    "quality-outputs/cloud-06-release-qa-039.jsonl"
+    "quality-outputs/cloud-06-release-qa-039.jsonl",
+    "quality-outputs/cloud-06-release-qa-040.jsonl"
   ]
 }
