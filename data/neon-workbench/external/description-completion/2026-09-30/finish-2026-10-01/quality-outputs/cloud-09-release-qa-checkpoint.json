@@ -2,8 +2,8 @@
   "worker": "cloud-09",
   "assignment": "reader-metadata-readiness",
   "assigned_count": 578,
-  "saved_count": 325,
-  "remaining_count": 253,
+  "saved_count": 335,
+  "remaining_count": 243,
   "saved_ids": [
     "entry-1005",
     "entry-1016",
@@ -329,6 +329,16 @@
     "entry-4509",
     "entry-452",
     "entry-4530",
-    "entry-4542"
+    "entry-4542",
+    "entry-4553",
+    "entry-4564",
+    "entry-4575",
+    "entry-4587",
+    "entry-4598",
+    "entry-4608",
+    "entry-4619",
+    "entry-463",
+    "entry-4640",
+    "entry-4651"
   ]
 }
