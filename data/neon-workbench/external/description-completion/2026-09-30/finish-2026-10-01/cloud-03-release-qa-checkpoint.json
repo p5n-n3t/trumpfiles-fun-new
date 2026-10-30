@@ -1,0 +1,25 @@
+{
+  "worker": "03",
+  "assignment_file": "worker-03-score-input.jsonl",
+  "assigned_count": 579,
+  "saved_count": 7,
+  "remaining_count": 572,
+  "status_counts": {
+    "pass": 0,
+    "needs_fix": 2,
+    "needs_context": 5
+  },
+  "output_files": [
+    "quality-outputs/cloud-03-release-qa-001.jsonl"
+  ],
+  "saved_record_ids": [
+    "entry-100",
+    "entry-1010",
+    "entry-1021",
+    "entry-1032",
+    "entry-1043",
+    "entry-1054",
+    "entry-1067"
+  ],
+  "updated_at_utc": "2026-10-30T05:17:50+00:00"
+}
