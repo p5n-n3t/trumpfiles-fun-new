@@ -123,16 +123,16 @@
     "entry-22"
   ],
   "output_files": [
-    "cloud-02-release-qa-001.jsonl",
-    "cloud-02-release-qa-002.jsonl",
-    "cloud-02-release-qa-003.jsonl",
-    "cloud-02-release-qa-004.jsonl",
-    "cloud-02-release-qa-005.jsonl",
-    "cloud-02-release-qa-006.jsonl",
-    "cloud-02-release-qa-007.jsonl",
-    "cloud-02-release-qa-008.jsonl",
-    "cloud-02-release-qa-009.jsonl",
-    "cloud-02-release-qa-010.jsonl",
-    "cloud-02-release-qa-011.jsonl"
+    "quality-outputs/cloud-02-release-qa-001.jsonl",
+    "quality-outputs/cloud-02-release-qa-002.jsonl",
+    "quality-outputs/cloud-02-release-qa-003.jsonl",
+    "quality-outputs/cloud-02-release-qa-004.jsonl",
+    "quality-outputs/cloud-02-release-qa-005.jsonl",
+    "quality-outputs/cloud-02-release-qa-006.jsonl",
+    "quality-outputs/cloud-02-release-qa-007.jsonl",
+    "quality-outputs/cloud-02-release-qa-008.jsonl",
+    "quality-outputs/cloud-02-release-qa-009.jsonl",
+    "quality-outputs/cloud-02-release-qa-010.jsonl",
+    "quality-outputs/cloud-02-release-qa-011.jsonl"
   ]
 }
