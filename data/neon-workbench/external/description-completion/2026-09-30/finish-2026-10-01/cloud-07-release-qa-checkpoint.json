@@ -457,13 +457,21 @@
     "entry-5983",
     "entry-5994",
     "entry-6003",
-    "entry-6015"
+    "entry-6015",
+    "entry-6026",
+    "entry-6037",
+    "entry-6048",
+    "entry-6059",
+    "entry-607",
+    "entry-6080",
+    "entry-6091",
+    "entry-6101"
   ],
-  "checked_count": 456,
-  "pass_count": 29,
-  "needs_fix_count": 321,
-  "needs_context_count": 106,
-  "next_input_index": 456,
+  "checked_count": 464,
+  "pass_count": 30,
+  "needs_fix_count": 325,
+  "needs_context_count": 109,
+  "next_input_index": 464,
   "latest_results_ref": "origin/codex/description-results-2026-09-30",
   "original_inputs_ref": "origin/codex/description-inputs-2026-09-30"
 }
