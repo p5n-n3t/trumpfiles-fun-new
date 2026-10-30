@@ -2,21 +2,21 @@
   "worker": "cloud-09",
   "assignment": "reader-metadata-readiness",
   "assigned_count": 578,
-  "saved_count": 5,
-  "remaining_count": 573,
+  "saved_count": 10,
+  "remaining_count": 568,
   "saved_ids": [
     "entry-1005",
     "entry-1016",
     "entry-1027",
     "entry-1038",
-    "entry-1049"
-  ],
-  "remaining_ids": [
+    "entry-1049",
     "entry-106",
     "entry-1072",
     "entry-1083",
     "entry-1094",
-    "entry-1104",
+    "entry-1104"
+  ],
+  "remaining_ids": [
     "entry-1115",
     "entry-1126",
     "entry-1137",
@@ -587,6 +587,7 @@
     "fresh-20260903-golf-retreat-offer"
   ],
   "batch_files": [
-    "cloud-09-release-qa-01.jsonl"
+    "cloud-09-release-qa-01.jsonl",
+    "cloud-09-release-qa-02.jsonl"
   ]
 }
