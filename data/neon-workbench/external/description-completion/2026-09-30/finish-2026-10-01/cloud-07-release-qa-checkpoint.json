@@ -211,13 +211,23 @@
     "entry-3251",
     "entry-3262",
     "entry-3273",
-    "entry-3284"
+    "entry-3284",
+    "entry-3295",
+    "entry-3305",
+    "entry-3316",
+    "entry-3327",
+    "entry-3338",
+    "entry-3349",
+    "entry-336",
+    "entry-3370",
+    "entry-3381",
+    "entry-3392"
   ],
-  "checked_count": 210,
+  "checked_count": 220,
   "pass_count": 20,
-  "needs_fix_count": 171,
-  "needs_context_count": 19,
-  "next_input_index": 210,
+  "needs_fix_count": 175,
+  "needs_context_count": 25,
+  "next_input_index": 220,
   "latest_results_ref": "origin/codex/description-results-2026-09-30",
   "original_inputs_ref": "origin/codex/description-inputs-2026-09-30"
 }
