@@ -1,0 +1,20 @@
+{
+  "worker": 11,
+  "assignment": "finish-2026-10-01/worker-11-score-input.jsonl",
+  "review_type": "reader-metadata-readiness",
+  "checked_ids": [
+    "entry-1007",
+    "entry-1018",
+    "entry-1029",
+    "entry-104",
+    "entry-1050"
+  ],
+  "output_files": [
+    "cloud-11-release-qa-001.jsonl"
+  ],
+  "pass_count": 1,
+  "needs_fix_count": 4,
+  "needs_context_count": 0,
+  "checked_count": 5,
+  "remaining_count": 573
+}
