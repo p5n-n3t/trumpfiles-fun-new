@@ -2,9 +2,9 @@
   "worker": 12,
   "assignment_file": "worker-12-score-input.jsonl",
   "assigned_count": 578,
-  "reviewed_count": 571,
-  "remaining_count": 7,
-  "batch_file": "cloud-12-release-qa-081.jsonl",
+  "reviewed_count": 578,
+  "remaining_count": 0,
+  "batch_file": "cloud-12-release-qa-082.jsonl",
   "reviewed_ids": [
     "entry-1008",
     "entry-1019",
@@ -576,6 +576,13 @@
     "entry-959",
     "entry-97",
     "entry-980",
-    "entry-991"
+    "entry-991",
+    "expanded-20260821-visa75-court",
+    "expanded-20260902-california-waivers-order",
+    "expanded-20260910-vance-rnc-misleading-claims",
+    "expanded-20260918-trump-five-vaccine-doses",
+    "expanded-20260925-pocket-rescission-announcement",
+    "expanded-20260929-irgc-us-voter-letter",
+    "fresh-20260914-oge-trump-ptr"
   ]
 }
