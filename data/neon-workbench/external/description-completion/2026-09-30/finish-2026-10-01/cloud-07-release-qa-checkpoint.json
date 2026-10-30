@@ -401,13 +401,21 @@
     "entry-5351",
     "entry-5362",
     "entry-5373",
-    "entry-5384"
+    "entry-5384",
+    "entry-5395",
+    "entry-5405",
+    "entry-5416",
+    "entry-5427",
+    "entry-5438",
+    "entry-5449",
+    "entry-546",
+    "entry-5470"
   ],
-  "checked_count": 400,
-  "pass_count": 26,
-  "needs_fix_count": 279,
-  "needs_context_count": 95,
-  "next_input_index": 400,
+  "checked_count": 408,
+  "pass_count": 27,
+  "needs_fix_count": 285,
+  "needs_context_count": 96,
+  "next_input_index": 408,
   "latest_results_ref": "origin/codex/description-results-2026-09-30",
   "original_inputs_ref": "origin/codex/description-inputs-2026-09-30"
 }
