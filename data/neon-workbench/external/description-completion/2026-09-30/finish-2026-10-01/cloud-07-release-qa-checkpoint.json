@@ -1,0 +1,12 @@
+{
+  "worker": "07",
+  "task": "final-reader-metadata-readiness",
+  "checked_ids": ["entry-1003", "entry-1014", "entry-1025", "entry-1036", "entry-1047"],
+  "checked_count": 5,
+  "pass_count": 1,
+  "needs_fix_count": 4,
+  "needs_context_count": 0,
+  "next_input_index": 5,
+  "latest_results_ref": "origin/codex/description-results-2026-09-30",
+  "original_inputs_ref": "origin/codex/description-inputs-2026-09-30"
+}
