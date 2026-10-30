@@ -576,12 +576,17 @@
     "entry-986",
     "entry-997",
     "expanded-20260828-smithsonian-pressure-letter",
-    "expanded-20260909-kimmel-talarico-broadcast"
+    "expanded-20260909-kimmel-talarico-broadcast",
+    "expanded-20260916-gastonia-rally-iran-claims",
+    "expanded-20260923-iowa-poll-suit-dismissal",
+    "expanded-20260928-china-arms-denial",
+    "fresh-20260826-raskin-1789",
+    "fresh-20260924-trump-tv-trademark"
   ],
-  "pass_count": 38,
-  "needs_fix_count": 375,
-  "needs_context_count": 161,
-  "remaining_count": 5,
+  "pass_count": 39,
+  "needs_fix_count": 378,
+  "needs_context_count": 162,
+  "remaining_count": 0,
   "batches": [
     "quality-outputs/cloud-06-release-qa-001.jsonl",
     "quality-outputs/cloud-06-release-qa-002.jsonl",
@@ -647,6 +652,7 @@
     "quality-outputs/cloud-06-release-qa-062.jsonl",
     "quality-outputs/cloud-06-release-qa-063.jsonl",
     "quality-outputs/cloud-06-release-qa-064.jsonl",
-    "quality-outputs/cloud-06-release-qa-065.jsonl"
+    "quality-outputs/cloud-06-release-qa-065.jsonl",
+    "quality-outputs/cloud-06-release-qa-066.jsonl"
   ]
 }
