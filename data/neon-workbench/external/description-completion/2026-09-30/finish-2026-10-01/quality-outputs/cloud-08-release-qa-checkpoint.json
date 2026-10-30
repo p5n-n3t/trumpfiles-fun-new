@@ -4,8 +4,8 @@
   "reference_results_branch": "origin/codex/description-results-2026-09-30",
   "reference_inputs_branch": "origin/codex/description-inputs-2026-09-30",
   "assigned_count": 579,
-  "checked_count": 575,
-  "remaining_count": 4,
+  "checked_count": 579,
+  "remaining_count": 0,
   "checked_ids": [
     "entry-20",
     "entry-24",
@@ -581,7 +581,11 @@
     "entry-999",
     "expanded-20260830-welker-fcc-threat",
     "expanded-20260909-rnc-trump-first-falsehoods",
-    "expanded-20260917-kennedy-chd-keynote"
+    "expanded-20260917-kennedy-chd-keynote",
+    "expanded-20260924-media-ban-tro",
+    "expanded-20260928-iran-sanctions-denial",
+    "fresh-20260902-stone-haiti-contract",
+    "fresh-20260929-irs-sanctions-stay"
   ],
   "output_files": [
     "quality-outputs/cloud-08-release-qa-001.jsonl",
@@ -690,6 +694,7 @@
     "quality-outputs/cloud-08-release-qa-104.jsonl",
     "quality-outputs/cloud-08-release-qa-105.jsonl",
     "quality-outputs/cloud-08-release-qa-106.jsonl",
-    "quality-outputs/cloud-08-release-qa-107.jsonl"
+    "quality-outputs/cloud-08-release-qa-107.jsonl",
+    "quality-outputs/cloud-08-release-qa-108.jsonl"
   ]
 }
