@@ -2,11 +2,11 @@
   "worker": "cloud-01",
   "pass": "release-qa",
   "assignment": "worker-01-score-input.jsonl",
-  "checked_id_count": 230,
+  "checked_id_count": 235,
   "assigned_id_count": 579,
-  "remaining_id_count": 349,
+  "remaining_id_count": 344,
   "status_counts": {
-    "needs_fix": 145,
+    "needs_fix": 150,
     "needs_context": 65,
     "pass": 20
   },
@@ -39,7 +39,8 @@
     "cloud-01-release-qa-026.jsonl",
     "cloud-01-release-qa-027.jsonl",
     "cloud-01-release-qa-028.jsonl",
-    "cloud-01-release-qa-029.jsonl"
+    "cloud-01-release-qa-029.jsonl",
+    "cloud-01-release-qa-030.jsonl"
   ],
   "checked_ids": [
     "entry-1",
@@ -271,6 +272,11 @@
     "entry-3462",
     "entry-3473",
     "entry-3484",
-    "entry-3495"
+    "entry-3495",
+    "entry-3505",
+    "entry-3516",
+    "entry-3527",
+    "entry-3538",
+    "entry-3549"
   ]
 }
