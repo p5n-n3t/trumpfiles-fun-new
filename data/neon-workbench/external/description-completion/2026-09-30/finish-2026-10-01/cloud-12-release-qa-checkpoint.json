@@ -82,9 +82,19 @@
     "entry-1852",
     "entry-1863",
     "entry-1874",
-    "entry-1885"
+    "entry-1885",
+    "entry-1896",
+    "entry-1906",
+    "entry-1917",
+    "entry-1928",
+    "entry-1939",
+    "entry-195",
+    "entry-1960",
+    "entry-1971",
+    "entry-1982",
+    "entry-1993"
   ],
-  "reviewed_count": 80,
-  "remaining_count": 498,
-  "batch_file": "cloud-12-release-qa-010.jsonl"
+  "reviewed_count": 90,
+  "remaining_count": 488,
+  "batch_file": "cloud-12-release-qa-011.jsonl"
 }
