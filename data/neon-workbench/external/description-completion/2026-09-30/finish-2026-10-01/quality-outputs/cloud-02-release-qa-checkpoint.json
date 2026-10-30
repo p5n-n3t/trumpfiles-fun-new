@@ -6,10 +6,10 @@
     "codex/description-inputs-2026-09-30"
   ],
   "total_assigned": 579,
-  "pass": 2,
-  "needs_fix": 4,
+  "pass": 5,
+  "needs_fix": 11,
   "needs_context": 4,
-  "remaining": 569,
+  "remaining": 559,
   "processed_record_ids": [
     "entry-10",
     "entry-101",
@@ -20,9 +20,20 @@
     "entry-1066",
     "entry-1077",
     "entry-1088",
-    "entry-1099"
+    "entry-1099",
+    "entry-1109",
+    "entry-112",
+    "entry-1130",
+    "entry-1141",
+    "entry-1152",
+    "entry-1163",
+    "entry-1174",
+    "entry-1185",
+    "entry-1196",
+    "entry-1206"
   ],
   "output_files": [
-    "quality-outputs/cloud-02-release-qa-001.jsonl"
+    "quality-outputs/cloud-02-release-qa-001.jsonl",
+    "quality-outputs/cloud-02-release-qa-002.jsonl"
   ]
 }
