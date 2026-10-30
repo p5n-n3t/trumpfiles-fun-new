@@ -122,11 +122,21 @@
     "entry-2224",
     "entry-2235",
     "entry-2246",
-    "entry-2257"
+    "entry-2257",
+    "entry-2268",
+    "entry-2279",
+    "entry-229",
+    "entry-230",
+    "entry-2310",
+    "entry-2321",
+    "entry-2332",
+    "entry-2343",
+    "entry-2354",
+    "entry-2365"
   ],
   "pass_count": 4,
-  "needs_fix_count": 84,
-  "needs_context_count": 27,
+  "needs_fix_count": 89,
+  "needs_context_count": 32,
   "batches": [
     "quality-outputs/cloud-06-release-qa-001.jsonl",
     "quality-outputs/cloud-06-release-qa-002.jsonl",
@@ -141,6 +151,7 @@
     "quality-outputs/cloud-06-release-qa-011.jsonl",
     "quality-outputs/cloud-06-release-qa-012.jsonl",
     "quality-outputs/cloud-06-release-qa-013.jsonl",
-    "quality-outputs/cloud-06-release-qa-014.jsonl"
+    "quality-outputs/cloud-06-release-qa-014.jsonl",
+    "quality-outputs/cloud-06-release-qa-015.jsonl"
   ]
 }
