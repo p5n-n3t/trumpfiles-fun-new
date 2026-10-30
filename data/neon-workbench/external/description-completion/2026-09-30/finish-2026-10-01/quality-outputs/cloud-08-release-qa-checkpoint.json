@@ -4,8 +4,8 @@
   "reference_results_branch": "origin/codex/description-results-2026-09-30",
   "reference_inputs_branch": "origin/codex/description-inputs-2026-09-30",
   "assigned_count": 579,
-  "checked_count": 570,
-  "remaining_count": 9,
+  "checked_count": 575,
+  "remaining_count": 4,
   "checked_ids": [
     "entry-20",
     "entry-24",
@@ -576,7 +576,12 @@
     "entry-944",
     "entry-955",
     "entry-966",
-    "entry-977"
+    "entry-977",
+    "entry-988",
+    "entry-999",
+    "expanded-20260830-welker-fcc-threat",
+    "expanded-20260909-rnc-trump-first-falsehoods",
+    "expanded-20260917-kennedy-chd-keynote"
   ],
   "output_files": [
     "quality-outputs/cloud-08-release-qa-001.jsonl",
@@ -684,6 +689,7 @@
     "quality-outputs/cloud-08-release-qa-103.jsonl",
     "quality-outputs/cloud-08-release-qa-104.jsonl",
     "quality-outputs/cloud-08-release-qa-105.jsonl",
-    "quality-outputs/cloud-08-release-qa-106.jsonl"
+    "quality-outputs/cloud-08-release-qa-106.jsonl",
+    "quality-outputs/cloud-08-release-qa-107.jsonl"
   ]
 }
