@@ -381,13 +381,23 @@
     "entry-5123",
     "entry-5134",
     "entry-5145",
-    "entry-5156"
+    "entry-5156",
+    "entry-5168",
+    "entry-5179",
+    "entry-5192",
+    "entry-5202",
+    "entry-5215",
+    "entry-5227",
+    "entry-5239",
+    "entry-525",
+    "entry-5260",
+    "entry-5271"
   ],
-  "checked_count": 380,
+  "checked_count": 390,
   "pass_count": 25,
-  "needs_fix_count": 272,
-  "needs_context_count": 83,
-  "next_input_index": 380,
+  "needs_fix_count": 276,
+  "needs_context_count": 89,
+  "next_input_index": 390,
   "latest_results_ref": "origin/codex/description-results-2026-09-30",
   "original_inputs_ref": "origin/codex/description-inputs-2026-09-30"
 }
