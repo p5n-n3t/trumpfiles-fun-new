@@ -1,0 +1,19 @@
+{
+  "worker": "04",
+  "assignment": "worker-04-score-input.jsonl",
+  "assigned_count": 579,
+  "terminal_count": 5,
+  "remaining_count": 574,
+  "terminal_record_ids": [
+    "entry-1000",
+    "entry-1011",
+    "entry-1022",
+    "entry-1033",
+    "entry-1044"
+  ],
+  "status_counts": {
+    "pass": 4,
+    "needs_fix": 0,
+    "needs_context": 1
+  }
+}\n
