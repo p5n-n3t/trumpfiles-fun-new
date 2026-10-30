@@ -262,9 +262,14 @@
     "entry-3797",
     "entry-3807",
     "entry-3818",
-    "entry-3829"
+    "entry-3829",
+    "entry-384",
+    "entry-3850",
+    "entry-3861",
+    "entry-3872",
+    "entry-3883"
   ],
-  "reviewed_count": 260,
-  "remaining_count": 318,
-  "batch_file": "cloud-12-release-qa-041.jsonl"
+  "reviewed_count": 265,
+  "remaining_count": 313,
+  "batch_file": "cloud-12-release-qa-042.jsonl"
 }
